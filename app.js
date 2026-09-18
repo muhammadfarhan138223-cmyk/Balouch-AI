@@ -550,13 +550,14 @@ function addLocalMessage(
     content
   );
 
-  saveChats();
-
-  renderHistory();
+  // Incognito messages must NEVER be saved
+  if (!incognito) {
+    saveChats();
+    renderHistory();
+  }
 
   scrollBottom();
-}
-
+  }
 
 /* -----------------------------
    AI
