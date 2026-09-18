@@ -254,25 +254,32 @@ incognitoBtn.addEventListener(
   () => {
 
     if (incognito) {
+
       incognito = false;
 
       createChat();
-    } else {
-      startIncognito();
-    }
 
-    updateIncognitoUI();
+      updateIncognitoUI();
+
+    } else {
+
+      startIncognito();
+
+    }
   }
 );
+
 
 exitIncognito.addEventListener(
   "click",
   () => {
+
     incognito = false;
 
     createChat();
 
     updateIncognitoUI();
+
   }
 );
 
