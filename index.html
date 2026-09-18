@@ -2,40 +2,305 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Balouch AI</title>
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Balouch AI — Farhan Balouch</title>
+
+  <meta
+    name="description"
+    content="Balouch AI is the official AI assistant for Farhan Balouch. Explore his story, projects, journey and website."
+  >
+
+  <meta
+    name="robots"
+    content="index, follow"
+  >
+
+  <link
+    rel="canonical"
+    href="https://farhanbalouch.com/"
+  >
+
+  <meta property="og:title" content="Balouch AI — Farhan Balouch">
+  <meta
+    property="og:description"
+    content="The official AI assistant for Farhan Balouch."
+  >
+  <meta
+    property="og:url"
+    content="https://farhanbalouch.com/"
+  >
+  <meta property="og:type" content="website">
+
+  <meta name="theme-color" content="#080808">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <main class="app">
-    <header>
-      <div class="logo">✦</div>
-      <div>
-        <h1>Balouch AI</h1>
-        <p>Farhan Balouch's Website AI</p>
-      </div>
-    </header>
+  <div class="app-shell">
 
-    <section id="chat">
-      <div class="message ai">
-        👋 Hi! I'm <b>Balouch AI</b>.<br><br>
-        Ask me anything about Farhan Balouch and his website.
-      </div>
-    </section>
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
 
-    <form id="chatForm">
-      <input
-        id="messageInput"
-        type="text"
-        placeholder="Ask about Farhan..."
-        autocomplete="off"
+      <div class="sidebar-top">
+
+        <div class="brand">
+          <div class="brand-mark">✦</div>
+
+          <div>
+            <strong>Balouch AI</strong>
+            <span>Farhan Balouch</span>
+          </div>
+        </div>
+
+        <button
+          class="new-chat"
+          id="newChatBtn"
+        >
+          <span>＋</span>
+          New chat
+        </button>
+
+      </div>
+
+      <div class="history-area">
+
+        <div class="history-title">
+          CHAT HISTORY
+        </div>
+
+        <div id="historyList"></div>
+
+        <div
+          class="empty-history"
+          id="emptyHistory"
+        >
+          Your conversations will appear here.
+        </div>
+
+      </div>
+
+      <div class="sidebar-bottom">
+
+        <button
+          class="side-button"
+          id="incognitoBtn"
+        >
+          <span>◉</span>
+          <span id="incognitoText">Incognito chat</span>
+        </button>
+
+        <button
+          class="side-button"
+          id="themeBtn"
+        >
+          <span id="themeIcon">☼</span>
+          <span>Appearance</span>
+        </button>
+
+        <a
+          class="site-link"
+          href="https://farhanbalouch.com"
+          target="_blank"
+          rel="noopener"
+        >
+          Visit farhanbalouch.com ↗
+        </a>
+
+      </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+    <main class="main">
+
+      <!-- TOP BAR -->
+      <header class="topbar">
+
+        <button
+          class="icon-button mobile-only"
+          id="menuBtn"
+          aria-label="Open menu"
+        >
+          ☰
+        </button>
+
+        <div class="mobile-brand">
+          <div class="mini-mark">✦</div>
+          <strong>Balouch AI</strong>
+        </div>
+
+        <div class="top-actions">
+
+          <span
+            class="mode-pill"
+            id="modePill"
+          >
+            ● Online
+          </span>
+
+          <button
+            class="icon-button"
+            id="desktopThemeBtn"
+            aria-label="Change theme"
+          >
+            ☼
+          </button>
+
+        </div>
+
+      </header>
+
+
+      <!-- CHAT -->
+      <section
+        class="chat-container"
+        id="chatContainer"
       >
-      <button type="submit">➤</button>
-    </form>
-  </main>
 
-  <script src="chatbot.js"></script>
+        <div
+          class="welcome"
+          id="welcome"
+        >
+
+          <div class="hero-symbol">
+            ✦
+          </div>
+
+          <div class="eyebrow">
+            FARHAN BALOUCH
+          </div>
+
+          <h1>
+            Meet <span>Balouch AI</span>
+          </h1>
+
+          <p>
+            Your digital guide to Farhan Balouch —
+            his story, projects, journey and website.
+          </p>
+
+          <div class="suggestions">
+
+            <button
+              class="suggestion"
+              data-question="Who is Farhan Balouch?"
+            >
+              <strong>Who is Farhan?</strong>
+              <span>Explore his identity</span>
+            </button>
+
+            <button
+              class="suggestion"
+              data-question="Tell me about Farhan's story."
+            >
+              <strong>His story</strong>
+              <span>Discover the journey</span>
+            </button>
+
+            <button
+              class="suggestion"
+              data-question="What projects has Farhan worked on?"
+            >
+              <strong>Projects</strong>
+              <span>See what he is building</span>
+            </button>
+
+            <button
+              class="suggestion"
+              data-question="What is Farhan Deals?"
+            >
+              <strong>Farhan Deals</strong>
+              <span>Explore the business project</span>
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="messages"
+          id="messages"
+        ></div>
+
+      </section>
+
+
+      <!-- COMPOSER -->
+      <footer class="composer-area">
+
+        <div
+          class="incognito-banner"
+          id="incognitoBanner"
+          hidden
+        >
+          <span>◉</span>
+
+          <div>
+            <strong>Incognito mode</strong>
+            <small>
+              This conversation won't be saved to history.
+            </small>
+          </div>
+
+          <button id="exitIncognito">
+            Exit
+          </button>
+        </div>
+
+
+        <form
+          class="composer"
+          id="chatForm"
+        >
+
+          <textarea
+            id="messageInput"
+            rows="1"
+            maxlength="4000"
+            placeholder="Message Balouch AI..."
+            aria-label="Message Balouch AI"
+          ></textarea>
+
+          <button
+            class="send-button"
+            id="sendButton"
+            type="submit"
+            aria-label="Send message"
+          >
+            ↑
+          </button>
+
+        </form>
+
+        <div class="composer-note">
+          Balouch AI answers from approved Farhan Balouch website information.
+        </div>
+
+      </footer>
+
+    </main>
+
+  </div>
+
+
+  <!-- MOBILE OVERLAY -->
+  <div
+    class="overlay"
+    id="overlay"
+  ></div>
+
+
+  <script src="data/knowledge.js"></script>
+  <script src="app.js"></script>
+
 </body>
-</html>
+        </html>
