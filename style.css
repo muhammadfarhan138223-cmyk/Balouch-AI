@@ -1001,3 +1001,8 @@ body.incognito #incognitoBtn {
 body.incognito #exitIncognito {
   display: inline-flex;
 }
+
+/* Hide incognito status in normal mode */
+body:not(.incognito) #incognitoBanner {
+  display: none !important;
+}
