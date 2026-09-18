@@ -64,6 +64,33 @@
           id="newChatBtn"
         >
           <span>＋</span>
+
+          <div class="model-selector">
+  <label for="modelSelect">AI Model</label>
+
+  <select id="modelSelect">
+    <optgroup label="⚡ Groq">
+      <option value="openai/gpt-oss-20b">
+        Groq • GPT-OSS 20B
+      </option>
+      <option value="openai/gpt-oss-120b">
+        Groq • GPT-OSS 120B
+      </option>
+    </optgroup>
+
+    <optgroup label="✨ Google Gemini">
+      <option value="gemini-3.8-flash">
+        Gemini • 3.8 Flash
+      </option>
+    </optgroup>
+
+    <optgroup label="🌐 OpenRouter">
+      <option value="openrouter/free">
+        OpenRouter • Auto Free
+      </option>
+    </optgroup>
+  </select>
+          </div>
           New chat
         </button>
 
