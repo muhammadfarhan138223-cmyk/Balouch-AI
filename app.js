@@ -237,6 +237,7 @@ function startIncognito() {
 }
 
 function updateIncognitoUI() {
+  document.body.classList.toggle("incognito", incognito);
 
   incognitoBanner.hidden = !incognito;
 
