@@ -958,3 +958,29 @@ textarea::placeholder {
     font-size: 8px;
   }
 }
+/* History delete button */
+.history-item-wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.history-item-wrapper .history-item {
+  flex: 1;
+  min-width: 0;
+}
+
+.history-delete {
+  width: 38px;
+  border: 1px solid transparent;
+  border-left: 0;
+  border-radius: 0 10px 10px 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.history-delete:hover {
+  color: #ff5c5c;
+  background: rgba(255, 92, 92, 0.1);
+  }
