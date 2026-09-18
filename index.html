@@ -25,76 +25,216 @@
     href="https://farhanbalouch.com/"
   >
 
-  <meta property="og:title" content="Balouch AI — Farhan Balouch">
+  <meta
+    property="og:title"
+    content="Balouch AI — Farhan Balouch"
+  >
+
   <meta
     property="og:description"
     content="The official AI assistant for Farhan Balouch."
   >
+
   <meta
     property="og:url"
     content="https://farhanbalouch.com/"
   >
-  <meta property="og:type" content="website">
 
-  <meta name="theme-color" content="#080808">
+  <meta
+    property="og:type"
+    content="website"
+  >
 
-  <link rel="stylesheet" href="style.css">
+  <meta
+    name="theme-color"
+    content="#080808"
+  >
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
 </head>
 
 <body>
 
   <div class="app-shell">
 
-    <!-- SIDEBAR -->
-    <aside class="sidebar" id="sidebar">
+    <!-- =========================
+         SIDEBAR
+    ========================== -->
+
+    <aside
+      class="sidebar"
+      id="sidebar"
+    >
 
       <div class="sidebar-top">
 
+        <!-- BRAND -->
+
         <div class="brand">
-          <div class="brand-mark">✦</div>
+
+          <div class="brand-mark">
+            ✦
+          </div>
 
           <div>
             <strong>Balouch AI</strong>
             <span>Farhan Balouch</span>
           </div>
+
         </div>
+
+
+        <!-- NEW CHAT -->
 
         <button
           class="new-chat"
           id="newChatBtn"
+          type="button"
         >
+
           <span>＋</span>
 
-          <div class="model-selector">
-  <label for="modelSelect">AI Model</label>
+          <span>
+            New chat
+          </span>
 
-  <select id="modelSelect">
-    <optgroup label="⚡ Groq">
-      <option value="openai/gpt-oss-20b">
-        Groq • GPT-OSS 20B
-      </option>
-      <option value="openai/gpt-oss-120b">
-        Groq • GPT-OSS 120B
-      </option>
-    </optgroup>
-
-    <optgroup label="✨ Google Gemini">
-      <option value="gemini-3.8-flash">
-        Gemini • 3.8 Flash
-      </option>
-    </optgroup>
-
-    <optgroup label="🌐 OpenRouter">
-      <option value="openrouter/free">
-        OpenRouter • Auto Free
-      </option>
-    </optgroup>
-  </select>
-          </div>
-          New chat
         </button>
 
+
+        <!-- =========================
+             AI MODEL SELECTOR
+        ========================== -->
+
+        <div class="model-selector">
+
+          <label
+            for="providerSelect"
+          >
+            AI Provider
+          </label>
+
+          <select
+            id="providerSelect"
+            aria-label="AI Provider"
+          >
+
+            <option value="groq">
+              ⚡ Groq
+            </option>
+
+            <option value="gemini">
+              ✨ Google Gemini
+            </option>
+
+            <option value="openrouter">
+              🌐 OpenRouter
+            </option>
+
+          </select>
+
+
+          <label
+            for="modelSelect"
+          >
+            Model
+          </label>
+
+          <select
+            id="modelSelect"
+            aria-label="AI Model"
+          >
+
+            <!-- GROQ -->
+
+            <optgroup label="⚡ Groq">
+
+              <option value="openai/gpt-oss-20b">
+                GPT-OSS 20B
+              </option>
+
+              <option value="openai/gpt-oss-120b">
+                GPT-OSS 120B
+              </option>
+
+              <option value="qwen/qwen3.8-27b">
+                Qwen 3.8 27B
+              </option>
+
+              <option value="qwen/qwen3.6-27b">
+                Qwen 3.6 27B
+              </option>
+
+            </optgroup>
+
+
+            <!-- GEMINI -->
+
+            <optgroup label="✨ Google Gemini">
+
+              <option value="gemini-3.8-flash">
+                Gemini 3.8 Flash
+              </option>
+
+              <option value="gemini-3.7-flash">
+                Gemini 3.7 Flash
+              </option>
+
+              <option value="gemini-3.6-flash">
+                Gemini 3.6 Flash
+              </option>
+
+              <option value="gemini-3.5-flash">
+                Gemini 3.5 Flash
+              </option>
+
+              <option value="gemini-2.5-flash">
+                Gemini 2.5 Flash
+              </option>
+
+              <option value="gemini-2.5-flash-lite">
+                Gemini 2.5 Flash-Lite
+              </option>
+
+              <option value="gemini-2.5-pro">
+                Gemini 2.5 Pro
+              </option>
+
+            </optgroup>
+
+
+            <!-- OPENROUTER -->
+
+            <optgroup label="🌐 OpenRouter">
+
+              <option value="openrouter/free">
+                Auto — Free Models
+              </option>
+
+            </optgroup>
+
+          </select>
+
+        </div>
+
+
+        <!-- MODEL STATUS -->
+
+        <div
+          class="selected-model"
+          id="selectedModelDisplay"
+        >
+          ⚡ Groq · GPT-OSS 20B
+        </div>
+
       </div>
+
+
+      <!-- =========================
+           CHAT HISTORY
+      ========================== -->
 
       <div class="history-area">
 
@@ -102,7 +242,9 @@
           CHAT HISTORY
         </div>
 
-        <div id="historyList"></div>
+        <div
+          id="historyList"
+        ></div>
 
         <div
           class="empty-history"
@@ -113,23 +255,46 @@
 
       </div>
 
+
+      <!-- =========================
+           SIDEBAR BOTTOM
+      ========================== -->
+
       <div class="sidebar-bottom">
 
         <button
           class="side-button"
           id="incognitoBtn"
+          type="button"
         >
-          <span>◉</span>
-          <span id="incognitoText">Incognito chat</span>
+
+          <span>
+            ◉
+          </span>
+
+          <span id="incognitoText">
+            Incognito chat
+          </span>
+
         </button>
+
 
         <button
           class="side-button"
           id="themeBtn"
+          type="button"
         >
-          <span id="themeIcon">☼</span>
-          <span>Appearance</span>
+
+          <span id="themeIcon">
+            ☼
+          </span>
+
+          <span>
+            Appearance
+          </span>
+
         </button>
+
 
         <a
           class="site-link"
@@ -145,24 +310,39 @@
     </aside>
 
 
-    <!-- MAIN -->
+    <!-- =========================
+         MAIN
+    ========================== -->
+
     <main class="main">
 
+
       <!-- TOP BAR -->
+
       <header class="topbar">
 
         <button
           class="icon-button mobile-only"
           id="menuBtn"
+          type="button"
           aria-label="Open menu"
         >
           ☰
         </button>
 
+
         <div class="mobile-brand">
-          <div class="mini-mark">✦</div>
-          <strong>Balouch AI</strong>
+
+          <div class="mini-mark">
+            ✦
+          </div>
+
+          <strong>
+            Balouch AI
+          </strong>
+
         </div>
+
 
         <div class="top-actions">
 
@@ -173,9 +353,11 @@
             ● Online
           </span>
 
+
           <button
             class="icon-button"
             id="desktopThemeBtn"
+            type="button"
             aria-label="Change theme"
           >
             ☼
@@ -186,11 +368,17 @@
       </header>
 
 
-      <!-- CHAT -->
+      <!-- =========================
+           CHAT CONTAINER
+      ========================== -->
+
       <section
         class="chat-container"
         id="chatContainer"
       >
+
+
+        <!-- WELCOME -->
 
         <div
           class="welcome"
@@ -214,44 +402,84 @@
             his story, projects, journey and website.
           </p>
 
+
+          <!-- SUGGESTIONS -->
+
           <div class="suggestions">
 
             <button
               class="suggestion"
+              type="button"
               data-question="Who is Farhan Balouch?"
             >
-              <strong>Who is Farhan?</strong>
-              <span>Explore his identity</span>
+
+              <strong>
+                Who is Farhan?
+              </strong>
+
+              <span>
+                Explore his identity
+              </span>
+
             </button>
+
 
             <button
               class="suggestion"
+              type="button"
               data-question="Tell me about Farhan's story."
             >
-              <strong>His story</strong>
-              <span>Discover the journey</span>
+
+              <strong>
+                His story
+              </strong>
+
+              <span>
+                Discover the journey
+              </span>
+
             </button>
+
 
             <button
               class="suggestion"
+              type="button"
               data-question="What projects has Farhan worked on?"
             >
-              <strong>Projects</strong>
-              <span>See what he is building</span>
+
+              <strong>
+                Projects
+              </strong>
+
+              <span>
+                See what he is building
+              </span>
+
             </button>
+
 
             <button
               class="suggestion"
+              type="button"
               data-question="What is Farhan Deals?"
             >
-              <strong>Farhan Deals</strong>
-              <span>Explore the business project</span>
+
+              <strong>
+                Farhan Deals
+              </strong>
+
+              <span>
+                Explore the business project
+              </span>
+
             </button>
 
           </div>
 
         </div>
 
+
+        <!-- MESSAGES -->
 
         <div
           class="messages"
@@ -261,28 +489,48 @@
       </section>
 
 
-      <!-- COMPOSER -->
+      <!-- =========================
+           COMPOSER
+      ========================== -->
+
       <footer class="composer-area">
+
+
+        <!-- INCOGNITO -->
 
         <div
           class="incognito-banner"
           id="incognitoBanner"
           hidden
         >
-          <span>◉</span>
+
+          <span>
+            ◉
+          </span>
 
           <div>
-            <strong>Incognito mode</strong>
+
+            <strong>
+              Incognito mode
+            </strong>
+
             <small>
               This conversation won't be saved to history.
             </small>
+
           </div>
 
-          <button id="exitIncognito">
+          <button
+            id="exitIncognito"
+            type="button"
+          >
             Exit
           </button>
+
         </div>
 
+
+        <!-- COMPOSER -->
 
         <form
           class="composer"
@@ -297,6 +545,7 @@
             aria-label="Message Balouch AI"
           ></textarea>
 
+
           <button
             class="send-button"
             id="sendButton"
@@ -308,8 +557,12 @@
 
         </form>
 
+
         <div class="composer-note">
-          Balouch AI answers from approved Farhan Balouch website information.
+
+          Balouch AI answers from approved
+          Farhan Balouch website information.
+
         </div>
 
       </footer>
@@ -319,15 +572,23 @@
   </div>
 
 
-  <!-- MOBILE OVERLAY -->
+  <!-- =========================
+       MOBILE OVERLAY
+  ========================== -->
+
   <div
     class="overlay"
     id="overlay"
   ></div>
 
 
+  <!-- =========================
+       SCRIPTS
+  ========================== -->
+
   <script src="data/knowledge.js"></script>
+
   <script src="app.js"></script>
 
 </body>
-        </html>
+    </html>
