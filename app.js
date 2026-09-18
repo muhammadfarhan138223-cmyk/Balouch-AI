@@ -167,6 +167,34 @@ function loadChat(id) {
 }
 
 
+function deleteChat(id) {
+
+  const confirmed =
+    confirm("Delete this conversation?");
+
+  if (!confirmed) return;
+
+  chats =
+    chats.filter(chat => chat.id !== id);
+
+  if (
+    currentChat &&
+    currentChat.id === id
+  ) {
+    currentChat = null;
+  }
+
+  saveChats();
+
+  renderHistory();
+
+  if (!currentChat) {
+    createChat();
+  } else {
+    renderMessages();
+  }
+}
+
 /* -----------------------------
    NEW CHAT
 ----------------------------- */
