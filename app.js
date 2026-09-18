@@ -501,25 +501,26 @@ function addLocalMessage(
 /* -----------------------------
    AI
 ----------------------------- */
-
 async function sendToAI() {
 
   busy = true;
 
   sendButton.disabled = true;
 
-  const typing =
-    createTyping();
+  const typing = createTyping();
 
   try {
 
     const recentMessages =
       currentChat.messages
-        .slice(-12)
+        .slice(-10)
         .map(message => ({
           role: message.role,
           content: message.content
         }));
+
+    const provider = providerSelect.value;
+    const model = modelSelect.value;
 
     const response =
       await fetch("/api/chat", {
@@ -527,15 +528,22 @@ async function sendToAI() {
         method: "POST",
 
         headers: {
-          "Content-Type":
-            "application/json"
+          "Content-Type": "application/json"
         },
 
         body: JSON.stringify({
 
-          messages: recentMessages,
+          message: currentChat.messages
+            .filter(m => m.role === "user")
+            .slice(-1)[0]?.content || "",
 
-          incognito
+          provider: provider,
+
+          model: model,
+
+          history: recentMessages,
+
+          incognito: incognito
 
         })
 
@@ -552,6 +560,7 @@ async function sendToAI() {
         data.error ||
         "AI request failed."
       );
+
     }
 
     addLocalMessage(
@@ -563,12 +572,15 @@ async function sendToAI() {
 
     typing.remove();
 
+    console.error(
+      "Balouch AI error:",
+      error
+    );
+
     addLocalMessage(
       "assistant",
       "I couldn't connect to Balouch AI right now. Please try again."
     );
-
-    console.error(error);
 
   } finally {
 
@@ -577,6 +589,7 @@ async function sendToAI() {
     sendButton.disabled = false;
 
     input.focus();
+
   }
 }
 
