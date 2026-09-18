@@ -25,6 +25,60 @@ const overlay = document.getElementById("overlay");
 const incognitoBanner = document.getElementById("incognitoBanner");
 const exitIncognito = document.getElementById("exitIncognito");
 
+const providerSelect = document.getElementById("providerSelect");
+const modelSelect = document.getElementById("modelSelect");
+
+const MODELS = {
+  openrouter: [
+    {
+      value: "openrouter/free",
+      label: "Auto — Free"
+    }
+  ],
+
+  groq: [
+    {
+      value: "openai/gpt-oss-20b",
+      label: "GPT-OSS 20B"
+    },
+    {
+      value: "openai/gpt-oss-120b",
+      label: "GPT-OSS 120B"
+    },
+    {
+      value: "qwen/qwen3.6-27b",
+      label: "Qwen 3.6 27B"
+    }
+  ],
+
+  gemini: [
+    {
+      value: "gemini-3.8-flash",
+      label: "Gemini 3.8 Flash"
+    }
+  ]
+};
+
+function updateModelOptions() {
+  const provider = providerSelect.value;
+  const models = MODELS[provider] || [];
+
+  modelSelect.innerHTML = "";
+
+  models.forEach((item) => {
+    const option = document.createElement("option");
+
+    option.value = item.value;
+    option.textContent = item.label;
+
+    modelSelect.appendChild(option);
+  });
+}
+
+providerSelect.addEventListener("change", updateModelOptions);
+
+updateModelOptions();
+
 let chats = loadChats();
 
 let currentChat = null;
