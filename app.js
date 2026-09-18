@@ -252,7 +252,6 @@ exitIncognito.addEventListener(
 /* -----------------------------
    HISTORY UI
 ----------------------------- */
-
 function renderHistory() {
 
   historyList.innerHTML = "";
@@ -267,6 +266,12 @@ function renderHistory() {
   chats
     .sort((a, b) => b.createdAt - a.createdAt)
     .forEach(chat => {
+
+      const wrapper =
+        document.createElement("div");
+
+      wrapper.className =
+        "history-item-wrapper";
 
       const button =
         document.createElement("button");
@@ -301,9 +306,36 @@ function renderHistory() {
         () => loadChat(chat.id)
       );
 
-      historyList.appendChild(button);
+      const deleteButton =
+        document.createElement("button");
+
+      deleteButton.className =
+        "history-delete";
+
+      deleteButton.textContent =
+        "×";
+
+      deleteButton.title =
+        "Delete conversation";
+
+      deleteButton.addEventListener(
+        "click",
+        event => {
+
+          event.stopPropagation();
+
+          deleteChat(chat.id);
+
+        }
+      );
+
+      wrapper.appendChild(button);
+
+      wrapper.appendChild(deleteButton);
+
+      historyList.appendChild(wrapper);
     });
-}
+    }
 
 
 /* -----------------------------
