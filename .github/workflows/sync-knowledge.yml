@@ -2,9 +2,7 @@ name: Auto Sync Website Knowledge
 
 on:
   schedule:
-    # Har raat 12 baje auto-run hoga (Cron Syntax)
     - cron: '0 0 * * *'
-  # Jab aap chaho manual run karne ke liye option:
   workflow_dispatch:
 
 jobs:
@@ -20,33 +18,7 @@ jobs:
           node-version: '18'
 
       - name: Scrape website and update knowledge
-        run: |
-          node -e '
-          const fs = require("fs");
-          async function fetchWebsiteData() {
-            try {
-              const res = await fetch("https://farhanbalouch.com");
-              const html = await res.text();
-              
-              // Basic HTML tags remove karke plain text nikalna
-              let cleanText = html.replace(/<script[^>]*>([\s\S]*?)<\/script>/gi, "")
-                                  .replace(/<style[^>]*>([\s\S]*?)<\/style>/gi, "")
-                                  .replace(/<[^>]+>/g, " ")
-                                  .replace(/\s+/g, " ")
-                                  .trim();
-
-              const fileContent = `// Auto-generated knowledge file from farhanbalouch.com
-export const websiteKnowledge = ${JSON.stringify(cleanText)};
-`;
-              fs.writeFileSync("data/knowledge.js", fileContent);
-              console.log("Knowledge file successfully updated!");
-            } catch (err) {
-              console.error("Error fetching website:", err);
-              process.exit(1);
-            }
-          }
-          fetchWebsiteData();
-          '
+        run: node sync.js
 
       - name: Commit and Push Changes
         run: |
