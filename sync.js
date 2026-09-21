@@ -46,26 +46,99 @@ async function autoScroll(page) {
   });
 }
 
-async function readPage(page, url) {
+const CLICK_SELECTOR =
+  "header a, header button, nav a, nav button, footer a, [role='button'], a[href^='#'], button, [onclick]";
+const SKIP_LABEL = /chat|cookie|close|theme|language/i;
+
+// Collects ALL text in the DOM (including sections hidden by the site's own
+// JavaScript, e.g. single-page "tabs"), one line per visual block.
+function extractLines() {
+  const blocks = new Map();
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  let node;
+
+  while ((node = walker.nextNode())) {
+    const text = node.nodeValue.replace(/\s+/g, " ").trim();
+    const el = node.parentElement;
+    if (!text || !el) continue;
+    if (el.closest("script,style,noscript,template,svg")) continue;
+
+    let block = el;
+    while (block && block !== document.body) {
+      const d = getComputedStyle(block).display;
+      if (d !== "inline" && d !== "contents") break;
+      block = block.parentElement;
+    }
+    block = block || document.body;
+
+    if (!blocks.has(block)) blocks.set(block, []);
+    blocks.get(block).push(text);
+  }
+
+  return [...blocks.values()].map((parts) => parts.join(" "));
+}
+
+async function openPage(page, url) {
   try {
     await page.goto(url, { waitUntil: "networkidle", timeout: 25000 });
   } catch {
     // analytics/websockets can keep the network busy; use whatever has rendered
   }
   await page.waitForTimeout(1500);
+}
+
+async function readPage(page, url) {
+  await openPage(page, url);
   try {
     await autoScroll(page);
   } catch {}
 
+  return page.evaluate(
+    ({ selector }) => ({
+      title: document.title || "",
+      description:
+        document.querySelector('meta[name="description"]')?.content || "",
+      lines: window.__extractLines(),
+      links: [...document.querySelectorAll("a[href]")].map((a) => ({
+        text: (a.innerText || a.getAttribute("aria-label") || "").trim(),
+        href: a.href,
+      })),
+      clickables: [...document.querySelectorAll(selector)]
+        .map((el, i) => {
+          const label = (el.innerText || el.getAttribute("aria-label") || "")
+            .replace(/\s+/g, " ")
+            .trim();
+          let external = false;
+          if (el.tagName === "A") {
+            const href = el.getAttribute("href") || "";
+            external =
+              /^(mailto:|tel:|javascript:)/i.test(href) ||
+              (/^https?:/i.test(el.href) && new URL(el.href).host !== location.host);
+          }
+          return { i, label, external };
+        })
+        .filter((c) => c.label && c.label.length <= 40 && !c.external),
+    }),
+    { selector: CLICK_SELECTOR }
+  );
+}
+
+// Clicks one element on a fresh copy of the page and returns what it revealed.
+async function readAfterClick(page, url, index) {
+  await openPage(page, url);
+  try {
+    await page.evaluate(
+      ({ selector, index }) => document.querySelectorAll(selector)[index]?.click(),
+      { selector: CLICK_SELECTOR, index }
+    );
+  } catch {
+    return null;
+  }
+  await page.waitForTimeout(1500);
+
   return page.evaluate(() => ({
-    title: document.title || "",
-    description:
-      document.querySelector('meta[name="description"]')?.content || "",
-    text: document.body ? document.body.innerText : "",
-    links: [...document.querySelectorAll("a[href]")].map((a) => ({
-      text: (a.innerText || a.getAttribute("aria-label") || "").trim(),
-      href: a.href,
-    })),
+    url: location.href,
+    lines: window.__extractLines(),
   }));
 }
 
@@ -76,6 +149,7 @@ async function main() {
     viewport: { width: 1280, height: 900 },
   });
   const page = await context.newPage();
+  await page.addInitScript(`window.__extractLines = ${extractLines.toString()};`);
 
   const queue = [normalize(SITE + "/")];
   const seen = new Set();
@@ -110,12 +184,16 @@ async function main() {
 
     const lines = [];
 
-    for (const raw of [data.description, ...data.text.split("\n")]) {
-      const line = raw.replace(/\s+/g, " ").trim();
-      if (line.length < 2 || seenLines.has(line)) continue; // drops repeated nav/footer text
-      seenLines.add(line);
-      lines.push(line);
-    }
+    const addLines = (list, target) => {
+      for (const raw of list) {
+        const line = raw.replace(/\s+/g, " ").trim();
+        if (line.length < 2 || seenLines.has(line)) continue; // drops repeated nav/footer text
+        seenLines.add(line);
+        target.push(line);
+      }
+    };
+
+    addLines([data.description, ...data.lines], lines);
 
     const linkLines = [];
     for (const l of data.links) {
@@ -141,6 +219,29 @@ async function main() {
           .join("\n")
       );
     }
+
+    // Click through menu buttons / tabs (single-page sites load content on click)
+    const tried = new Set();
+    for (const c of data.clickables) {
+      if (tried.size >= 25) break;
+      if (SKIP_LABEL.test(c.label) || tried.has(c.label.toLowerCase())) continue;
+      tried.add(c.label.toLowerCase());
+
+      const result = await readAfterClick(page, url, c.i).catch(() => null);
+      if (!result) continue;
+
+      const extra = [];
+      addLines(result.lines, extra);
+
+      const n = normalize(result.url);
+      if (n && !seen.has(n)) queue.push(n);
+
+      if (extra.length) {
+        sections.push([`## Section: ${c.label}`, ...extra].join("\n"));
+        console.log("Clicked", c.label, "->", extra.length, "new lines");
+      }
+    }
+
     console.log("Read", url);
   }
 
@@ -178,3 +279,4 @@ main().catch((err) => {
   console.error("Sync failed:", err);
   process.exit(1);
 });
+
