@@ -2,11 +2,15 @@ name: Auto Sync Website Knowledge
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 */3 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: sync-knowledge
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -20,7 +24,12 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Scrape website and update knowledge
+      - name: Install browser (site is JavaScript-rendered)
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+
+      - name: Crawl website and replace knowledge
         run: node sync.js
 
       - name: Commit and Push Changes
@@ -28,4 +37,9 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
           git add data/knowledge.js
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update website knowledge [skip ci]" && git push)
+          if git diff --cached --quiet; then
+            echo "No knowledge changes."
+          else
+            git commit -m "Auto-update website knowledge"
+            git push
+          fi
