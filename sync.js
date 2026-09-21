@@ -1,25 +1,180 @@
-const fs = require("fs");
+// Renders farhanbalouch.com in a real browser (the site is JavaScript-rendered,
+// so plain fetch() only sees the <title>), crawls its pages, and REPLACES
+// data/knowledge.js with the fresh text. Anything removed from the website
+// disappears from the knowledge on the next run.
 
-async function fetchWebsiteData() {
+import { chromium } from "playwright";
+import fs from "node:fs";
+
+const SITE = "https://farhanbalouch.com";
+const OUTPUT = "data/knowledge.js";
+const MAX_PAGES = 40;
+const MAX_CHARS = 40000;
+const SKIP_EXT = /\.(png|jpe?g|gif|webp|svg|ico|pdf|zip|mp4|mp3|css|js|json|xml|txt)$/i;
+
+const siteHost = new URL(SITE).hostname.replace(/^www\./, "");
+
+function normalize(raw, base = SITE) {
   try {
-    const res = await fetch("https://farhanbalouch.com");
-    const html = await res.text();
+    const u = new URL(raw, base);
+    if (u.hostname.replace(/^www\./, "") !== siteHost) return null;
+    if (SKIP_EXT.test(u.pathname)) return null;
 
-    let cleanText = html
-      .replace(/<script[^>]*>([\s\S]*?)<\/script>/gi, "")
-      .replace(/<style[^>]*>([\s\S]*?)<\/style>/gi, "")
-      .replace(/<[^>]+>/g, " ")
-      .replace(/\s+/g, " ")
-      .trim();
-
-    const fileContent = `// Auto-generated knowledge file from farhanbalouch.com\nexport const websiteKnowledge = ${JSON.stringify(cleanText)};\n`;
-
-    fs.writeFileSync("data/knowledge.js", fileContent);
-    console.log("Knowledge file successfully updated!");
-  } catch (err) {
-    console.error("Error fetching website:", err);
-    process.exit(1);
+    // keep hash only for hash-routed pages like /#/projects
+    const hash = /^#!?\//.test(u.hash) ? u.hash : "";
+    const path = u.pathname.replace(/\/+$/, "") || "/";
+    return `${SITE}${path}${u.search}${hash}`;
+  } catch {
+    return null;
   }
 }
 
-fetchWebsiteData();
+async function autoScroll(page) {
+  await page.evaluate(async () => {
+    await new Promise((resolve) => {
+      let y = 0;
+      const timer = setInterval(() => {
+        window.scrollBy(0, 600);
+        y += 600;
+        if (y >= document.body.scrollHeight + 600) {
+          clearInterval(timer);
+          window.scrollTo(0, 0);
+          resolve();
+        }
+      }, 120);
+    });
+  });
+}
+
+async function readPage(page, url) {
+  try {
+    await page.goto(url, { waitUntil: "networkidle", timeout: 25000 });
+  } catch {
+    // analytics/websockets can keep the network busy; use whatever has rendered
+  }
+  await page.waitForTimeout(1500);
+  try {
+    await autoScroll(page);
+  } catch {}
+
+  return page.evaluate(() => ({
+    title: document.title || "",
+    description:
+      document.querySelector('meta[name="description"]')?.content || "",
+    text: document.body ? document.body.innerText : "",
+    links: [...document.querySelectorAll("a[href]")].map((a) => ({
+      text: (a.innerText || a.getAttribute("aria-label") || "").trim(),
+      href: a.href,
+    })),
+  }));
+}
+
+async function main() {
+  const browser = await chromium.launch();
+  const context = await browser.newContext({
+    userAgent: "Mozilla/5.0 (compatible; WebsiteKnowledgeSync/1.0)",
+    viewport: { width: 1280, height: 900 },
+  });
+  const page = await context.newPage();
+
+  const queue = [normalize(SITE + "/")];
+  const seen = new Set();
+  const sections = [];
+  const seenLines = new Set();
+  const seenLinks = new Set();
+
+  // sitemap (if the site has one)
+  try {
+    const res = await context.request.get(SITE + "/sitemap.xml", { timeout: 10000 });
+    if (res.ok()) {
+      const xml = await res.text();
+      for (const m of xml.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)) {
+        const n = normalize(m[1]);
+        if (n) queue.push(n);
+      }
+    }
+  } catch {}
+
+  while (queue.length && seen.size < MAX_PAGES) {
+    const url = queue.shift();
+    if (!url || seen.has(url)) continue;
+    seen.add(url);
+
+    let data;
+    try {
+      data = await readPage(page, url);
+    } catch (err) {
+      console.warn("Skipped", url, "-", err.message);
+      continue;
+    }
+
+    const lines = [];
+
+    for (const raw of [data.description, ...data.text.split("\n")]) {
+      const line = raw.replace(/\s+/g, " ").trim();
+      if (line.length < 2 || seenLines.has(line)) continue; // drops repeated nav/footer text
+      seenLines.add(line);
+      lines.push(line);
+    }
+
+    const linkLines = [];
+    for (const l of data.links) {
+      const label = l.text.replace(/\s+/g, " ").trim();
+      if (!label || !/^https?:/i.test(l.href)) continue;
+      const entry = `${label} -> ${l.href}`;
+      if (seenLinks.has(entry)) continue;
+      seenLinks.add(entry);
+      linkLines.push(entry);
+
+      const n = normalize(l.href, url);
+      if (n && !seen.has(n)) queue.push(n);
+    }
+
+    if (lines.length || linkLines.length) {
+      sections.push(
+        [
+          `## Page: ${new URL(url).pathname}${new URL(url).hash} — ${data.title}`,
+          ...lines,
+          linkLines.length ? "Links:\n" + linkLines.join("\n") : "",
+        ]
+          .filter(Boolean)
+          .join("\n")
+      );
+    }
+    console.log("Read", url);
+  }
+
+  await browser.close();
+
+  let knowledge = sections.join("\n\n").trim();
+
+  // Safety net: never wipe the existing knowledge because of a failed crawl.
+  if (knowledge.length < 150) {
+    console.error(
+      `Crawl only produced ${knowledge.length} characters - keeping the old knowledge file.`
+    );
+    process.exit(1);
+  }
+
+  if (knowledge.length > MAX_CHARS) {
+    knowledge = knowledge.slice(0, MAX_CHARS) + "\n[Content truncated]";
+  }
+
+  const fileContent =
+    `// Auto-generated by sync.js from ${SITE} - do not edit by hand.\n` +
+    `export const websiteKnowledge = ${JSON.stringify(knowledge)};\n`;
+
+  const old = fs.existsSync(OUTPUT) ? fs.readFileSync(OUTPUT, "utf8") : "";
+  if (old === fileContent) {
+    console.log("No changes on the website.");
+    return;
+  }
+
+  fs.writeFileSync(OUTPUT, fileContent);
+  console.log(`Knowledge replaced: ${knowledge.length} characters from ${seen.size} page(s).`);
+}
+
+main().catch((err) => {
+  console.error("Sync failed:", err);
+  process.exit(1);
+});
