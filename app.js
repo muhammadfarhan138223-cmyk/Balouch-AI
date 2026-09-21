@@ -1,4 +1,7 @@
+const BOT_NAME = "RAWI";
+
 const STORAGE_KEY = "balouch_ai_chats_v1";
+const MODEL_PREF_KEY = "chat_model_pref_v1";
 const THEME_KEY = "balouch_ai_theme_v1";
 
 const messagesEl = document.getElementById("messages");
@@ -28,40 +31,60 @@ const exitIncognito = document.getElementById("exitIncognito");
 const providerSelect = document.getElementById("providerSelect");
 const modelSelect = document.getElementById("modelSelect");
 
-const MODELS = {
-  openrouter: [
-    {
-      value: "openrouter/free",
-      label: "Auto — Free"
-    }
-  ],
+const PROVIDER_LABELS = {
+  groq: "⚡ Groq",
+  gemini: "✨ Google Gemini",
+  openrouter: "🌐 OpenRouter"
+};
 
+const MODELS = {
   groq: [
-    {
-      value: "openai/gpt-oss-20b",
-      label: "GPT-OSS 20B"
-    },
-    {
-      value: "openai/gpt-oss-120b",
-      label: "GPT-OSS 120B"
-    },
-    {
-      value: "qwen/qwen3.6-27b",
-      label: "Qwen 3.6 27B"
-    }
+    { value: "openai/gpt-oss-20b", label: "GPT-OSS 20B" },
+    { value: "openai/gpt-oss-120b", label: "GPT-OSS 120B" },
+    { value: "qwen/qwen3.8-27b", label: "Qwen 3.8 27B" },
+    { value: "qwen/qwen3.6-27b", label: "Qwen 3.6 27B" }
   ],
 
   gemini: [
-    {
-      value: "gemini-3.8-flash",
-      label: "Gemini 3.8 Flash"
-    }
+    { value: "gemini-3.8-flash", label: "Gemini 3.8 Flash" },
+    { value: "gemini-3.7-flash", label: "Gemini 3.7 Flash" },
+    { value: "gemini-3.6-flash", label: "Gemini 3.6 Flash" },
+    { value: "gemini-3.5-flash", label: "Gemini 3.5 Flash" },
+    { value: "gemini-2.5-flash", label: "Gemini 2.5 Flash" },
+    { value: "gemini-2.5-flash-lite", label: "Gemini 2.5 Flash-Lite" },
+    { value: "gemini-2.5-pro", label: "Gemini 2.5 Pro" }
+  ],
+
+  openrouter: [
+    { value: "openrouter/free", label: "Auto — Free Models" }
   ]
 };
 
-function updateModelOptions() {
-  const provider = providerSelect.value;
-  const models = MODELS[provider] || [];
+function updateSelectedModelDisplay() {
+  const display = document.getElementById("selectedModelDisplay");
+
+  if (!display) return;
+
+  const option = modelSelect.options[modelSelect.selectedIndex];
+
+  display.textContent =
+    `${PROVIDER_LABELS[providerSelect.value] || ""} · ${option ? option.textContent : ""}`;
+}
+
+function saveModelPref() {
+  try {
+    localStorage.setItem(
+      MODEL_PREF_KEY,
+      JSON.stringify({
+        provider: providerSelect.value,
+        model: modelSelect.value
+      })
+    );
+  } catch {}
+}
+
+function updateModelOptions(preferredModel) {
+  const models = MODELS[providerSelect.value] || [];
 
   modelSelect.innerHTML = "";
 
@@ -73,11 +96,40 @@ function updateModelOptions() {
 
     modelSelect.appendChild(option);
   });
+
+  if (
+    typeof preferredModel === "string" &&
+    models.some((item) => item.value === preferredModel)
+  ) {
+    modelSelect.value = preferredModel;
+  }
+
+  updateSelectedModelDisplay();
 }
 
-providerSelect.addEventListener("change", updateModelOptions);
+providerSelect.addEventListener("change", () => {
+  updateModelOptions();
+  saveModelPref();
+});
 
-updateModelOptions();
+modelSelect.addEventListener("change", () => {
+  updateSelectedModelDisplay();
+  saveModelPref();
+});
+
+(function restoreModelPref() {
+  let pref = null;
+
+  try {
+    pref = JSON.parse(localStorage.getItem(MODEL_PREF_KEY));
+  } catch {}
+
+  if (pref && MODELS[pref.provider]) {
+    providerSelect.value = pref.provider;
+  }
+
+  updateModelOptions(pref && pref.model);
+})();
 
 let chats = loadChats();
 
@@ -117,6 +169,20 @@ function saveChats() {
 ----------------------------- */
 
 function createChat() {
+
+  // Re-use the current chat if it is still empty (avoids piles of blank chats)
+  if (
+    !incognito &&
+    currentChat &&
+    currentChat.id !== "incognito" &&
+    currentChat.messages.length === 0 &&
+    chats.includes(currentChat)
+  ) {
+    renderHistory();
+    renderMessages();
+    closeSidebar();
+    return;
+  }
 
   currentChat = {
     id: crypto.randomUUID
@@ -445,7 +511,7 @@ function addMessageToUI(
 
   messagesEl.appendChild(row);
 
-  if (role === "ai") {
+  if (role !== "user") {
 
     const actions =
       document.createElement("div");
@@ -642,14 +708,16 @@ async function sendToAI() {
     typing.remove();
 
     console.error(
-      "Balouch AI error:",
+      `${BOT_NAME} error:`,
       error
     );
 
-    addLocalMessage(
+    addMessageToUI(
       "assistant",
-      "I couldn't connect to Balouch AI right now. Please try again."
+      `I couldn't connect to ${BOT_NAME} right now. Please try again.`
     );
+
+    scrollBottom();
 
   } finally {
 
@@ -967,3 +1035,4 @@ renderHistory();
 updateIncognitoUI();
 
 input.focus();
+
