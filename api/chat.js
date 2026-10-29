@@ -245,6 +245,11 @@ export default async function handler(req, res) {
     const quick = body.mode === "quick";
     const context = retrieve(knowledge, message, {language: ["en","hi","ur"].includes(body.language) ? body.language : "en", limit: quick ? 7 : 10});
     if (!context.length) return res.status(200).json({reply:NOT_FOUND,sources:[],indexedAt:knowledge.indexedAt});
+    if (quick && knowledge.isStale) return res.status(200).json({reply:"I could not refresh the current site index. Open these official source pages for the latest information.",sources:sourcesFor(context.slice(0,3)),indexedAt:knowledge.indexedAt,verifiedExcerpt:false});
+    if (quick && /link|url|kahan|where.*(?:find|page)/i.test(message)) {
+      const destination=context.find(e=>["project","project-registry","section"].includes(e.kind));
+      if(destination)return res.status(200).json({reply:`Open ${destination.title} using the source link below.`,sources:sourcesFor([destination]),indexedAt:knowledge.indexedAt,verifiedExcerpt:false});
+    }
     const messages = [
       { role: "system", content: buildSystemPrompt(context, quick) },
       ...cleanHistory(body.history, message)
@@ -269,7 +274,7 @@ export default async function handler(req, res) {
 
     const verified = quick ? verifiedQuote(result.reply,context) : null;
     return res.status(200).json({
-      reply: quick ? (verified?.reply || "I could not find a verified short answer. Try one of these source pages, or ask Rawi for more detail.") : result.reply,
+      reply: quick ? (verified?.reply || "I could not find a verified short answer. Try one of these source pages, or ask Rawi for more detail.") : (knowledge.isStale ? "Live refresh is unavailable; this answer uses a dated saved website index.\n\n" : "") + result.reply,
       sources: verified?.sources || sourcesFor(context.slice(0,4)),
       verifiedExcerpt: !!verified,
       indexedAt: knowledge.indexedAt,
@@ -278,7 +283,7 @@ export default async function handler(req, res) {
       model: usedModel
     });
   } catch (error) {
-    console.error(`${BOT_NAME} error:`, error);
+    console.error(`${BOT_NAME} request failed:`, error?.name);
     return res.status(500).json({ error: "Something went wrong on the server." });
   }
 }

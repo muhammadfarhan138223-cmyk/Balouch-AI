@@ -618,5 +618,830 @@
         }
       ]
     }
-  ]
+  ],
+  "site": {
+    "version": 1,
+    "site": "https://farhanbalouch.com",
+    "generatedAt": "2026-10-29T12:39:50.973Z",
+    "revision": "111b56ad7acda43065f72649ac686bdd70da8a47",
+    "entries": [
+      {
+        "id": "/",
+        "url": "https://farhanbalouch.com/",
+        "title": "Home",
+        "kind": "page",
+        "text": "Farhan Balouch — From Ahmadpur East to AI, SEO & Online Business The personal site of Farhan Balouch — originally from Ahmadpur East, Pakistan. His story, his work in AI and SEO, and a chatbot named Rawi who tells the tale. I am Farhan Balouch. This is my story. From a small house in Ahmadpur East to the world of technology, AI, and online business. A journey of dreams that shifted, losses that reshaped me, and a compass that still points forward. Read my story About me Three things to know The shape of a life in three beats — past, dream, and direction.",
+        "anchors": [],
+        "language": "en"
+      },
+      {
+        "id": "/about",
+        "url": "https://farhanbalouch.com/about",
+        "title": "About Farhan",
+        "kind": "page",
+        "text": "About — Farhan Balouch A short professional bio of Farhan Balouch: originally from Ahmadpur East, Pakistan, now working in AI, SEO, and online business. About A brief introduction I'm Farhan Balouch , originally from — a small town in southern Punjab where I was born, grew up, and carried a restless feeling that I had to do something with my life. As a teenager I dreamed of becoming a doctor — not for prestige, but because I wanted to heal the person I loved most. I worked at medical stores during school holidays, learned the basics of medicine, and felt the dream growing stronger. Then loss changed everything, and the dream reshaped itself. Today my work lives at the intersection of AI, SEO, and online business. The shift wasn't a rejection of the old dream — it was the same instinct, given a wider canvas. Technology lets me reach beyond geography, learn without a classroom, and build things that scale. This site exists to put a real, searchable identity on the map. When someone looks up my name, I want them to find this — the actual story, in my own words — not a scattered collection of random profiles. The story isn't over. It's only the part written so far. What I work with — a small town in the Bahawalpur district of southern Punjab. Where the horizon is flat and the night sky is full of stars. It's where this story starts. Read the full story",
+        "anchors": [],
+        "language": "en"
+      },
+      {
+        "id": "/work",
+        "url": "https://farhanbalouch.com/work",
+        "title": "Projects",
+        "kind": "page",
+        "text": "Projects & Portfolio — Farhan Balouch Projects by Farhan Balouch: Nexus AI (AI chatbot & coding assistant), Rawi (AI storyteller), Farhan Deals (e-commerce store), Hack AI (cybersecurity AI) and Movie Hub (live). Portfolio Work & projects AI chatbots, an online store and cybersecurity tools — everything I&apos;ve built so far, with bigger projects still on the way. Have an idea, a collaboration or a project in mind? I&apos;d love to hear about it. Get in touch",
+        "anchors": [],
+        "language": "en"
+      },
+      {
+        "id": "/contact",
+        "url": "https://farhanbalouch.com/contact",
+        "title": "Contact",
+        "kind": "page",
+        "text": "Contact Farhan Balouch — Get in Touch via WhatsApp, Email & Socials Connect with Farhan Balouch directly via WhatsApp (+92 309 3244171), Email, LinkedIn, GitHub, YouTube, or Instagram. Available for Opportunities Say Salaam & Let's Connect Whether it's a project, an inquiry, or just a hello — reach out directly on WhatsApp or connect on any platform below. Fastest Reply WhatsApp Direct +92 309 3244171 Email Direct Based in Social Platforms & Projects",
+        "anchors": [],
+        "language": "en"
+      },
+      {
+        "id": "/blog",
+        "url": "https://farhanbalouch.com/blog",
+        "title": "Blog",
+        "kind": "page",
+        "text": "Blog — Farhan Balouch Updates, thoughts and behind-the-scenes notes from Farhan Balouch — on AI, SEO, online business, and the journey from Ahmadpur East. Blog Notes from the journey Written as it happens. ​What’s Happening Now: Short Blog Stories & Sudden Thoughts Read post",
+        "anchors": [],
+        "language": "en"
+      },
+      {
+        "id": "/stories",
+        "url": "https://farhanbalouch.com/stories",
+        "title": "Stories & updates",
+        "kind": "page",
+        "text": "Notes from the journey All stories Story not found Stories, as they happen. Small moments, new ideas, and the things I’m building. A place for everything along the way. Read story A new page is waiting. Fresh stories will appear here. Meanwhile, explore the journey so far. Read my biography",
+        "anchors": [],
+        "language": "en"
+      },
+      {
+        "id": "/story",
+        "url": "https://farhanbalouch.com/story",
+        "title": "Biography",
+        "kind": "page",
+        "text": "My Story — Farhan Balouch The story of Farhan Balouch, from Ahmadpur East to AI and online business. Told in chapters: childhood, school, loss, love, dreams, and the pivot to technology. My Story A journey that started with a dream A life told in chapters — from a small house in Ahmadpur East to the world of technology, AI, and online business. Read straight through, or jump to the part that calls to you.",
+        "anchors": [],
+        "language": "en"
+      },
+      {
+        "id": "profile",
+        "url": "https://farhanbalouch.com/about",
+        "title": "Farhan Balouch — public profile",
+        "kind": "profile",
+        "language": "en",
+        "text": "Farhan Balouch\nAhmadpur East, Pakistan\nWhere I’m From\nA small house in Ahmadpur East, southern Punjab — where this whole story starts.\nWhat I Once Dreamed\nI wanted to become a doctor — not for prestige, but to heal the person I loved most.\nWhere I’m Headed\nBuilding in AI, SEO, and online business — the same dream, given a wider canvas."
+      },
+      {
+        "id": "project-nexus-ai",
+        "url": "https://nexusai.farhanbalouch.com",
+        "title": "Nexus AI",
+        "kind": "project",
+        "language": "en",
+        "text": "AI Chatbot\nAn intelligent AI chatbot and coding assistant.\nNexus AI is an AI chatbot built to be genuinely helpful — an intelligent assistant that can answer questions, think through problems and help with coding.\nAI chatbot\nCoding assistant\nSmart, helpful answers\nPortfolio status: live\nProject address: https://nexusai.farhanbalouch.com"
+      },
+      {
+        "id": "project-rawi",
+        "url": "https://rawi.farhanbalouch.com",
+        "title": "Rawi",
+        "kind": "project",
+        "language": "en",
+        "text": "AI Storyteller\nThe AI storyteller of Farhan Balouch.\nRawi is an AI chatbot and storyteller that knows Farhan Balouch’s journey. It carries the same information that lives on this official website — ask it anything and get the story back.\nAI storyteller\nKnows Farhan’s story\nPowered by this website’s data\nPortfolio status: live\nProject address: https://rawi.farhanbalouch.com"
+      },
+      {
+        "id": "project-farhan-deals",
+        "url": "https://farhandeals.store",
+        "title": "Farhan Deals",
+        "kind": "project",
+        "language": "en",
+        "text": "E-commerce Store\nThe Most Discount Store in the World.\nFarhan Deals is an e-commerce store built around one idea — unbeatable discounts. An online business that started in Ahmadpur East and is growing every day.\nOnline store\nBig discounts\nReal online business\nPortfolio status: live\nProject address: https://farhandeals.store"
+      },
+      {
+        "id": "project-hack-ai",
+        "url": "https://hackarai.streamlit.app",
+        "title": "Hack AI",
+        "kind": "project",
+        "language": "en",
+        "text": "AI · Cybersecurity\nAn AI built for cybersecurity, hacking and coding.\nHack AI is an AI assistant focused on cybersecurity, ethical hacking and coding — built for people who want to learn how systems work and how to protect them.\nCybersecurity\nEthical hacking\nCoding help\nPortfolio status: live\nProject address: https://hackarai.streamlit.app"
+      },
+      {
+        "id": "project-movie-hub",
+        "url": "https://moviehub.farhanbalouch.com",
+        "title": "Movie Hub",
+        "kind": "project",
+        "language": "en",
+        "text": "Streaming · Shorts · AI\nWatch, download and discover movies — with Shorts, a social feed and an AI assistant.\nMovie Hub is a movie streaming and downloading website. Watch and download movies, scroll Cinephile Shorts (short videos like YouTube Shorts and TikTok), post on an X-style feed, and let the Movie Hub Assistant recommend films for your mood.\nStream movies\nDownload movies\nCinephile Shorts\nX Feed\nAI assistant & smart search\nPortfolio status: live\nProject address: https://moviehub.farhanbalouch.com"
+      },
+      {
+        "id": "blog-my-new-admin-panel-streamlining-content-and-launching-movie-en",
+        "url": "https://farhanbalouch.com/blog/my-new-admin-panel-streamlining-content-and-launching-movie",
+        "title": "My New Admin Panel: Streamlining Content and Launching Movie Hub",
+        "kind": "blog",
+        "language": "en",
+        "publishedAt": "2026-10-28T17:44:35.409Z",
+        "updatedAt": "2026-10-28T17:44:35.409Z",
+        "text": "My New Admin Panel: Streamlining Content and Launching Movie Hub\nI'm excited to announce the completion of my new admin panel for farhanbalouch.com, making it much easier to share regular updates. I also reactivated my Movie Hub project with help from ChatGPT Plus, now live online.\nToday, October 28, 2026, marks an exciting day for me as two of my projects are reaching completion. One of them is the new admin panel for farhanbalouch.com, which I am actually using right now to write this very blog post. Previously, sharing any updates meant writing code for each post, which often made it difficult and led me to skip sharing many thoughts and developments. Now, with this admin panel, Inshallah, you can expect much more regular content from me.\nAnother significant achievement today is that I've leveraged ChatGPT Plus to reactivate my 'Movie Hub' project, which had been pending for a long time. It's now live and ready for you to visit at https://moviehub.farhanbalouch.com. Similarly, ChatGPT Plus greatly assisted me in building this very admin panel for my personal website. The procrastination I sometimes felt about sharing updates due to technical hurdles will, Inshallah, be a thing of the past. I aim to share something new every day, so stay tuned with Farhan Balouch – I hope you’ll always find something new to learn!"
+      },
+      {
+        "id": "blog-my-new-admin-panel-streamlining-content-and-launching-movie-hi",
+        "url": "https://farhanbalouch.com/blog/my-new-admin-panel-streamlining-content-and-launching-movie",
+        "title": "Mera Naya Admin Panel: Content Ko Aasan Banana Aur Movie Hub Ka Aaghaz",
+        "kind": "blog",
+        "language": "hi",
+        "publishedAt": "2026-10-28T17:44:35.409Z",
+        "updatedAt": "2026-10-28T17:44:35.409Z",
+        "text": "Mera Naya Admin Panel: Content Ko Aasan Banana Aur Movie Hub Ka Aaghaz\nMain aaj khush hoon kyunki farhanbalouch.com ke liye mera naya admin panel ban gaya hai, jisse updates share karna aasan hoga. Maine ChatGPT Plus ki madad se Movie Hub project bhi activate kar diya hai, jo ab live hai.\nAaj, 28 October 2026 ko, main bahut excited hoon kyunki mere do projects poore ho rahe hain. Inmein se ek mera apna admin panel hai farhanbalouch.com ke liye, jisse main ab yeh blog post likh raha hoon. Pehle jab bhi updates share karni hoti thi, toh code likhna padta tha, jisme thodi mushkil hoti thi aur kai baar main updates skip kar deta tha. Ab is admin panel ki wajah se, Inshallah, aapko regularly naya content milta rahega.\nAur aaj maine ChatGPT Plus ka sabse bada fayda uthaya. Kaafi waqt se pending pada mera 'Movie Hub' project maine dobara active kar diya hai aur woh ab live ho gaya hai. Aap use yahan visit kar sakte hain: https://moviehub.farhanbalouch.com. Isi tarah, ChatGPT Plus ne meri personal website farhanbalouch.com ka admin panel banane mein bhi bahut madad ki hai. Ab jo pehle updates share karne mein aalas aata tha, woh nahi aayega. Inshallah, main har din kuch naya share karta rahoonga. Toh Farhan Balouch ke saath jude rahiye, ummeed hai har din kuch naya seekhne ko milega!"
+      },
+      {
+        "id": "blog-my-new-admin-panel-streamlining-content-and-launching-movie-ur",
+        "url": "https://farhanbalouch.com/blog/my-new-admin-panel-streamlining-content-and-launching-movie",
+        "title": "میرا نیا ایڈمن پینل: مواد کو آسان بنانا اور مووی ہب کا آغاز",
+        "kind": "blog",
+        "language": "ur",
+        "publishedAt": "2026-10-28T17:44:35.409Z",
+        "updatedAt": "2026-10-28T17:44:35.409Z",
+        "text": "میرا نیا ایڈمن پینل: مواد کو آسان بنانا اور مووی ہب کا آغاز\nمیں آج بہت خوش ہوں کہ farhanbalouch.com کے لیے میرا نیا ایڈمن پینل مکمل ہو گیا ہے، جس سے اب باقاعدگی سے اپ ڈیٹس شیئر کرنا آسان ہو گا۔ میں نے ChatGPT Plus کی مدد سے اپنا مووی ہب پراجیکٹ بھی فعال کر دیا ہے جو اب لائیو ہے۔\nآج، 28 اکتوبر 2026 کو، میں بہت پرجوش ہوں کیونکہ میرے دو پروجیکٹس مکمل ہو رہے ہیں۔ ان میں سے ایک میرا اپنا ایڈمن پینل ہے farhanbalouch.com کے لیے، جس کے ذریعے میں یہ بلاگ پوسٹ لکھ رہا ہوں۔ پہلے جب بھی کوئی اپ ڈیٹ شیئر کرنی ہوتی تھی تو کوڈ لکھنا پڑتا تھا، جس میں کافی مشکل پیش آتی تھی اور کئی بار میں اپ ڈیٹس شیئر نہیں کر پاتا تھا۔ اب اس ایڈمن پینل کی بدولت، انشاءاللہ، آپ کو باقاعدگی سے نیا مواد ملتا رہے گا۔\nاور آج میں نے ChatGPT Plus کا سب سے بڑا فائدہ اٹھایا۔ کافی عرصے سے زیر التوا میرا 'مووی ہب' پراجیکٹ میں نے دوبارہ فعال کر دیا ہے اور وہ اب لائیو ہو چکا ہے۔ آپ اسے یہاں وزٹ کر سکتے ہیں: https://moviehub.farhanbalouch.com۔ اسی طرح، ChatGPT Plus نے میری ذاتی ویب سائٹ farhanbalouch.com کا ایڈمن پینل بنانے میں بھی بہت مدد کی ہے۔ اب جو پہلے اپ ڈیٹس شیئر کرنے میں سستی ہوتی تھی، وہ انشاءاللہ نہیں ہو گی۔ میں ہر روز کچھ نہ کچھ نیا شیئر کرتا رہوں گا۔ تو فرحان بلوچ کے ساتھ جڑے رہیے، امید ہے ہر دن کچھ نیا سیکھنے کو ملے گا!"
+      },
+      {
+        "id": "blog-ensuring-website-reliability-my-approach-to-testing-notifica-en",
+        "url": "https://farhanbalouch.com/blog/ensuring-website-reliability-my-approach-to-testing-notifica",
+        "title": "Ensuring Website Reliability: My Approach to Testing Notifications and Email Alerts",
+        "kind": "blog",
+        "language": "en",
+        "publishedAt": "2026-09-26T17:48:45.934Z",
+        "text": "Ensuring Website Reliability: My Approach to Testing Notifications and Email Alerts\nAs a builder, I'm sharing my process for rigorously testing website notification and email alert systems. Discover why ensuring reliable communication is crucial for any online platform.\nRight now, I'm deep into a crucial part of building any reliable online system: rigorously testing its notification and email alert features. This isn't a one-time check; in fact, this is my fourth dedicated session to confirm everything is working exactly as it should. For me, ensuring these basic communication channels are flawless is just as important as the core functionality of the website itself.\nIn the fast-paced world of online business and websites, a system is only as effective as its ability to communicate important updates. Whether it's a new lead arriving, a critical system error, or a user action requiring immediate attention, reliable alerts are the lifeline that keeps things running smoothly. My commitment is to build platforms that not only perform well but also keep everyone informed, and that starts with thorough, repetitive testing until I'm absolutely confident in their reliability."
+      },
+      {
+        "id": "blog-ensuring-website-reliability-my-approach-to-testing-notifica-hi",
+        "url": "https://farhanbalouch.com/blog/ensuring-website-reliability-my-approach-to-testing-notifica",
+        "title": "Meri Website Notifications aur Email Alerts ki Testing Journey",
+        "kind": "blog",
+        "language": "hi",
+        "publishedAt": "2026-09-26T17:48:45.934Z",
+        "text": "Meri Website Notifications aur Email Alerts ki Testing Journey\nEk builder ke taur par, main apni website ke notification aur email alert systems ko test karne ka tareeka bata raha hoon. Jaaniye kyun reliable communication online platform ke liye zaroori hai.\nAbhi main ek bahut zaroori kaam mein laga hua hoon jo kisi bhi reliable online system ke liye crucial hai: uske notification aur email alert features ko acche se test karna. Yeh sirf ek baar ki check nahin hai; asal mein, yeh meri chauthi dedicated session hai yeh confirm karne ke liye ki sab kuch bilkul sahi kaam kar raha hai. Mere liye, yeh basic communication channels flawless hon, yeh utna hi zaroori hai jitna website ki core functionality.\nOnline business aur websites ki tez duniya mein, ek system tabhi effective hota hai jab woh important updates ko communicate kar sake. Chahe woh koi naya lead ho, koi critical system error ho, ya koi user action jise turant dhyan ki zaroorat ho, reliable alerts hi woh lifeline hain jo sab kuch smoothly chalati hain. Mera maqsad aise platforms banana hai jo na sirf accha perform karein balki sabko informed bhi rakhein, aur yeh shuru hota hai thorough, repetitive testing se jab tak main unki reliability par poori tarah confident na ho jaun."
+      },
+      {
+        "id": "blog-ensuring-website-reliability-my-approach-to-testing-notifica-ur",
+        "url": "https://farhanbalouch.com/blog/ensuring-website-reliability-my-approach-to-testing-notifica",
+        "title": "میری ویب سائٹ نوٹیفیکیشنز اور ای میل الرٹس کی جانچ کا سفر",
+        "kind": "blog",
+        "language": "ur",
+        "publishedAt": "2026-09-26T17:48:45.934Z",
+        "text": "میری ویب سائٹ نوٹیفیکیشنز اور ای میل الرٹس کی جانچ کا سفر\nایک بلڈر کے طور پر، میں اپنی ویب سائٹ کے نوٹیفیکیشن اور ای میل الرٹ سسٹمز کی سختی سے جانچ کرنے کا طریقہ بتا رہا ہوں۔ جانیے کہ کسی بھی آن لائن پلیٹ فارم کے لیے قابلِ اعتماد کمیونیکیشن کیوں ضروری ہے۔\nاس وقت، میں کسی بھی قابلِ اعتماد آن لائن سسٹم کی تعمیر کے ایک انتہائی اہم حصے میں مصروف ہوں: اس کے نوٹیفیکیشن اور ای میل الرٹ کی خصوصیات کو سختی سے جانچنا۔ یہ کوئی ایک بار کی جانچ نہیں ہے؛ حقیقت میں، یہ میرا چوتھا مخصوص سیشن ہے یہ تصدیق کرنے کے لیے کہ سب کچھ بالکل ویسا ہی کام کر رہا ہے جیسا اسے کرنا چاہیے۔ میرے لیے، یہ یقینی بنانا کہ یہ بنیادی کمیونیکیشن چینلز بے عیب ہوں، اتنا ہی اہم ہے جتنا خود ویب سائٹ کی بنیادی فعالیت۔\nآن لائن کاروبار اور ویب سائٹس کی تیزی سے بدلتی دنیا میں، ایک سسٹم تب ہی مؤثر ہوتا ہے جب وہ اہم اپ ڈیٹس کو مؤثر طریقے سے پہنچا سکے۔ چاہے وہ کوئی نئی لیڈ ہو، کوئی سنگین سسٹم ایرر ہو، یا صارف کا کوئی ایسا عمل جسے فوری توجہ کی ضرورت ہو، قابلِ اعتماد الرٹس ہی وہ لائف لائن ہیں جو معاملات کو آسانی سے چلاتی ہیں۔ میرا عزم ایسے پلیٹ فارمز بنانا ہے جو نہ صرف اچھی کارکردگی دکھائیں بلکہ سب کو باخبر بھی رکھیں، اور یہ مکمل، بار بار کی جانچ سے شروع ہوتا ہے جب تک کہ مجھے ان کی قابلِ اعتمادیت پر مکمل اعتماد نہ ہو جائے۔"
+      },
+      {
+        "id": "blog-ensuring-reliable-communication-my-third-test-for-email-and-en",
+        "url": "https://farhanbalouch.com/blog/ensuring-reliable-communication-my-third-test-for-email-and",
+        "title": "Ensuring Reliable Communication: My Third Test for Email and Push Notifications",
+        "kind": "blog",
+        "language": "en",
+        "publishedAt": "2026-09-26T16:44:44.848Z",
+        "text": "Ensuring Reliable Communication: My Third Test for Email and Push Notifications\nAs a builder of online systems, ensuring reliable communication is paramount. I share my experience with the iterative process of testing crucial features like email and push notifications to guarantee they work every time.\nIn the world of online businesses and websites, effective communication with users is non-negotiable. Email and push notifications are vital channels for delivering important updates, alerts, and engaging content. For me, ensuring these systems work flawlessly is a top priority. That's why I rigorously test them, and today marks my third chance to confirm that our email and push notification functionalities are working exactly as intended.\nThis iterative testing process isn't just about catching bugs; it's about building trust and ensuring a seamless user experience across various scenarios and devices. As a developer, my commitment is to deliver robust and reliable systems. Each test, including this third verification, reinforces our dedication to quality and ensures that when we communicate with our users, our messages always reach them effectively."
+      },
+      {
+        "id": "blog-ensuring-reliable-communication-my-third-test-for-email-and-hi",
+        "url": "https://farhanbalouch.com/blog/ensuring-reliable-communication-my-third-test-for-email-and",
+        "title": "Reliable Communication Ke Liye Meri Mehnat: Email Aur Push Notification Ka Teesra Test",
+        "kind": "blog",
+        "language": "hi",
+        "publishedAt": "2026-09-26T16:44:44.848Z",
+        "text": "Reliable Communication Ke Liye Meri Mehnat: Email Aur Push Notification Ka Teesra Test\nOnline systems banate waqt, reliable communication bahut zaroori hai. Main apna experience share kar raha hoon ki kaise email aur push notifications jaise important features ko baar-baar test karna padta hai taaki woh hamesha sahi kaam karein.\nOnline business aur websites ki duniya mein, users ke saath effective communication bahut important hai. Email aur push notifications jaisi cheezein users tak important updates, alerts aur engagement messages pahunchane ke liye bahut zaroori channels hain. Mere liye, yeh confirm karna ki yeh systems bilkul sahi kaam kar rahe hain, top priority hai. Isliye main inhein baar-baar test karta hoon, aur aaj mera teesra mauka hai yeh confirm karne ka ki hamari email aur push notification functionalities bilkul theek kaam kar rahi hain.\nYeh baar-baar test karna sirf bugs pakadne ke liye nahi hai; yeh trust banane aur alag-alag scenarios aur devices par seamless user experience dene ke liye hai. Ek developer ke taur par, meri commitment hai ki main robust aur reliable systems deliver karoon. Har test, jismein yeh teesra verification bhi shamil hai, quality ke prati hamari dedication ko mazboot karta hai aur yeh یقینی banata hai ki jab hum apne users se communicate karte hain, to hamare messages un tak hamesha effectively pahunchein."
+      },
+      {
+        "id": "blog-ensuring-reliable-communication-my-third-test-for-email-and-ur",
+        "url": "https://farhanbalouch.com/blog/ensuring-reliable-communication-my-third-test-for-email-and",
+        "title": "قابل اعتماد مواصلت یقینی بنانا: ای میل اور پش نوٹیفیکیشنز کا میرا تیسرا ٹیسٹ",
+        "kind": "blog",
+        "language": "ur",
+        "publishedAt": "2026-09-26T16:44:44.848Z",
+        "text": "قابل اعتماد مواصلت یقینی بنانا: ای میل اور پش نوٹیفیکیشنز کا میرا تیسرا ٹیسٹ\nآن لائن سسٹمز بناتے وقت، قابل اعتماد مواصلت انتہائی اہم ہے۔ میں اپنا تجربہ شیئر کر رہا ہوں کہ ای میل اور پش نوٹیفیکیشنز جیسی اہم خصوصیات کی جانچ کے بار بار عمل کو کیسے یقینی بنایا جاتا ہے تاکہ وہ ہر بار صحیح کام کریں۔\nآن لائن کاروبار اور ویب سائٹس کی دنیا میں، صارفین کے ساتھ موثر رابطہ قائم رکھنا بہت ضروری ہے۔ ای میلز اور پش نوٹیفیکیشنز اس رابطے کا اہم حصہ ہیں، جو صارفین کو اہم معلومات، الرٹس اور دلچسپ مواد فراہم کرتے ہیں۔ میرے لیے، اس بات کو یقینی بنانا کہ یہ سسٹم بالکل ٹھیک کام کریں، اولین ترجیح ہے۔ اسی لیے میں ان کی سخت جانچ کرتا رہتا ہوں، اور آج میرا تیسرا موقع ہے یہ تصدیق کرنے کا کہ ہماری ای میل اور پش نوٹیفیکیشنز کی فعالیت بالکل صحیح طریقے سے کام کر رہی ہے۔\nیہ بار بار جانچ کا عمل صرف خامیوں کو پکڑنے کے لیے نہیں ہے؛ بلکہ یہ اعتماد پیدا کرنے اور مختلف حالات اور آلات پر ہموار صارف تجربہ یقینی بنانے کے لیے ہے۔ ایک ڈویلپر کے طور پر، میرا عزم مضبوط اور قابل اعتماد سسٹمز فراہم کرنا ہے۔ ہر ٹیسٹ، بشمول یہ تیسری تصدیق، معیار کے لیے ہماری لگن کو تقویت دیتا ہے اور یہ یقینی بناتا ہے کہ جب ہم اپنے صارفین سے رابطہ کرتے ہیں، تو ہمارے پیغامات ہمیشہ ان تک مؤثر طریقے سے پہنچیں۔"
+      },
+      {
+        "id": "blog-refining-my-notification-system-a-second-chance-at-testing-en",
+        "url": "https://farhanbalouch.com/blog/refining-my-notification-system-a-second-chance-at-testing",
+        "title": "Refining My Notification System: A Second Chance at Testing",
+        "kind": "blog",
+        "language": "en",
+        "publishedAt": "2026-09-26T16:27:04.138Z",
+        "text": "Refining My Notification System: A Second Chance at Testing\nI'm excited to share an update on my latest project: actively testing a completely revamped notification system for farhanbalouch.com. This iteration is a 'second chance' to get things right and ensure a seamless user experience.\nToday marks an important step in improving the user experience on farhanbalouch.com. I'm actively testing a brand-new notification system, designed to keep users informed and engaged more effectively. This isn't just a routine test; it's truly a 'second chance' for me to build something more robust and reliable after learning valuable lessons from my initial attempts.\nMy goal with this new system is to ensure that every important update, message, or interaction reaches its intended recipient without fail. The previous version taught me a lot about potential pitfalls and areas for improvement, especially regarding delivery consistency and user preferences. This time, I've focused on meticulous planning and thorough testing to create a system that truly enhances how visitors interact with my work and stay connected."
+      },
+      {
+        "id": "blog-refining-my-notification-system-a-second-chance-at-testing-hi",
+        "url": "https://farhanbalouch.com/blog/refining-my-notification-system-a-second-chance-at-testing",
+        "title": "Apne Naye Notification System Ki Testing: Ek Dusra Mauka",
+        "kind": "blog",
+        "language": "hi",
+        "publishedAt": "2026-09-26T16:27:04.138Z",
+        "text": "Apne Naye Notification System Ki Testing: Ek Dusra Mauka\nAaj main farhanbalouch.com ke notification system ko test kar raha hoon. Yeh ek 'dusra mauka' hai jismein maine pichli galtiyon se seekh kar isse aur behtar banaya hai, taaki users ko sahi aur timely updates milen.\nAaj farhanbalouch.com par user experience ko behtar banane mein ek important step hai. Main apne naye notification system ko test kar raha hoon, jo users ko aur effectively informed aur engaged rakhne ke liye design kiya gaya hai. Yeh sirf ek normal test nahi hai; yeh mere liye sach mein ek 'dusra mauka' hai, jismein maine apni pehli koshishon se seekh kar ek zyada robust aur reliable system banaya hai.\nIs naye system ka mera goal yeh hai ki har important update, message, ya interaction apne sahi user tak bina kisi problem ke pahunche. Pichle version ne mujhe bahut kuch sikhaya tha potential problems aur improvements ke baare mein, especially delivery consistency aur user preferences ko lekar. Is baar, maine meticulous planning aur thorough testing par focus kiya hai, taaki ek aisa system banaya ja sake jo visitors ke mere kaam se interact karne aur connected rehne ke tarike ko sach mein behtar banaye."
+      },
+      {
+        "id": "blog-refining-my-notification-system-a-second-chance-at-testing-ur",
+        "url": "https://farhanbalouch.com/blog/refining-my-notification-system-a-second-chance-at-testing",
+        "title": "میرے نئے نوٹیفیکیشن سسٹم کی جانچ: ایک دوسرا موقع",
+        "kind": "blog",
+        "language": "ur",
+        "publishedAt": "2026-09-26T16:27:04.138Z",
+        "text": "میرے نئے نوٹیفیکیشن سسٹم کی جانچ: ایک دوسرا موقع\nآج میں اپنی ویب سائٹ farhanbalouch.com کے نئے نوٹیفیکیشن سسٹم کی جانچ کر رہا ہوں۔ یہ ایک 'دوسرا موقع' ہے جس میں میں نے پچھلی غلطیوں سے سیکھ کر اسے مزید بہتر بنایا ہے تاکہ صارفین کو بروقت اور درست معلومات مل سکیں۔\nآج farhanbalouch.com پر صارف کے تجربے کو بہتر بنانے کی سمت ایک اہم قدم اٹھایا جا رہا ہے۔ میں اپنے بالکل نئے نوٹیفیکیشن سسٹم کی فعال جانچ کر رہا ہوں، جسے صارفین کو زیادہ مؤثر طریقے سے باخبر اور منسلک رکھنے کے لیے ڈیزائن کیا گیا ہے۔ یہ صرف ایک معمول کی جانچ نہیں ہے؛ بلکہ یہ میرے لیے واقعی ایک 'دوسرا موقع' ہے تاکہ میں اپنی ابتدائی کوششوں سے حاصل کردہ سبق سے سیکھ کر ایک زیادہ مضبوط اور قابلِ اعتماد نظام بنا سکوں۔\nاس نئے سسٹم کے ساتھ میرا مقصد یہ ہے کہ ہر اہم اپ ڈیٹ، پیغام، یا تعامل اپنے مطلوبہ صارف تک بغیر کسی رکاوٹ کے پہنچے۔ پچھلے ورژن نے مجھے ممکنہ خامیوں اور بہتری کے شعبوں کے بارے میں بہت کچھ سکھایا تھا، خاص طور پر ڈیلیوری کی مستقل مزاجی اور صارف کی ترجیحات کے حوالے سے۔ اس بار، میں نے محتاط منصوبہ بندی اور مکمل جانچ پر توجہ دی ہے تاکہ ایک ایسا نظام تیار کیا جا سکے جو واقعی زائرین کے میرے کام کے ساتھ تعامل اور جڑے رہنے کے طریقے کو بہتر بنائے۔"
+      },
+      {
+        "id": "blog-testing-my-custom-notification-system-today-en",
+        "url": "https://farhanbalouch.com/blog/testing-my-custom-notification-system-today",
+        "title": "Testing My Custom Notification System Today",
+        "kind": "blog",
+        "language": "en",
+        "publishedAt": "2026-09-26T16:23:32.087Z",
+        "text": "Testing My Custom Notification System Today\nI share an update on the first comprehensive test of my new custom notification system, designed to keep my online projects running smoothly and efficiently.\nAs a builder focused on AI, SEO, and online ventures, keeping my websites and projects running smoothly is paramount. That's why I've been working on a new custom notification system to ensure I stay updated on critical events. Today marks an important milestone: the first comprehensive test of this system.\nI spent the day rigorously checking its functionality, from message delivery speed to reliability across different scenarios. The goal is to provide timely alerts for everything from website performance issues to new user interactions. I'm pleased with the initial results and the groundwork it lays for more efficient management of my online presence."
+      },
+      {
+        "id": "blog-testing-my-custom-notification-system-today-hi",
+        "url": "https://farhanbalouch.com/blog/testing-my-custom-notification-system-today",
+        "title": "Aaj Maine Apne Naye Notification System Ka Test Kiya",
+        "kind": "blog",
+        "language": "hi",
+        "publishedAt": "2026-09-26T16:23:32.087Z",
+        "text": "Aaj Maine Apne Naye Notification System Ka Test Kiya\nMain apne naye custom notification system ke pehle test ke baare mein update de raha hoon, jise maine apne online projects ko behtar chalane ke liye banaya hai.\nAI, SEO aur online business par kaam karne wale ek builder ke taur par, mere liye apni websites aur projects ko sahi tarah se chalana bahut zaroori hai. Isliye main ek naye custom notification system par kaam kar raha tha, taaki mujhe sab zaroori updates time par milte rahein. Aaj is system ka pehla poora test tha, jo ek important milestone hai.\nMaine poora din iski functionality check ki, jaise ki message kitni jaldi deliver hota hai aur alag-alag situations mein kitna reliable hai. Iska maqsad hai website performance issues se lekar naye user interactions tak, sabki timely alerts dena. Main pehle results se khush hoon aur yeh mere online presence ko aur behtar manage karne mein madad karega."
+      },
+      {
+        "id": "blog-testing-my-custom-notification-system-today-ur",
+        "url": "https://farhanbalouch.com/blog/testing-my-custom-notification-system-today",
+        "title": "آج میں نے اپنے نئے نوٹیفکیشن سسٹم کا ٹیسٹ کیا",
+        "kind": "blog",
+        "language": "ur",
+        "publishedAt": "2026-09-26T16:23:32.087Z",
+        "text": "آج میں نے اپنے نئے نوٹیفکیشن سسٹم کا ٹیسٹ کیا\nمیں اپنے نئے کسٹم نوٹیفکیشن سسٹم کے پہلے جامع ٹیسٹ کے بارے میں ایک اپڈیٹ شیئر کر رہا ہوں، جسے میں نے اپنے آن لائن پروجیکٹس کو بہتر اور مؤثر طریقے سے چلانے کے لیے ڈیزائن کیا ہے۔\nایک بلڈر کے طور پر جو AI، SEO، اور آن لائن کاروبار پر توجہ دیتا ہے، میری ویب سائٹس اور پروجیکٹس کو آسانی سے چلانا انتہائی اہم ہے۔ یہی وجہ ہے کہ میں ایک نئے کسٹم نوٹیفکیشن سسٹم پر کام کر رہا تھا تاکہ مجھے اہم واقعات کے بارے میں بروقت اپڈیٹس ملتی رہیں۔ آج اس سسٹم کا پہلا مکمل ٹیسٹ تھا، جو ایک اہم سنگ میل ہے۔\nمیں نے پورا دن اس کی کارکردگی کو سختی سے جانچا، پیغام کی ڈیلیوری کی رفتار سے لے کر مختلف حالات میں اس کی قابل اعتمادی تک۔ اس کا مقصد ویب سائٹ کی کارکردگی کے مسائل سے لے کر نئے صارف کے تعاملات تک ہر چیز کے لیے بروقت الرٹس فراہم کرنا ہے۔ میں ابتدائی نتائج سے مطمئن ہوں اور یہ میرے آن لائن وجود کے زیادہ مؤثر انتظام کے لیے بنیاد فراہم کرتا ہے۔"
+      },
+      {
+        "id": "blog-why-i-built-my-personal-website-my-journey-and-learnings-en",
+        "url": "https://farhanbalouch.com/blog/why-i-built-my-personal-website-my-journey-and-learnings",
+        "title": "Why I Built My Personal Website: My Journey and Learnings",
+        "kind": "blog",
+        "language": "en",
+        "publishedAt": "2026-09-22T13:05:24.937Z",
+        "text": "Why I Built My Personal Website: My Journey and Learnings\nDiscover why I decided to build my personal website, farhanbalouch.com, and the valuable lessons I learned about AI tools, SEO, and web development during the process.\nI didn't build farhanbalouch.com just to add another website to the internet. My main goal was to create a central place where people could easily understand me, my journey, my projects, and all the things I'm learning. I wanted a digital home that truly reflects my work and allows others to follow along with my progress in AI, SEO, and online business.\nBuilding this website from scratch has been a significant learning experience for me. Along the way, I've gained practical knowledge about using AI tools for development, implementing effective SEO strategies, hands-on coding, managing domains, and deploying a live site. It's been a challenging but rewarding process of turning an idea into a functional online presence."
+      },
+      {
+        "id": "blog-why-i-built-my-personal-website-my-journey-and-learnings-hi",
+        "url": "https://farhanbalouch.com/blog/why-i-built-my-personal-website-my-journey-and-learnings",
+        "title": "Maine Apni Personal Website Kyun Banai: Meri Journey aur Seekhi Gayi Baatein",
+        "kind": "blog",
+        "language": "hi",
+        "publishedAt": "2026-09-22T13:05:24.937Z",
+        "text": "Maine Apni Personal Website Kyun Banai: Meri Journey aur Seekhi Gayi Baatein\nJano ke maine apni personal website, farhanbalouch.com, kyun banai, aur is process mein AI tools, SEO, aur web development ke baare mein maine kya seekha.\nMaine farhanbalouch.com sirf internet par ek aur website add karne ke liye nahi banayi. Mera main goal ek aisi central jagah banana tha jahan log asani se mujhe, meri journey, mere projects, aur main jo kuch seekh raha hoon wo sab samajh sakein. Mujhe ek aisa digital ghar chahiye tha jo meri asal mehnat ko dikhaye aur dusron ko mere AI, SEO aur online business ke safar ko follow karne de.\nYe website shuru se banana mere liye ek bara learning experience raha hai. Is doran maine development ke liye AI tools use karna, effective SEO strategies implement karna, hands-on coding, domains manage karna, aur ek live site deploy karna — sab practically seekha. Ek idea ko asal online presence mein badalna mushkil zaroor tha, lekin kaafi rewarding process raha."
+      },
+      {
+        "id": "blog-why-i-built-my-personal-website-my-journey-and-learnings-ur",
+        "url": "https://farhanbalouch.com/blog/why-i-built-my-personal-website-my-journey-and-learnings",
+        "title": "میں نے اپنی پرسنل ویب سائٹ کیوں بنائی: میرا سفر اور سیکھی گئی باتیں",
+        "kind": "blog",
+        "language": "ur",
+        "publishedAt": "2026-09-22T13:05:24.937Z",
+        "text": "میں نے اپنی پرسنل ویب سائٹ کیوں بنائی: میرا سفر اور سیکھی گئی باتیں\nجانیں کہ میں نے اپنی پرسنل ویب سائٹ، farhanbalouch.com، کیوں بنائی، اور اس عمل میں AI ٹولز، SEO، اور ویب ڈویلپمنٹ کے بارے میں میں نے کیا سیکھا۔\nمیں نے farhanbalouch.com صرف انٹرنیٹ پر ایک اور ویب سائٹ شامل کرنے کے لیے نہیں بنائی۔ میرا اصل مقصد ایک ایسی مرکزی جگہ بنانا تھا جہاں لوگ آسانی سے مجھے، میرے سفر، میرے منصوبوں، اور میں جو کچھ سیکھ رہا ہوں وہ سب سمجھ سکیں۔ مجھے ایک ایسا ڈیجیٹل گھر چاہیے تھا جو میری اصل محنت کو دکھائے اور دوسروں کو میرے AI، SEO اور آن لائن بزنس کے سفر کو فالو کرنے دے۔\nیہ ویب سائٹ شروع سے بنانا میرے لیے ایک بڑا سیکھنے کا تجربہ رہا ہے۔ اس دوران میں نے ڈویلپمنٹ کے لیے AI ٹولز استعمال کرنا، مؤثر SEO حکمت عملیاں لاگو کرنا، ہاتھ سے کوڈنگ، ڈومینز منظم کرنا، اور ایک لائیو سائٹ ڈیپلائے کرنا — سب عملی طور پر سیکھا۔ ایک خیال کو حقیقی آن لائن موجودگی میں بدلنا مشکل ضرور تھا، لیکن کافی فائدہ مند عمل رہا۔"
+      },
+      {
+        "id": "blog-my-college-days-when-a-headache-was-just-an-excuse-en",
+        "url": "https://farhanbalouch.com/blog/my-college-days-when-a-headache-was-just-an-excuse",
+        "title": "My College Days: When a Headache Was Just an Excuse",
+        "kind": "blog",
+        "language": "en",
+        "publishedAt": "2026-09-22T13:05:17.543Z",
+        "text": "My College Days: When a Headache Was Just an Excuse\nI share a candid memory from my college days about missing a lecture with a convenient excuse to spend time with friends. It's a small, relatable story about student life.\nWe all have those days in college, right? Today was one of those for me. I was in college, and suddenly, a 'headache' appeared. To be honest, it wasn't a real headache; it was more like a convenient excuse I made up in my mind.\nBecause of this 'headache,' I decided to miss one of my lectures. Instead of going to class, I found myself in another room. I made a quick excuse to be there, but the truth was, I just wanted to hang out with my friends. We spent the time simply talking and enjoying each other's company.\nIt's a small memory from my time as a student. Sometimes, college life isn't just about lectures and studies; it's also about these unplanned moments with friends. While skipping a class isn't ideal, sometimes you just need a break, even if it comes with a little white lie. It’s a part of the real, sometimes imperfect, journey of student life."
+      },
+      {
+        "id": "blog-my-college-days-when-a-headache-was-just-an-excuse-hi",
+        "url": "https://farhanbalouch.com/blog/my-college-days-when-a-headache-was-just-an-excuse",
+        "title": "Mere College Ke Din: Jab Sirdard Sirf Ek Bahana Tha",
+        "kind": "blog",
+        "language": "hi",
+        "publishedAt": "2026-09-22T13:05:17.543Z",
+        "text": "Mere College Ke Din: Jab Sirdard Sirf Ek Bahana Tha\nCollege ke ek din ki chhoti si yaad share kar raha hoon — ek lecture miss karne aur doston ke sath waqt guzarne ka ek convenient bahana. Ek chhoti, relatable student life story.\nCollege mein hum sab ke sath aisay din hote hain, na? Aaj mere sath bhi aisa hi hua. Main college mein tha, aur achanak ek 'sirdard' shuru ho gaya. Sach kahun to wo asli sirdard nahi tha — wo zyada tar mere dimagh mein banaya hua ek convenient bahana tha.\nIsi 'sirdard' ki wajah se maine ek lecture miss karne ka faisla kiya. Class jaane ki bajaye, main kisi aur room mein chala gaya. Wahan hone ka jaldi se ek bahana bana liya, lekin sach ye tha ke main bas apne doston ke sath waqt guzarna chahta tha. Humne bas baatein karte aur ek dusre ki company enjoy karte hue waqt guzara.\nYe meri student life ki ek chhoti si yaad hai. Kabhi kabhi college life sirf lectures aur padhai tak mehdood nahi hoti — ye doston ke sath in bin-planned lamhon ke baare mein bhi hoti hai. Class miss karna ideal nahi, lekin kabhi kabhi aapko bas ek break chahiye hota hai, chahe wo ek chhoti si white lie ke sath hi kyun na aaye. Ye student life ke asal, kabhi kabhi na-mukammal safar ka hi hissa hai."
+      },
+      {
+        "id": "blog-my-college-days-when-a-headache-was-just-an-excuse-ur",
+        "url": "https://farhanbalouch.com/blog/my-college-days-when-a-headache-was-just-an-excuse",
+        "title": "میرے کالج کے دن: جب سر درد صرف ایک بہانہ تھا",
+        "kind": "blog",
+        "language": "ur",
+        "publishedAt": "2026-09-22T13:05:17.543Z",
+        "text": "میرے کالج کے دن: جب سر درد صرف ایک بہانہ تھا\nکالج کے ایک دن کی چھوٹی سی یاد شیئر کر رہا ہوں — ایک لیکچر مس کرنے اور دوستوں کے ساتھ وقت گزارنے کا ایک آسان بہانہ۔ ایک چھوٹی، متعلقہ طالب علمی زندگی کی کہانی۔\nکالج میں ہم سب کے ساتھ ایسے دن ہوتے ہیں، نا؟ آج میرے ساتھ بھی ایسا ہی ہوا۔ میں کالج میں تھا، اور اچانک ایک 'سر درد' شروع ہو گیا۔ سچ کہوں تو وہ اصلی سر درد نہیں تھا — وہ زیادہ تر میرے ذہن میں بنایا ہوا ایک آسان بہانہ تھا۔\nاسی 'سر درد' کی وجہ سے میں نے ایک لیکچر مس کرنے کا فیصلہ کیا۔ کلاس جانے کی بجائے، میں کسی اور کمرے میں چلا گیا۔ وہاں ہونے کا جلدی سے ایک بہانہ بنا لیا، لیکن سچ یہ تھا کہ میں بس اپنے دوستوں کے ساتھ وقت گزارنا چاہتا تھا۔ ہم نے بس باتیں کرتے اور ایک دوسرے کی کمپنی انجوائے کرتے ہوئے وقت گزارا۔\nیہ میری طالب علمی زندگی کی ایک چھوٹی سی یاد ہے۔ کبھی کبھی کالج لائف صرف لیکچرز اور پڑھائی تک محدود نہیں ہوتی — یہ دوستوں کے ساتھ ان بغیر منصوبہ بندی کے لمحوں کے بارے میں بھی ہوتی ہے۔ کلاس مس کرنا آئیڈیل نہیں، لیکن کبھی کبھی آپ کو بس ایک وقفہ چاہیے ہوتا ہے، چاہے وہ ایک چھوٹے سے جھوٹ کے ساتھ ہی کیوں نہ آئے۔ یہ طالب علمی زندگی کے اصل، کبھی کبھی نامکمل سفر کا ہی حصہ ہے۔"
+      },
+      {
+        "id": "blog-what-are-ai-tokens-a-simple-explanation-for-beginners-en",
+        "url": "https://farhanbalouch.com/blog/what-are-ai-tokens-a-simple-explanation-for-beginners",
+        "title": "What Are AI Tokens? A Simple Explanation for Beginners",
+        "kind": "blog",
+        "language": "en",
+        "publishedAt": "2026-09-22T13:05:06.377Z",
+        "text": "What Are AI Tokens? A Simple Explanation for Beginners\nWhen I first learned AI models use tokens instead of words, I was confused. This guide explains AI tokens simply, covering what they are, why models have limits, and how they impact API costs.\nWhen I first heard that AI models use 'tokens' instead of just counting words, I found the concept a bit confusing. I wanted to truly understand what a token actually is, why AI models have token limits, and how these tokens affect API costs. As a builder working with AI, SEO, and websites, getting a clear grasp of these fundamentals is essential for me and hopefully for others like you.\nSimply put, an AI token is a small piece of text that an AI model processes. It's not always a whole word. For example, the word 'understanding' might be broken down into 'under', 'stand', and 'ing' as separate tokens. Punctuation marks, spaces, and even parts of words can be tokens. Think of it like a fundamental unit of language that AI models use to 'think' and generate responses. This granular approach helps AI models process language more efficiently.\nEvery AI model has a 'context window' or 'token limit.' This limit determines how much information – both your input and the AI's output – the model can remember and process at one time. If you ask a very long question or provide a lot of text, and the AI's response is also lengthy, you might hit this limit. Exceeding the token limit means the AI might 'forget' earlier parts of the conversation or be unable to process your full request, which can be frustrating when you're trying to get a comprehensive answer or generate a long piece of content.\nUnderstanding AI tokens is also crucial for managing costs, especially when using AI models through APIs. Most AI services charge based on the number of tokens processed – both for your input and the AI's generated output. More tokens mean higher costs. This is why it's important to be mindful of your prompts and desired output length. If you're building an application or a website feature that uses AI, optimizing your token usage can significantly help in keeping your operational expenses manageable."
+      },
+      {
+        "id": "blog-what-are-ai-tokens-a-simple-explanation-for-beginners-hi",
+        "url": "https://farhanbalouch.com/blog/what-are-ai-tokens-a-simple-explanation-for-beginners",
+        "title": "AI Tokens Kya Hain? Beginners Ke Liye Ek Simple Wazahat",
+        "kind": "blog",
+        "language": "hi",
+        "publishedAt": "2026-09-22T13:05:06.377Z",
+        "text": "AI Tokens Kya Hain? Beginners Ke Liye Ek Simple Wazahat\nJab maine pehli baar jana ke AI models words ki bajaye tokens use karte hain, main confuse ho gaya tha. Ye guide AI tokens ko simply explain karta hai — wo kya hain, models mein limits kyun hoti hain, aur ye API costs ko kaise affect karte hain.\nJab maine pehli baar suna ke AI models 'tokens' use karte hain sirf words count karne ki bajaye, mujhe ye concept thora confusing laga. Main asal mein samajhna chahta tha ke ek token asal mein kya hota hai, AI models mein token limits kyun hoti hain, aur ye tokens API costs ko kaise affect karte hain. AI, SEO aur websites ke sath kaam karne wale ek builder ki hesiyat se, in basics ko clearly samajhna mere liye aur hopefully aap jaise dusron ke liye bhi zaroori hai.\nSimple lafzon mein, ek AI token text ka ek chhota sa hissa hota hai jise AI model process karta hai. Ye hamesha poora word nahi hota. Misaal ke tor par, word 'understanding' ko 'under', 'stand', aur 'ing' jaisay alag tokens mein tor diya ja sakta hai. Punctuation marks, spaces, aur yahan tak ke words ke hissay bhi tokens ho sakte hain. Isay language ki ek buniyadi unit samjho jise AI models 'sochne' aur responses banane ke liye use karte hain. Ye granular approach AI models ko language zyada efficiently process karne mein madad karti hai.\nHar AI model ki ek 'context window' ya 'token limit' hoti hai. Ye limit tay karti hai ke model ek waqt mein kitni information — aapka input aur AI ka output dono — yaad rakh aur process kar sakta hai. Agar aap koi bohot lamba sawal poochein ya kaafi text dein, aur AI ka jawab bhi lamba ho, to aap is limit tak pahunch sakte hain. Token limit se aagay jane ka matlab hai ke AI conversation ke pehle hisse 'bhool' sakta hai ya poora request process nahi kar payega, jo tab frustrating ho sakta hai jab aap ek comprehensive jawab ya lambi content chahte hain.\nAI tokens ko samajhna costs manage karne ke liye bhi bohot zaroori hai, khaas kar jab AI models ko APIs ke zariye use kar rahe hon. Zyadatar AI services process hue tokens ki tadaad ke hisab se charge karti hain — aapke input aur AI ke generate kiye gaye output dono ke liye. Zyada tokens ka matlab hai zyada cost. Isi liye apne prompts aur desired output length ka khayal rakhna zaroori hai. Agar aap koi application ya website feature bana rahe hain jo AI use karta hai, to apna token usage optimize karna aapke operational expenses ko manageable rakhne mein kaafi madadgar ho sakta hai."
+      },
+      {
+        "id": "blog-what-are-ai-tokens-a-simple-explanation-for-beginners-ur",
+        "url": "https://farhanbalouch.com/blog/what-are-ai-tokens-a-simple-explanation-for-beginners",
+        "title": "AI ٹوکنز کیا ہیں؟ نئے سیکھنے والوں کے لیے ایک آسان وضاحت",
+        "kind": "blog",
+        "language": "ur",
+        "publishedAt": "2026-09-22T13:05:06.377Z",
+        "text": "AI ٹوکنز کیا ہیں؟ نئے سیکھنے والوں کے لیے ایک آسان وضاحت\nجب میں نے پہلی بار جانا کہ AI ماڈلز الفاظ کی بجائے ٹوکنز استعمال کرتے ہیں، میں کنفیوز ہو گیا تھا۔ یہ گائیڈ AI ٹوکنز کو آسانی سے سمجھاتا ہے — وہ کیا ہیں، ماڈلز میں حدیں کیوں ہوتی ہیں، اور یہ API لاگت کو کیسے متاثر کرتے ہیں۔\nجب میں نے پہلی بار سنا کہ AI ماڈلز 'ٹوکنز' استعمال کرتے ہیں صرف الفاظ گننے کی بجائے، مجھے یہ تصور تھوڑا الجھا ہوا لگا۔ میں اصل میں سمجھنا چاہتا تھا کہ ایک ٹوکن اصل میں کیا ہوتا ہے، AI ماڈلز میں ٹوکن کی حدیں کیوں ہوتی ہیں، اور یہ ٹوکنز API لاگت کو کیسے متاثر کرتے ہیں۔ AI، SEO اور ویب سائٹس کے ساتھ کام کرنے والے ایک بلڈر کی حیثیت سے، ان بنیادی باتوں کو واضح طور پر سمجھنا میرے لیے اور امید ہے آپ جیسے دوسروں کے لیے بھی ضروری ہے۔\nآسان الفاظ میں، ایک AI ٹوکن متن کا ایک چھوٹا سا حصہ ہوتا ہے جسے AI ماڈل پروسیس کرتا ہے۔ یہ ہمیشہ پورا لفظ نہیں ہوتا۔ مثال کے طور پر، لفظ 'understanding' کو 'under'، 'stand'، اور 'ing' جیسے الگ ٹوکنز میں توڑا جا سکتا ہے۔ اوقاف کی علامات، خالی جگہیں، اور یہاں تک کہ الفاظ کے حصے بھی ٹوکنز ہو سکتے ہیں۔ اسے زبان کی ایک بنیادی اکائی سمجھیں جسے AI ماڈلز 'سوچنے' اور جوابات بنانے کے لیے استعمال کرتے ہیں۔ یہ باریک طریقہ AI ماڈلز کو زبان زیادہ مؤثر طریقے سے پروسیس کرنے میں مدد کرتا ہے۔\nہر AI ماڈل کی ایک 'کانٹیکسٹ ونڈو' یا 'ٹوکن لمٹ' ہوتی ہے۔ یہ حد طے کرتی ہے کہ ماڈل ایک وقت میں کتنی معلومات — آپ کا ان پٹ اور AI کا آؤٹ پٹ دونوں — یاد رکھ اور پروسیس کر سکتا ہے۔ اگر آپ کوئی بہت لمبا سوال پوچھیں یا کافی متن دیں، اور AI کا جواب بھی لمبا ہو، تو آپ اس حد تک پہنچ سکتے ہیں۔ ٹوکن لمٹ سے آگے جانے کا مطلب ہے کہ AI گفتگو کے پہلے حصے 'بھول' سکتا ہے یا پورا درخواست پروسیس نہیں کر پائے گا، جو تب مایوس کن ہو سکتا ہے جب آپ ایک جامع جواب یا لمبا مواد چاہتے ہیں۔\nAI ٹوکنز کو سمجھنا لاگت منظم کرنے کے لیے بھی بہت ضروری ہے، خاص کر جب AI ماڈلز کو APIs کے ذریعے استعمال کر رہے ہوں۔ زیادہ تر AI سروسز پروسیس ہوئے ٹوکنز کی تعداد کے حساب سے چارج کرتی ہیں — آپ کے ان پٹ اور AI کے تیار کردہ آؤٹ پٹ دونوں کے لیے۔ زیادہ ٹوکنز کا مطلب ہے زیادہ لاگت۔ اسی لیے اپنے پرامپٹس اور مطلوبہ آؤٹ پٹ لمبائی کا خیال رکھنا ضروری ہے۔ اگر آپ کوئی ایپلیکیشن یا ویب سائٹ فیچر بنا رہے ہیں جو AI استعمال کرتا ہے، تو اپنا ٹوکن استعمال بہتر بنانا آپ کے آپریشنل اخراجات کو قابو میں رکھنے میں کافی مددگار ہو سکتا ہے۔"
+      },
+      {
+        "id": "blog-finding-my-recharge-why-simple-breaks-boost-my-focus-in-ai-a-en",
+        "url": "https://farhanbalouch.com/blog/finding-my-recharge-why-simple-breaks-boost-my-focus-in-ai-a",
+        "title": "Finding My Recharge: Why Simple Breaks Boost My Focus in AI and SEO",
+        "kind": "blog",
+        "language": "en",
+        "publishedAt": "2026-09-22T12:41:03.452Z",
+        "text": "Finding My Recharge: Why Simple Breaks Boost My Focus in AI and SEO\nFarhan Balouch shares how stepping away from his demanding work in AI and SEO for simple, nostalgic moments helps him recharge and maintain focus.\nIn the fast-paced world of AI, SEO, and building online businesses, my days are often packed with problem-solving, coding, and strategic planning. While I genuinely love the challenge and the process of creating, it’s equally important to step back and allow my mind to unwind. Sometimes, the most productive thing I can do is give myself a genuine break from the usual routine.\nJust recently, I found myself with a rare opportunity for some undisturbed time at home. With no immediate deadlines or meetings, I decided to embrace a moment of pure, simple enjoyment. Instead of diving into more work, I switched on the TV and revisited a childhood favorite: Doremon cartoons. It was incredibly refreshing and brought back a flood of happy, simple memories.\nThat quiet afternoon, enjoying something so lighthearted, reminded me of the immense value of personal downtime. It's not about being unproductive; it's about recharging my mental batteries. These moments, whether it’s watching a nostalgic cartoon or simply enjoying a quiet cup of tea, help me return to my projects with a clearer mind and renewed energy. It's a small but vital part of maintaining focus and creativity in my work."
+      },
+      {
+        "id": "blog-finding-my-recharge-why-simple-breaks-boost-my-focus-in-ai-a-hi",
+        "url": "https://farhanbalouch.com/blog/finding-my-recharge-why-simple-breaks-boost-my-focus-in-ai-a",
+        "title": "Apna Recharge Dhoondna: Simple Breaks Meri AI aur SEO Focus Kyun Badhate Hain",
+        "kind": "blog",
+        "language": "hi",
+        "publishedAt": "2026-09-22T12:41:03.452Z",
+        "text": "Apna Recharge Dhoondna: Simple Breaks Meri AI aur SEO Focus Kyun Badhate Hain\nFarhan Balouch batate hain ke AI aur SEO ke demanding kaam se hat kar simple, nostalgic lamhon mein jana unhe recharge karne aur focus maintain karne mein kaise madad karta hai.\nAI, SEO, aur online business banane ki fast-paced duniya mein, mere din aksar problem-solving, coding, aur strategic planning se bhare hote hain. Main genuinely challenge aur banane ke process se pyar karta hoon, lekin ye bhi utna hi zaroori hai ke thora peechay hat kar apne dimagh ko relax hone doon. Kabhi kabhi sabse productive cheez jo main kar sakta hoon wo hai khud ko routine se genuine break dena.\nAbhi haal hi mein, mujhe ghar par kuch undisturbed waqt mila. Koi immediate deadlines ya meetings nahi thin, to maine simple, pure enjoyment ka ek lamha apnane ka faisla kiya. Zyada kaam mein doobne ki bajaye, maine TV on kiya aur bachpan ka pasandida Doremon cartoon dobara dekha. Ye bohot refreshing tha aur khushi bhari, simple yaadein wapis le aaya.\nUs khamosh dopahar mein, itni halki-phulki cheez enjoy karte hue, mujhe personal downtime ki bohot bari value yaad aayi. Ye unproductive hone ke baare mein nahi hai — ye mere mental batteries recharge karne ke baare mein hai. Ye lamhe — chahe wo koi nostalgic cartoon dekhna ho ya bas ek khamosh chai ka cup enjoy karna ho — mujhe apne projects mein zyada saaf zehan aur nayi energy ke sath wapis lane mein madad karte hain. Ye apne kaam mein focus aur creativity maintain karne ka ek chhota lekin zaroori hissa hai."
+      },
+      {
+        "id": "blog-finding-my-recharge-why-simple-breaks-boost-my-focus-in-ai-a-ur",
+        "url": "https://farhanbalouch.com/blog/finding-my-recharge-why-simple-breaks-boost-my-focus-in-ai-a",
+        "title": "اپنا ری چارج ڈھونڈنا: سادہ وقفے میرا AI اور SEO فوکس کیوں بڑھاتے ہیں",
+        "kind": "blog",
+        "language": "ur",
+        "publishedAt": "2026-09-22T12:41:03.452Z",
+        "text": "اپنا ری چارج ڈھونڈنا: سادہ وقفے میرا AI اور SEO فوکس کیوں بڑھاتے ہیں\nفرحان بلوچ بتاتے ہیں کہ AI اور SEO کے مطالبہ کن کام سے ہٹ کر سادہ، پرانی یادوں والے لمحوں میں جانا انہیں ری چارج کرنے اور فوکس برقرار رکھنے میں کیسے مدد کرتا ہے۔\nAI، SEO، اور آن لائن بزنس بنانے کی تیز رفتار دنیا میں، میرے دن اکثر مسئلہ حل کرنے، کوڈنگ، اور حکمت عملی کی منصوبہ بندی سے بھرے ہوتے ہیں۔ میں واقعی چیلنج اور بنانے کے عمل سے محبت کرتا ہوں، لیکن یہ بھی اتنا ہی ضروری ہے کہ تھوڑا پیچھے ہٹ کر اپنے ذہن کو آرام کرنے دوں۔ کبھی کبھی سب سے نتیجہ خیز چیز جو میں کر سکتا ہوں وہ ہے خود کو معمول سے حقیقی وقفہ دینا۔\nابھی حال ہی میں، مجھے گھر پر کچھ بلا رکاوٹ وقت ملا۔ کوئی فوری آخری تاریخیں یا میٹنگز نہیں تھیں، تو میں نے سادہ، خالص خوشی کا ایک لمحہ اپنانے کا فیصلہ کیا۔ زیادہ کام میں ڈوبنے کی بجائے، میں نے ٹی وی آن کیا اور بچپن کا پسندیدہ ڈورامون کارٹون دوبارہ دیکھا۔ یہ بہت تازگی بخش تھا اور خوشی بھری، سادہ یادیں واپس لے آیا۔\nاس خاموش دوپہر میں، اتنی ہلکی پھلکی چیز انجوائے کرتے ہوئے، مجھے ذاتی وقفے کی بہت بڑی اہمیت یاد آئی۔ یہ غیر پیداواری ہونے کے بارے میں نہیں ہے — یہ میری ذہنی بیٹریاں ری چارج کرنے کے بارے میں ہے۔ یہ لمحے — چاہے وہ کوئی پرانی یادوں والا کارٹون دیکھنا ہو یا بس ایک خاموش چائے کا کپ انجوائے کرنا ہو — مجھے اپنے منصوبوں میں زیادہ صاف ذہن اور نئی توانائی کے ساتھ واپس لانے میں مدد کرتے ہیں۔ یہ اپنے کام میں فوکس اور تخلیقی صلاحیت برقرار رکھنے کا ایک چھوٹا مگر ضروری حصہ ہے۔"
+      },
+      {
+        "id": "blog-a-day-i-chose-friends-over-lectures-my-college-confession-en",
+        "url": "https://farhanbalouch.com/blog/a-day-i-chose-friends-over-lectures-my-college-confession",
+        "title": "A Day I Chose Friends Over Lectures: My College Confession",
+        "kind": "blog",
+        "language": "en",
+        "publishedAt": "2026-09-22T12:15:13.099Z",
+        "text": "A Day I Chose Friends Over Lectures: My College Confession\nWe've all been there – a day in college where other priorities call louder than the lecture hall. Here's a candid look at a day I chose connection over curriculum.\nThere are days in college when the pull of the classroom just isn't as strong as... well, other things. Today was one of those days for me. As the drone of a particular lecture loomed, a familiar 'ache' started to brew, not really in my head, but more like a whisper telling me there might be a better way to spend the next hour.\nSo, when the time came, I decided to play my card. A quick, convincing explanation about a splitting headache, and I was given permission to step out. Instead of heading to the sick bay or back home, I made a strategic detour to another common room on campus, a place where genuine connection often blossoms.\nThe truth? My 'headache' was merely a convenient excuse. The real objective was much more appealing: to catch up with friends. We spent the time laughing, sharing stories, and just enjoying each other's company. Those conversations, the shared jokes, and the feeling of camaraderie often feel just as, if not more, enriching than any lecture.\nWhile I always advocate for learning and dedication, sometimes, these spontaneous moments of human connection are just as vital for our well-being and overall college experience. It's a delicate balance, but today, friendship definitely won."
+      },
+      {
+        "id": "blog-a-day-i-chose-friends-over-lectures-my-college-confession-hi",
+        "url": "https://farhanbalouch.com/blog/a-day-i-chose-friends-over-lectures-my-college-confession",
+        "title": "Wo Din Jab Maine Lectures Se Zyada Doston Ko Chuna: Meri College Confession",
+        "kind": "blog",
+        "language": "hi",
+        "publishedAt": "2026-09-22T12:15:13.099Z",
+        "text": "Wo Din Jab Maine Lectures Se Zyada Doston Ko Chuna: Meri College Confession\nHum sab ke sath aisa hua hai — college ka ek aisa din jab dusri priorities lecture hall se zyada zor se bulati hain. Ye ek din ki candid jhalak hai jab maine curriculum se zyada connection ko chuna.\nCollege mein aisay din hote hain jab classroom ki kashish utni strong nahi hoti jitni... khair, aur cheezon ki. Aaj mere sath bhi aisa hi din tha. Jaisay hi ek lecture ki boring awaaz shuru hone wali thi, ek jaani-pehchani 'takleef' banne lagi — asal mein sar mein nahi, balke ek aisi whisper ki tarah jo keh rahi thi ke agla ghanta guzarne ka koi behtar tareeqa ho sakta hai.\nTu jab waqt aaya, maine apna card khelne ka faisla kiya. Ek jaldi, convincing wazahat ke sath sakht sirdard ki baat, aur mujhe bahar jane ki ijazat mil gayi. Sick bay ya ghar jane ki bajaye, maine campus mein ek aur common room ki taraf strategic detour liya — wo jagah jahan asal connection aksar khilti hai.\nSach ye hai ke mera 'sirdard' bas ek convenient bahana tha. Asal maqsad kahin zyada attractive tha: doston se milna. Humne hasnay, kahaniyan share karne, aur bas ek dusre ki company enjoy karne mein waqt guzara. Wo baatein, share kiye gaye mazaak, aur camaraderie ka ehsaas aksar kisi bhi lecture jitna hi, ya usse bhi zyada, mazboot mehsoos hota hai.\nMain hamesha seekhne aur mehnat ki taraf daari karta hoon, lekin kabhi kabhi human connection ke ye achanak lamhe bhi humari wellbeing aur poore college experience ke liye utne hi zaroori hote hain. Ye ek nazuk balance hai, lekin aaj, dosti ne zarur jeet li."
+      },
+      {
+        "id": "blog-a-day-i-chose-friends-over-lectures-my-college-confession-ur",
+        "url": "https://farhanbalouch.com/blog/a-day-i-chose-friends-over-lectures-my-college-confession",
+        "title": "وہ دن جب میں نے لیکچرز سے زیادہ دوستوں کو چنا: میرا کالج اعتراف",
+        "kind": "blog",
+        "language": "ur",
+        "publishedAt": "2026-09-22T12:15:13.099Z",
+        "text": "وہ دن جب میں نے لیکچرز سے زیادہ دوستوں کو چنا: میرا کالج اعتراف\nہم سب کے ساتھ ایسا ہوا ہے — کالج کا ایک ایسا دن جب دوسری ترجیحات لیکچر ہال سے زیادہ زور سے بلاتی ہیں۔ یہ ایک دن کی کھلی جھلک ہے جب میں نے نصاب سے زیادہ تعلق کو چنا۔\nکالج میں ایسے دن ہوتے ہیں جب کلاس روم کی کشش اتنی مضبوط نہیں ہوتی جتنی... خیر، اور چیزوں کی۔ آج میرے ساتھ بھی ایسا ہی دن تھا۔ جیسے ہی ایک لیکچر کی بورنگ آواز شروع ہونے والی تھی، ایک جانی پہچانی 'تکلیف' بننے لگی — اصل میں سر میں نہیں، بلکہ ایک ایسی سرگوشی کی طرح جو کہہ رہی تھی کہ اگلا گھنٹہ گزارنے کا کوئی بہتر طریقہ ہو سکتا ہے۔\nتو جب وقت آیا، میں نے اپنا کارڈ کھیلنے کا فیصلہ کیا۔ ایک جلدی، قائل کرنے والی وضاحت کے ساتھ شدید سر درد کی بات، اور مجھے باہر جانے کی اجازت مل گئی۔ سک بے یا گھر جانے کی بجائے، میں نے کیمپس میں ایک اور کامن روم کی طرف حکمت عملی کے تحت راستہ بدلا — وہ جگہ جہاں اصل تعلق اکثر پروان چڑھتا ہے۔\nسچ یہ ہے کہ میرا 'سر درد' بس ایک آسان بہانہ تھا۔ اصل مقصد کہیں زیادہ دلکش تھا: دوستوں سے ملنا۔ ہم نے ہنسنے، کہانیاں شیئر کرنے، اور بس ایک دوسرے کی کمپنی انجوائے کرنے میں وقت گزارا۔ وہ باتیں، شیئر کیے گئے مذاق، اور رفاقت کا احساس اکثر کسی بھی لیکچر جتنا ہی، یا اس سے بھی زیادہ، مضبوط محسوس ہوتا ہے۔\nمیں ہمیشہ سیکھنے اور محنت کی طرف داری کرتا ہوں، لیکن کبھی کبھی انسانی تعلق کے یہ اچانک لمحے بھی ہماری فلاح و بہبود اور پورے کالج کے تجربے کے لیے اتنے ہی ضروری ہوتے ہیں۔ یہ ایک نازک توازن ہے، لیکن آج، دوستی نے ضرور جیت لی۔"
+      },
+      {
+        "id": "blog-from-tears-to-triumph-how-my-school-became-my-second-home-en",
+        "url": "https://farhanbalouch.com/blog/from-tears-to-triumph-how-my-school-became-my-second-home",
+        "title": "From Tears to Triumph: How My School Became My Second Home",
+        "kind": "blog",
+        "language": "en",
+        "publishedAt": "2026-09-22T10:51:08.586Z",
+        "text": "From Tears to Triumph: How My School Became My Second Home\nReflecting on my early days, I recall the fear and tears of my first day of school, even failing the admission test. Yet, it transformed into a place I cherished, a true second home.\nIt's funny how certain memories just pop into your head, unbidden. Today, I found myself reminiscing about my very first day of school – and honestly, it wasn't the heroic tale you might expect! I remember being absolutely terrified, clinging on and probably shedding more than a few tears. To add to the drama, I even managed to fail the admission test. Imagine that! My academic journey, starting with a stumble right out of the gate.\nBut as fate would have it, that initial dread slowly, almost imperceptibly, melted away. What began with fear and a failed test eventually blossomed into something truly special. Over time, that school, which once seemed so daunting, transformed into a sanctuary, a place of learning, growth, and friendship. It truly became my second home, a place where I felt safe, understood, and always welcome, shaping so much of who I am today."
+      },
+      {
+        "id": "blog-from-tears-to-triumph-how-my-school-became-my-second-home-hi",
+        "url": "https://farhanbalouch.com/blog/from-tears-to-triumph-how-my-school-became-my-second-home",
+        "title": "Aansuon Se Kamyabi Tak: Mera School Mera Second Home Kaise Bana",
+        "kind": "blog",
+        "language": "hi",
+        "publishedAt": "2026-09-22T10:51:08.586Z",
+        "text": "Aansuon Se Kamyabi Tak: Mera School Mera Second Home Kaise Bana\nApne shuruati dinon ko yaad karte hue, mujhe apne school ke pehle din ka dar aur aansoo yaad aate hain, jab main admission test mein bhi fail ho gaya tha. Phir bhi, wo ek aisi jagah ban gaya jise maine bohot pyar kiya — mera asal second home.\nYe ajeeb hai ke kuch yaadein bina bulaye hi dimagh mein aa jati hain. Aaj main apne bilkul pehle school ke din ko yaad kar raha tha — aur sach kahun to, ye wo heroic kahani nahi thi jo aap expect karte. Mujhe yaad hai main bilkul dara hua tha, chipka hua tha aur shayad kuch se zyada aansoo bhi bahaye thay. Drama badhane ke liye, main admission test mein bhi fail ho gaya. Zara socho! Meri academic journey, shuruat hi mein ek thokar ke sath.\nLekin qismat ka kuch aisa likha tha ke wo shuruati dar dheere dheere, taqreeban bina ehsaas hue, khatam hota gaya. Jo dar aur ek fail hue test se shuru hua tha, aakhir mein kuch sach mein khaas mein badal gaya. Waqt ke sath, wo school, jo kabhi itna daraawna lagta tha, ek panahgah mein badal gaya — seekhne, badhne, aur dosti ki jagah. Ye sach mein mera second home ban gaya, ek aisi jagah jahan main mehfooz, samjha hua, aur hamesha khush-aamdeed mehsoos karta tha, jisne aaj main jo hoon uska bohot sara hissa banaya."
+      },
+      {
+        "id": "blog-from-tears-to-triumph-how-my-school-became-my-second-home-ur",
+        "url": "https://farhanbalouch.com/blog/from-tears-to-triumph-how-my-school-became-my-second-home",
+        "title": "آنسوؤں سے کامیابی تک: میرا سکول میرا دوسرا گھر کیسے بنا",
+        "kind": "blog",
+        "language": "ur",
+        "publishedAt": "2026-09-22T10:51:08.586Z",
+        "text": "آنسوؤں سے کامیابی تک: میرا سکول میرا دوسرا گھر کیسے بنا\nاپنے ابتدائی دنوں کو یاد کرتے ہوئے، مجھے اپنے سکول کے پہلے دن کا خوف اور آنسو یاد آتے ہیں، جب میں داخلہ ٹیسٹ میں بھی فیل ہو گیا تھا۔ پھر بھی، وہ ایک ایسی جگہ بن گیا جسے میں نے بہت پیار کیا — میرا اصل دوسرا گھر۔\nیہ عجیب ہے کہ کچھ یادیں بغیر بلائے ہی ذہن میں آ جاتی ہیں۔ آج میں اپنے بالکل پہلے سکول کے دن کو یاد کر رہا تھا — اور سچ کہوں تو، یہ وہ بہادری کی کہانی نہیں تھی جو آپ توقع کرتے۔ مجھے یاد ہے میں بالکل ڈرا ہوا تھا، چمٹا ہوا تھا اور شاید کچھ سے زیادہ آنسو بھی بہائے تھے۔ ڈرامہ بڑھانے کے لیے، میں داخلہ ٹیسٹ میں بھی فیل ہو گیا۔ ذرا سوچیں! میرا تعلیمی سفر، شروعات ہی میں ایک ٹھوکر کے ساتھ۔\nلیکن قسمت کا کچھ ایسا لکھا تھا کہ وہ ابتدائی خوف آہستہ آہستہ، تقریباً بغیر احساس کے، ختم ہوتا گیا۔ جو خوف اور ایک فیل ہوئے ٹیسٹ سے شروع ہوا تھا، آخر میں کچھ واقعی خاص میں بدل گیا۔ وقت کے ساتھ، وہ سکول، جو کبھی اتنا ڈراؤنا لگتا تھا، ایک پناہ گاہ میں بدل گیا — سیکھنے، بڑھنے، اور دوستی کی جگہ۔ یہ سچ میں میرا دوسرا گھر بن گیا، ایک ایسی جگہ جہاں میں محفوظ، سمجھا ہوا، اور ہمیشہ خوش آمدید محسوس کرتا تھا، جس نے آج میں جو ہوں اس کا بہت سارا حصہ بنایا۔"
+      },
+      {
+        "id": "story-part-1-ahmadpur-east-en",
+        "url": "https://farhanbalouch.com/story/part-1-ahmadpur-east",
+        "title": "Ahmadpur East",
+        "kind": "story",
+        "language": "en",
+        "text": "Ahmadpur East\nFarhan Balouch on growing up in Ahmadpur East, Pakistan, and the restless curiosity — and a small chicken farm — that shaped him long before AI, SEO, or online business ever entered his life.\nWhere this story starts.\nI was born and raised in Ahmadpur East, a small city in Punjab, Pakistan, and for the first eighteen years of my life it stayed at the center of almost every important chapter of my story.\nEven as a child I rarely liked sitting still. I always wanted to try something, learn something, or turn a small idea into something bigger — looking back, that restlessness was probably the earliest sign of the person I'd become.\nLong before I thought about careers, I had a much simpler dream: raising chickens. I'd buy chicks, feed them, watch them grow, and feel genuinely heartbroken whenever one didn't make it — some died, some were taken by cats, some just disappeared, and every single time it actually hurt.\nOne golden hen became the most memorable of them all. She was so used to her cage that she'd sometimes stay inside even when the door was left open, and during the day she'd wander off behind our house where there was dirty water and insects. One day she vanished completely. I searched everywhere — and eventually found her secret: she'd been quietly laying eggs in a corner behind the house for months, eighteen or twenty of them, while I'd been waiting at home for an egg that was never coming.\nAt my grandmother's house I kept trying my luck again — a silver hen and a black rooster she gave me once, another chick from a neighbour another time. Most of them didn't last: a cat took one, sickness took another, one simply disappeared after two days. Small losses, but they were the first time I remember caring about something enough to feel truly responsible for it.\nEvery big journey starts in a small, ordinary place. The habits you build there — curiosity, responsibility, caring about small things — matter more in the end than the place itself."
+      },
+      {
+        "id": "story-part-1-ahmadpur-east-hi",
+        "url": "https://farhanbalouch.com/story/part-1-ahmadpur-east",
+        "title": "Ahmadpur East",
+        "kind": "story",
+        "language": "hi",
+        "text": "Ahmadpur East\nFarhan Balouch ki kahani ka pehla hissa — Ahmadpur East, ek chota sa poultry farm, aur wo restlessness jo baad mein sab kuch build karne ki wajah bani.\nJahan se ye kahani shuru hoti hai.\nMeri kahani kisi bade shehar ke glamorous background se shuru nahi hoti. Ye kahani Ahmadpur East, Punjab, Pakistan ke ek aam se ghar se shuru hoti hai — jahan main paida hua, bada hua, aur zindagi ke pehle atharah saal jispe ghoomta raha.\nBachpan mein bhi khaali bethna mujhe kabhi pasand nahi tha. Hamesha kuch try karne, kuch seekhne, ya ek chhoti si baat ko bada banane ki khwahish rehti thi — aaj peechay mudh kar dekhun to lagta hai yehi restlessness us insaan ki pehli jhalak thi jo main aagay chal kar bana.\nCareer ke baare mein sochne se bohot pehle mera ek simple sa khwaab tha: chickens palna. Chicks khareedta, unhe khilata pilata, bada hote dekhta — aur jab koi chick nahi bachta tha to genuinely dukh hota tha. Kuch billi utha le jaati, kuch bas gayab ho jate, aur har dafa dil sach mein toot jata.\nEk sunehri (golden) murgi sabse yaadgar thi. Wo apne cage ki itni aadi thi ke door khula hone par bhi andar hi rehti, aur din mein ghar ke peechay ghoomti jahan ganda paani aur keeray hote thay. Ek din wo gayab ho gayi. Maine dhoonda — aur akhir maloom hua ke wo mahinon se ghar ke peechay chupke chupke anda de rahi thi, taqreeban athara-bees anday, jabke main ghar par us anday ka intezar kar raha tha jo kabhi aana hi nahi tha.\nNani ke ghar bhi maine baar baar koshish ki — kabhi ek silver hen aur black rooster jo unhone diye, kabhi koi aur chick pados se. Zyadatar zyada der nahi tikay: kisi ko billi le gayi, koi bemar ho kar mar gaya, koi do din mein hi gayab ho gaya. Chhoti chhoti batein thin, magar yehi pehla mauqa tha jab mujhe yaad hai ke maine kisi cheez ki itni zimmedari mehsoos ki.\nHar bara safar ek chhoti, aam si jagah se shuru hota hai. Wahan banayi gayi aadatein — curiosity, zimmedari, chhoti cheezon ki parwah — aakhir mein us jagah se bhi zyada matter karti hain."
+      },
+      {
+        "id": "story-part-1-ahmadpur-east-ur",
+        "url": "https://farhanbalouch.com/story/part-1-ahmadpur-east",
+        "title": "احمد پور ایسٹ",
+        "kind": "story",
+        "language": "ur",
+        "text": "احمد پور ایسٹ\nفرحان بلوچ کی کہانی کا پہلا حصہ — احمد پور ایسٹ، ایک چھوٹا سا پولٹری فارم، اور وہ بے چینی جو آگے چل کر ہر چیز بنانے کی وجہ بنی۔\nجہاں سے یہ کہانی شروع ہوتی ہے۔\nمیری کہانی کسی بڑے شہر کے چمکدار پس منظر سے شروع نہیں ہوتی۔ یہ کہانی احمد پور ایسٹ، پنجاب، پاکستان کے ایک عام سے گھر سے شروع ہوتی ہے — جہاں میں پیدا ہوا، پلا بڑھا، اور زندگی کے پہلے اٹھارہ سال جس کے گرد گھومتے رہے۔\nبچپن میں بھی خاموش بیٹھنا مجھے کبھی پسند نہیں تھا۔ ہمیشہ کچھ نہ کچھ آزمانے، سیکھنے، یا ایک چھوٹی سی بات کو بڑا بنانے کی خواہش رہتی تھی — آج پیچھے مڑ کر دیکھوں تو لگتا ہے یہی بے چینی اس شخص کی پہلی جھلک تھی جو میں آگے چل کر بنا۔\nکیریئر کے بارے میں سوچنے سے بہت پہلے میرا ایک سادہ سا خواب تھا: مرغیاں پالنا۔ چوزے خریدتا، انہیں کھلاتا پلاتا، بڑا ہوتے دیکھتا — اور جب کوئی چوزہ نہ بچتا تو دل واقعی ٹوٹ جاتا۔ کچھ بلی لے جاتی، کچھ بس غائب ہو جاتے، اور ہر بار سچ میں افسوس ہوتا۔\nایک سنہری مرغی سب سے یادگار تھی۔ وہ اپنے پنجرے کی اتنی عادی تھی کہ دروازہ کھلا ہونے پر بھی اندر ہی رہتی، اور دن میں گھر کے پیچھے گھومتی جہاں گندا پانی اور کیڑے ہوتے تھے۔ ایک دن وہ غائب ہو گئی۔ میں نے تلاش کیا — اور آخر پتا چلا کہ وہ مہینوں سے گھر کے پیچھے چپکے چپکے انڈے دے رہی تھی، تقریباً اٹھارہ بیس انڈے، جبکہ میں گھر پر اس انڈے کا انتظار کر رہا تھا جو کبھی آنا ہی نہیں تھا۔\nنانی کے گھر بھی میں نے بار بار کوشش کی — کبھی ایک چاندی رنگ کی مرغی اور کالا مرغا جو انہوں نے دیا، کبھی کوئی اور چوزہ پڑوس سے۔ زیادہ تر زیادہ دیر نہ ٹکے: کسی کو بلی لے گئی، کوئی بیمار ہو کر مر گیا، کوئی دو دن میں ہی غائب ہو گیا۔ چھوٹی چھوٹی باتیں تھیں، مگر یہ پہلا موقع تھا جب مجھے یاد ہے کہ میں نے کسی چیز کی اتنی ذمہ داری محسوس کی۔\nہر بڑا سفر ایک چھوٹی، عام سی جگہ سے شروع ہوتا ہے۔ وہاں بننے والی عادتیں — تجسس، ذمہ داری، چھوٹی چیزوں کی پرواہ — آخر میں اس جگہ سے بھی زیادہ اہم ثابت ہوتی ہیں۔"
+      },
+      {
+        "id": "story-part-2-school-ka-pehla-safar-en",
+        "url": "https://farhanbalouch.com/story/part-2-school-ka-pehla-safar",
+        "title": "The First Journey to School",
+        "kind": "story",
+        "language": "en",
+        "text": "The First Journey to School\nHow a failed admission test, a forced school change, and a split-campus system became the start of Farhan Balouch's school years in Ahmadpur East.\nWhere school became my second home.\nI started school around age four at AR Rehman Public High School — nursery, then prep, then Class 1 — before my parents moved me to another school, Faran Public High School, because my elder sister already studied there. At the time it was considered one of the better, bigger schools in Ahmadpur East.\nMy first impression of it was failure. During the admission test, there was a question on the table of 6, and I simply didn't know it. My old school even offered my parents a consolation: keep me there and promote me straight to Class 3. But my father had already decided — so instead of a shortcut, I restarted from Class 1 in a completely new environment: new teachers, new classmates, no friends. I told my family, repeatedly, that I wanted to go back.\nI stayed anyway. Friendships slowly formed, my confidence grew, and by Class 3 I'd become one of the stronger students in my class, placing second among both boys and girls. The school itself was split across two buildings — younger children in one, Classes 4 through 10 in another directly opposite it, with a much bigger playground. Moving there felt like stepping into an entirely new stage of childhood.\nClass 4 wasn't exactly my most polished phase — I was untidy, had a runny nose more often than not, and once even showed up in a dirty shirt, enough that someone told my mother I needed sending to school more neatly. But by Class 5 everything had turned around: I was enjoying school, enjoying my friendships, and doing well academically. I earned second position again — and that unfamiliar building had quietly become my second home.\nThe place you're forced into isn't always the wrong place. Sometimes failure at the very start — even something as small as a missed table of 6 — just means it needs time to slowly become home."
+      },
+      {
+        "id": "story-part-2-school-ka-pehla-safar-hi",
+        "url": "https://farhanbalouch.com/story/part-2-school-ka-pehla-safar",
+        "title": "School Ka Pehla Safar",
+        "kind": "story",
+        "language": "hi",
+        "text": "School Ka Pehla Safar\nEk fail hua admission test, ek majboori ka school change, aur do buildings wala campus — Farhan Balouch ke school years ki shuruat.\nJahan school mera second home ban gaya.\nMaine school ki duniya mein qareeban chaar saal ki umar mein qadam rakha — AR Rehman Public High School mein nursery, prep, phir Class 1. Uske baad family ne mujhe Faran Public High School bhej diya, kyunke wahan meri bari sister parhti thi. Us waqt ye Ahmadpur East ke behtar aur bade schools mein shumar hota tha.\nLekin pehla impression fail hone wala nikla. Admission test mein table of 6 wala sawal aaya aur main nahi bata saka. Purane school ne offer bhi kiya ke agar main wahi rahun to seedha Class 3 mein promote kar dengay. Lekin Abu pehle hi decide kar chuke thay — to shortcut ki jagah main naye school mein Class 1 se dobara shuru hua: naye teachers, naye bachay, koi dost nahi. Main ghar aa kar baar baar keh raha tha ke mujhe wapis jana hai.\nPhir bhi ruka raha. Class 2 mein dosti banne lagi, Class 3 tak confidence badha aur main apni class mein — boys aur girls dono mein — second position par aa gaya. School do buildings mein taqseem tha: chhotay bachon ki ek building, aur Class 4 se 10 tak dusri building bilkul samne, jiska playground bhi kaafi bada tha. Wahan shift hona jaise bachpan ke ek naye stage mein qadam rakhna tha.\nClass 4 mera sabse polished phase nahi tha — kabhi lapravah, naak bahti hui, ek dafa gandi shirt tak pehen kar chala gaya, itna ke kisi ne meri Ammi se keh diya ke mujhe saaf suthra bhej diya karein. Lekin Class 5 tak sab badal chuka tha: main parhai enjoy kar raha tha, dosti enjoy kar raha tha, aur dobara second position hasil kar li — wo ajnabi si building khamoshi se mera second home ban chuki thi.\nJis jagah mein aapko majboori mein bheja jata hai, wo hamesha ghalat jagah nahi hoti. Kabhi shuruat ki nakami — chahe wo table of 6 jaisi chhoti si cheez ho — bas itna matlab rakhti hai ke us jagah ko ghar banne mein thora waqt chahiye."
+      },
+      {
+        "id": "story-part-2-school-ka-pehla-safar-ur",
+        "url": "https://farhanbalouch.com/story/part-2-school-ka-pehla-safar",
+        "title": "سکول کا پہلا سفر",
+        "kind": "story",
+        "language": "ur",
+        "text": "سکول کا پہلا سفر\nایک فیل ہوا داخلہ ٹیسٹ، مجبوری میں سکول کی تبدیلی، اور دو عمارتوں والا کیمپس — فرحان بلوچ کے سکول کے دنوں کی شروعات۔\nجہاں سکول میرا دوسرا گھر بن گیا۔\nمیں نے سکول کی دنیا میں تقریباً چار سال کی عمر میں قدم رکھا — اے آر رحمان پبلک ہائی سکول میں نرسری، پریپ، پھر کلاس ون۔ اس کے بعد فیملی نے مجھے فاران پبلک ہائی سکول بھیج دیا، کیونکہ وہاں میری بڑی بہن پڑھتی تھی۔ اس وقت یہ احمد پور ایسٹ کے بہتر اور بڑے سکولوں میں شمار ہوتا تھا۔\nلیکن پہلا تاثر ناکامی کا نکلا۔ داخلہ ٹیسٹ میں چھ کے پہاڑے کا سوال آیا اور میں نہ بتا سکا۔ پرانے سکول نے پیشکش بھی کی کہ اگر میں وہیں رہوں تو سیدھا کلاس تھری میں پرموٹ کر دیں گے۔ لیکن ابو پہلے ہی فیصلہ کر چکے تھے — تو شارٹ کٹ کی بجائے میں نئے سکول میں کلاس ون سے دوبارہ شروع ہوا: نئے اساتذہ، نئے ساتھی، کوئی دوست نہیں۔ میں گھر آ کر بار بار کہتا رہا کہ مجھے واپس جانا ہے۔\nپھر بھی رکا رہا۔ کلاس ٹو میں دوستیاں بننے لگیں، کلاس تھری تک اعتماد بڑھا اور میں اپنی کلاس میں — لڑکوں اور لڑکیوں دونوں میں — دوسری پوزیشن پر آ گیا۔ سکول دو عمارتوں میں تقسیم تھا: چھوٹے بچوں کی ایک عمارت، اور کلاس چار سے دس تک دوسری عمارت بالکل سامنے، جس کا کھیل کا میدان بھی کافی بڑا تھا۔ وہاں منتقل ہونا جیسے بچپن کے ایک نئے مرحلے میں قدم رکھنا تھا۔\nکلاس فور میرا سب سے سنورا ہوا دور نہیں تھا — کبھی لاپرواہ، ناک بہتی ہوئی، ایک بار گندی قمیض تک پہن کر چلا گیا، اتنا کہ کسی نے میری امی کو کہہ دیا کہ مجھے صاف ستھرا بھیجا کریں۔ لیکن کلاس فائیو تک سب بدل چکا تھا: میں پڑھائی سے لطف اندوز ہو رہا تھا، دوستی سے بھی، اور دوبارہ دوسری پوزیشن حاصل کر لی — وہ اجنبی سی عمارت خاموشی سے میرا دوسرا گھر بن چکی تھی۔\nجس جگہ آپ کو مجبوری میں بھیجا جاتا ہے، وہ ہمیشہ غلط جگہ نہیں ہوتی۔ کبھی شروعات کی ناکامی — چاہے وہ چھ کے پہاڑے جیسی چھوٹی چیز ہو — بس اتنا مطلب رکھتی ہے کہ اس جگہ کو گھر بننے میں تھوڑا وقت چاہیے۔"
+      },
+      {
+        "id": "story-part-3-the-boy-who-was-afraid-of-school-en",
+        "url": "https://farhanbalouch.com/story/part-3-the-boy-who-was-afraid-of-school",
+        "title": "The Boy Who Was Afraid of School",
+        "kind": "story",
+        "language": "en",
+        "text": "The Boy Who Was Afraid of School\nFarhan Balouch on the year boys and girls were separated at school, and the carefree, confident Class 6 that came right before everything changed.\nFrom reluctant to confident, one class at a time.\nAround this time, boys and girls who had previously studied together were separated according to the school's system. At that age we were actually a little excited about it — childhood friendships between boys and girls suddenly felt like something completely different, almost forbidden, and that alone made it interesting.\nClass 6 turned into one of the most carefree periods of my entire school life. I became far more confident than I'd ever been — playing, joking around with teachers, laughing with friends, enjoying school without thinking too hard about grades or the future. It was the kind of year where nothing felt heavy.\nThen Class 7 arrived. And that's when a completely different chapter of my life began — one that had nothing to do with grades, and one I genuinely wasn't prepared for.\nConfidence rarely arrives all at once. It's built one ordinary, carefree year at a time — and you usually only recognize it in hindsight, right before the next hard chapter begins."
+      },
+      {
+        "id": "story-part-3-the-boy-who-was-afraid-of-school-hi",
+        "url": "https://farhanbalouch.com/story/part-3-the-boy-who-was-afraid-of-school",
+        "title": "The Boy Who Was Afraid of School",
+        "kind": "story",
+        "language": "hi",
+        "text": "The Boy Who Was Afraid of School\nJab boys aur girls ko school ke system ke mutabiq alag kar diya gaya, aur Class 6 ka wo carefree saal jo Class 7 se bilkul pehle aaya.\nJab dar confidence mein badalne laga.\nIsi waqt, wo boys aur girls jo pehle saath parhte thay, school ke system ke mutabiq alag kar diye gaye. Us umar mein hum sab isi baat par thoda excited thay — bachpan ki dosti achanak kuch bilkul alag mehsoos hone lagi, almost forbidden jaisi, aur yehi baat isay interesting bana deti thi.\nClass 6 meri poori school life ka sabse carefree daur nikla. Main pehle se kahin zyada confident ho gaya — teachers se mazaak karta, doston ke saath hasta, bina future ki zyada fikar kiye school enjoy karta. Ye wo saal tha jahan kuch bhi bhaari nahi lagta tha.\nPhir Class 7 aa gaya. Aur wahin se meri zindagi ka ek bilkul alag chapter shuru hua — jiska grades se koi lena dena nahi tha, aur jiske liye main genuinely tayyar nahi tha.\nConfidence ek dum se kabhi nahi aata. Ye ek waqt mein ek hi aam, carefree saal se banta hai — aur aksar aapko iska pata tab chalta hai jab peechay mudh kar dekhte hain, agle mushkil chapter se bilkul pehle."
+      },
+      {
+        "id": "story-part-3-the-boy-who-was-afraid-of-school-ur",
+        "url": "https://farhanbalouch.com/story/part-3-the-boy-who-was-afraid-of-school",
+        "title": "وہ لڑکا جو سکول سے ڈرتا تھا",
+        "kind": "story",
+        "language": "ur",
+        "text": "وہ لڑکا جو سکول سے ڈرتا تھا\nجب لڑکوں اور لڑکیوں کو سکول کے نظام کے مطابق الگ کر دیا گیا، اور کلاس چھ کا وہ بے فکر سال جو کلاس سات سے بالکل پہلے آیا۔\nجب خوف آہستہ آہستہ اعتماد میں بدلا۔\nاسی دوران، وہ لڑکے اور لڑکیاں جو پہلے ساتھ پڑھتے تھے، سکول کے نظام کے مطابق الگ کر دیے گئے۔ اس عمر میں ہم سب اسی بات پر تھوڑا پرجوش تھے — بچپن کی دوستی اچانک کچھ بالکل مختلف محسوس ہونے لگی، تقریباً ممنوعہ جیسی، اور یہی بات اسے دلچسپ بنا دیتی تھی۔\nکلاس سکس میری پوری سکول لائف کا سب سے بے فکر دور نکلا۔ میں پہلے سے کہیں زیادہ پراعتماد ہو گیا — اساتذہ سے مذاق کرتا، دوستوں کے ساتھ ہنستا، بغیر مستقبل کی زیادہ فکر کیے سکول انجوائے کرتا۔ یہ وہ سال تھا جہاں کچھ بھی بھاری نہیں لگتا تھا۔\nپھر کلاس سیون آ گیا۔ اور وہیں سے میری زندگی کا ایک بالکل مختلف باب شروع ہوا — جس کا نمبروں سے کوئی تعلق نہیں تھا، اور جس کے لیے میں سچ میں تیار نہیں تھا۔\nاعتماد کبھی ایک دم سے نہیں آتا۔ یہ ایک وقت میں ایک ہی عام، بے فکر سال سے بنتا ہے — اور اکثر آپ کو اس کا پتا تب چلتا ہے جب پیچھے مڑ کر دیکھتے ہیں، اگلے مشکل باب سے بالکل پہلے۔"
+      },
+      {
+        "id": "story-part-4-pehla-crush-pehli-confusion-en",
+        "url": "https://farhanbalouch.com/story/part-4-pehla-crush-pehli-confusion",
+        "title": "Pehla Crush, Pehli Confusion",
+        "kind": "story",
+        "language": "en",
+        "text": "Pehla Crush, Pehli Confusion\nThe bicycle ride home, the girl he'd never seen before, and the quiet, rule-breaking obsession that took over Farhan Balouch's Class 7.\nA glimpse on a cycle ride that stayed in his head.\nOne ordinary day, cycling home from school, I saw a girl in my school's uniform walking with a couple of others I already recognized. I had never seen her before. For a few seconds I just wondered who she was — and somehow, she stayed in my mind long after I got home.\nThe next day I went back to the same spot, hoping to see her again. Eventually I did — and curiosity slowly turned into something closer to a full teenage obsession. I started following the route from a distance, discovered the street she disappeared into, and eventually found the exact house.\nOur school had strict rules against boys and girls talking to each other, so I never had a real conversation with her. Instead I pieced together whatever I could: her name, through school connections; her class, 6-A, while I was in 7; even her handwriting, once, while helping a teacher who was holding her exam paper. I learned her entire daily routine — school around 6:40–6:50 in the morning, home in the early afternoon, Quran lessons after that, tuition in the evening. I'd spend hours just waiting for a few seconds of her walking past, and sometimes I'd pray quietly at the nearby mosque and ask for her by name.\nMy studies suffered badly because of it — Class 7 became more about her than about school, and I barely passed. Eventually I wrote a two-page letter and carried it in my pocket for four or five days, losing my nerve every single time I saw her. I destroyed it, and tried something smaller instead: torn pieces of paper with 'I love you' written on them, dropped near her doorway. She saw them, went inside, and later I found them torn up and thrown away outside — which I took as a clear no. I tried again with 'I am sorry' instead, and got the same result.\nThere was one evening I've never fully understood: she came outside, and while stepping back into her house, turned toward me, touched her hand to her ear, and went in. I never learned whether it meant 'I'm sorry,' 'forgive me,' or 'please forget me.' Some memories, though, don't take well to being closed — even when you tell yourself the chapter is over.\nNot every feeling needs a resolution. Some chapters close on their own, without an answer, without closure — and learning to let a question stay unanswered is its own kind of growing up."
+      },
+      {
+        "id": "story-part-4-pehla-crush-pehli-confusion-hi",
+        "url": "https://farhanbalouch.com/story/part-4-pehla-crush-pehli-confusion",
+        "title": "Pehla Crush, Pehli Confusion",
+        "kind": "story",
+        "language": "hi",
+        "text": "Pehla Crush, Pehli Confusion\nCycle par ghar wapis aatay huay wo larki jo pehle kabhi nahi dekhi thi, aur Class 7 ki wo khamosh, rule-breaking obsession jo Farhan Balouch ko apni giraft mein le gayi.\nCycle par ghar jate hue ek jhalak jo zehen mein reh gayi.\nEk aam si dopahar, school se cycle par ghar aate hue, maine apne school ki uniform mein ek larki dekhi jo do teen aur larkiyon ke sath chal rahi thi jinhe main pehchanta tha. Wo mujhe pehle kabhi nazar nahi aayi thi. Chand second mein bas ye soch raha tha ke ye kaun hai — aur ajeeb baat, wo ghar aa kar bhi mere zehan se nahi gayi.\nAgle din main dobara usi jagah gaya, umeed thi ke phir nazar aayegi. Akhir aa hi gayi — aur curiosity dheere dheere ek poori teenage obsession mein badal gayi. Maine usay door se follow karna shuru kiya, wo gali dhoondh li jahan wo ghus jati thi, aur akhir usका ghar bhi pata chal gaya.\nHamare school mein boys aur girls ke aapas mein baat karne par sakht pabandi thi, is liye kabhi asli guftagu na ho saki. Iske bajaye maine chhoti chhoti maloomat jama ki: school connections se uska naam pata chala; uski class, 6-A, jabke main 7 mein tha; ek dafa teacher ki madad karte hue uski exam copy dekh kar uski handwriting bhi pehchan li. Mujhe uska poora routine yaad ho gaya — subah 6:40–6:50 school, dopahar ghar wapsi, uske baad Quran ki class, phir shaam ko tuition. Main ghanton sirf chand seconds ke liye usay guzarte dekhne ka intezar karta, aur kabhi kabhi qareeb ki masjid mein khamoshi se uska naam le kar dua bhi karta.\nMeri padhai bohot kharab ho gayi — Class 7 school se zyada uske baare mein ban gaya, aur main bohot mushkil se pass hua. Akhir maine do safhon ka khat likha aur chaar paanch din jeb mein rakha, lekin jab bhi usay dekhta himmat jawaab de jati. Maine wo khat phaar diya, aur uski jagah chhotay purzay try kiye jin par 'I love you' likha tha, uske darwaze ke qareeb gira diye. Usne dekha, andar chali gayi, aur baad mein maine wo tukray pharay hue bahar mile — jo maine ek saaf inkar samjha. Maine dobara koshish ki, is dafa 'I am sorry' likh kar — natija wahi raha.\nEk shaam thi jo aaj tak samajh nahi aayi: wo bahar aayi, aur ghar mein wapis jate hue meri taraf mudi, apna haath kaan tak le gayi, aur andar chali gayi. Mujhe kabhi pata nahi chala ke iska matlab 'maaf karo,' 'mujhe maaf kar do,' ya 'mujhe bhool jao' tha. Kuch yaadein band karna asaan nahi hota — chahe aap khud se kitni bhi baar kahen ke chapter khatam ho chuka hai.\nHar feeling ko resolution ki zaroorat nahi hoti. Kuch chapters khud hi band ho jate hain, bina kisi jawab ke, bina kisi closure ke — aur ek sawal ko bina jawab chhod dena seekhna bhi bade hone ka apna ek tareeqa hai."
+      },
+      {
+        "id": "story-part-4-pehla-crush-pehli-confusion-ur",
+        "url": "https://farhanbalouch.com/story/part-4-pehla-crush-pehli-confusion",
+        "title": "پہلا کرش، پہلی الجھن",
+        "kind": "story",
+        "language": "ur",
+        "text": "پہلا کرش، پہلی الجھن\nسائیکل پر گھر واپس آتے ہوئے وہ لڑکی جو پہلے کبھی نہیں دیکھی تھی، اور کلاس سات کی وہ خاموش، قاعدہ توڑنے والی الجھن جس نے فرحان بلوچ کو اپنی گرفت میں لے لیا۔\nسائیکل پر گھر جاتے ہوئے ایک جھلک جو ذہن میں رہ گئی۔\nایک عام سی دوپہر، سکول سے سائیکل پر گھر آتے ہوئے، میں نے اپنے سکول کی وردی میں ایک لڑکی دیکھی جو دو تین اور لڑکیوں کے ساتھ چل رہی تھی جنہیں میں پہچانتا تھا۔ وہ مجھے پہلے کبھی نظر نہیں آئی تھی۔ چند سیکنڈ میں بس یہ سوچ رہا تھا کہ یہ کون ہے — اور عجیب بات، وہ گھر آ کر بھی میرے ذہن سے نہیں گئی۔\nاگلے دن میں دوبارہ اسی جگہ گیا، امید تھی کہ پھر نظر آئے گی۔ آخر آ ہی گئی — اور تجسس آہستہ آہستہ ایک پوری نوعمری کی الجھن میں بدل گیا۔ میں نے اسے دور سے فالو کرنا شروع کیا، وہ گلی ڈھونڈ لی جہاں وہ چلی جاتی تھی، اور آخر اس کا گھر بھی پتا چل گیا۔\nہمارے سکول میں لڑکوں اور لڑکیوں کے آپس میں بات کرنے پر سخت پابندی تھی، اس لیے کبھی اصل گفتگو نہ ہو سکی۔ اس کے بجائے میں نے چھوٹی چھوٹی معلومات جمع کیں: سکول کے تعلقات سے اس کا نام پتا چلا؛ اس کی کلاس، چھ اے، جبکہ میں سات میں تھا؛ ایک بار استاد کی مدد کرتے ہوئے اس کی امتحانی کاپی دیکھ کر اس کی ہینڈ رائٹنگ بھی پہچان لی۔ مجھے اس کا پورا معمول یاد ہو گیا — صبح چھ چالیس سے پچاس پر سکول، دوپہر گھر واپسی، اس کے بعد قرآن کی کلاس، پھر شام کو ٹیوشن۔ میں گھنٹوں صرف چند سیکنڈ کے لیے اسے گزرتے دیکھنے کا انتظار کرتا، اور کبھی کبھار قریب کی مسجد میں خاموشی سے اس کا نام لے کر دعا بھی کرتا۔\nمیری پڑھائی بہت خراب ہو گئی — کلاس سیون سکول سے زیادہ اس کے بارے میں بن گیا، اور میں بڑی مشکل سے پاس ہوا۔ آخر میں نے دو صفحوں کا خط لکھا اور چار پانچ دن جیب میں رکھا، لیکن جب بھی اسے دیکھتا ہمت جواب دے جاتی۔ میں نے وہ خط پھاڑ دیا، اور اس کی جگہ چھوٹے پرزے آزمائے جن پر 'I love you' لکھا تھا، اس کے دروازے کے قریب گرا دیے۔ اس نے دیکھا، اندر چلی گئی، اور بعد میں مجھے وہ ٹکڑے پھٹے ہوئے باہر ملے — جسے میں نے ایک صاف انکار سمجھا۔ میں نے دوبارہ کوشش کی، اس بار 'I am sorry' لکھ کر — نتیجہ وہی رہا۔\nایک شام تھی جو آج تک سمجھ نہیں آئی: وہ باہر آئی، اور گھر میں واپس جاتے ہوئے میری طرف مڑی، اپنا ہاتھ کان تک لے گئی، اور اندر چلی گئی۔ مجھے کبھی پتا نہیں چلا کہ اس کا مطلب 'معاف کرو،' 'مجھے معاف کر دو،' یا 'مجھے بھول جاؤ' تھا۔ کچھ یادیں بند کرنا آسان نہیں ہوتا — چاہے آپ خود سے کتنی بھی بار کہیں کہ باب ختم ہو چکا ہے۔\nہر احساس کو کسی حل کی ضرورت نہیں ہوتی۔ کچھ باب خود ہی بند ہو جاتے ہیں، بغیر کسی جواب کے، بغیر کسی اختتام کے — اور ایک سوال کو بغیر جواب کے چھوڑنا سیکھنا بھی بڑا ہونے کا اپنا ایک طریقہ ہے۔"
+      },
+      {
+        "id": "story-part-5-position-mil-gayi-en",
+        "url": "https://farhanbalouch.com/story/part-5-position-mil-gayi",
+        "title": "Position Mil Gayi, But She Wasn't There to See It",
+        "kind": "story",
+        "language": "en",
+        "text": "Position Mil Gayi, But She Wasn't There to See It\nFarhan Balouch's Class 8 result came with second position again — except he wasn't there to hear it announced.\nA second position, and an empty seat in the audience.\nI hadn't studied properly the entire year — Class 7's obsession had bled straight into Class 8. But the same teachers who taught at school also ran the tuition center, and right before one exam, the tuition teacher gave us a strong hint about what would actually appear in the paper. I prepared exactly those topics.\nMy Class 8 result came in with second position again — except I wasn't at school to hear it announced. I was in Islamabad, on my first trip away from home, when my family called to say the result was out and my mother would be collecting the trophy on my behalf.\nI was genuinely happy. But there was a strange gap sitting right next to that happiness — a small, specific imagination of what it would've felt like to be on that stage, name announced, trophy in hand, with one particular person somewhere in the crowd. Maybe she'd have smiled. Maybe she wouldn't have cared at all. I'll never know, and that uncertainty became part of the memory too. Not every scene gets its perfect audience — I learned that lesson early, and I'd learn it again more than once.\nSuccess rarely arrives with a perfect audience. Learn to be proud of it anyway — because the moments you imagined perfectly are almost never the ones you actually get."
+      },
+      {
+        "id": "story-part-5-position-mil-gayi-hi",
+        "url": "https://farhanbalouch.com/story/part-5-position-mil-gayi",
+        "title": "Position Mil Gayi, Lekin Jisey Dekhna Tha Woh Nahi Dekh Saki",
+        "kind": "story",
+        "language": "hi",
+        "text": "Position Mil Gayi, Lekin Jisey Dekhna Tha Woh Nahi Dekh Saki\nFarhan Balouch ka Class 8 ka result dobara second position le aaya — lekin wo khud wahan mojood nahi thay ye sunne ke liye.\nSecond position, aur audience mein ek khaali jagah.\nPoore saal maine theek se padhai nahi ki thi — Class 7 ki obsession seedhi Class 8 mein bhi chali aayi thi. Lekin wahi teachers jo school mein parhate thay tuition bhi wahi le rahe thay, aur ek exam se pehle tuition teacher ne saaf hint de diya ke paper mein kya aayega. Maine sirf wahi topics tayyar kiye.\nMera Class 8 ka result dobara second position le kar aaya — lekin main us waqt school mein nahi tha, apne result ka elaan sunne ke liye. Main Islamabad mein tha, apni pehli trip par, jab ghar se phone aaya ke result aa gaya hai aur meri Ammi trophy le lengi.\nMain genuinely khush tha. Lekin us khushi ke bilkul saath ek ajeeb si kami bhi thi — ek chhota sa, khaas tasawwur ke agar main us stage par hota, naam pukara jata, trophy haath mein hoti, aur bheed mein kahin wo ek shakhs bhi hoti. Shayad muskurati. Shayad koi farq na padta. Mujhe kabhi pata nahi chalega, aur yehi uljhan bhi usi yaad ka hissa ban gayi. Har scene ko uska perfect audience nahi milta — ye sabaq mujhe jald hi mil gaya, aur aage bhi kai baar milna tha.\nKamyaabi ka koi perfect audience shayad hi kabhi milta hai. Phir bhi uspar fakhr karna seekho — kyunke jo lamhe aapne dimagh mein perfect socha hota hai, wo taqreeban kabhi wahi nahi hote jo asal mein milte hain."
+      },
+      {
+        "id": "story-part-5-position-mil-gayi-ur",
+        "url": "https://farhanbalouch.com/story/part-5-position-mil-gayi",
+        "title": "پوزیشن مل گئی، مگر جسے دکھانی تھی وہ نہ دیکھ سکی",
+        "kind": "story",
+        "language": "ur",
+        "text": "پوزیشن مل گئی، مگر جسے دکھانی تھی وہ نہ دیکھ سکی\nفرحان بلوچ کا کلاس ایٹ کا نتیجہ دوبارہ دوسری پوزیشن لے آیا — لیکن وہ خود وہاں موجود نہیں تھے یہ سننے کے لیے۔\nدوسری پوزیشن، اور تماشائیوں میں ایک خالی جگہ۔\nپورا سال میں نے ٹھیک سے پڑھائی نہیں کی تھی — کلاس سیون کی الجھن سیدھی کلاس ایٹ میں بھی چلی آئی تھی۔ لیکن وہی اساتذہ جو سکول میں پڑھاتے تھے ٹیوشن بھی وہی لیتے تھے، اور ایک امتحان سے پہلے ٹیوشن ٹیچر نے صاف اشارہ دے دیا کہ پیپر میں کیا آئے گا۔ میں نے صرف وہی موضوعات تیار کیے۔\nمیرا کلاس ایٹ کا نتیجہ دوبارہ دوسری پوزیشن لے کر آیا — لیکن میں اس وقت سکول میں نہیں تھا، اپنے نتیجے کا اعلان سننے کے لیے۔ میں اسلام آباد میں تھا، اپنے پہلے سفر پر، جب گھر سے فون آیا کہ نتیجہ آ گیا ہے اور میری امی ٹرافی لے لیں گی۔\nمیں واقعی خوش تھا۔ لیکن اس خوشی کے بالکل ساتھ ایک عجیب سی کمی بھی تھی — ایک چھوٹا سا، خاص تصور کہ اگر میں اس سٹیج پر ہوتا، نام پکارا جاتا، ٹرافی ہاتھ میں ہوتی، اور بھیڑ میں کہیں وہ ایک شخص بھی ہوتی۔ شاید مسکراتی۔ شاید کوئی فرق نہ پڑتا۔ مجھے کبھی پتا نہیں چلے گا، اور یہی الجھن بھی اسی یاد کا حصہ بن گئی۔ ہر منظر کو اس کا کامل ناظر نہیں ملتا — یہ سبق مجھے جلد ہی مل گیا، اور آگے بھی کئی بار ملنا تھا۔\nکامیابی کا کوئی مکمل ناظر شاید ہی کبھی ملتا ہے۔ پھر بھی اس پر فخر کرنا سیکھو — کیونکہ جو لمحے آپ نے ذہن میں کامل سوچے تھے، وہ تقریباً کبھی وہی نہیں ہوتے جو اصل میں ملتے ہیں۔"
+      },
+      {
+        "id": "story-part-6-islamabad-mountains-and-memories-en",
+        "url": "https://farhanbalouch.com/story/part-6-islamabad-mountains-and-memories",
+        "title": "Islamabad: Mountains and Memories",
+        "kind": "story",
+        "language": "en",
+        "text": "Islamabad: Mountains and Memories\nFarhan Balouch's first trip away from Ahmadpur East — an overnight bus, Faisal Mosque, and a whole city that felt like a different world.\nThe first time the world felt bigger than Ahmadpur East.\nMy first trip to Islamabad came right after the Class 8 papers, tagging along when my grandmother was invited to visit relatives there. I'd never seen the city before, and my father — usually strict, often harder on me than I felt I needed — handed over the travel money and let me go without much fuss.\nIt was my first real long-distance bus journey, an overnight ride with LCD screens behind every seat that, ironically, were almost all broken that night. I didn't care. Everyone else eventually fell asleep, but I kept watching the window for hours. When I woke up a few hours later, the entire landscape outside had changed — mountains everywhere, a cold foggy morning where I'd left behind the heat of Ahmadpur East.\nWe reached Faizabad, where my aunt's husband picked us up in an open-back vehicle, and from there the whole trip felt new — exploring the neighbourhood, watching balconies and streets I'd never seen the shape of before.\nI visited Faisal Mosque for the first time and loved every minute of it — crowded, enormous, completely unlike anything back home. I even recorded a long vlog on my aunt's phone, which was later deleted by mistake, one of those small losses that still stings a little when I think about it.\nI spent close to two weeks there and experienced Ramadan in weather completely unlike Ahmadpur East's — cool, foggy, mountain air that made fasting feel like an entirely different experience. I kept almost every fast that trip. It was the first time I properly understood that the world was a lot bigger than the one city I'd always known.\nLeaving home, even briefly, is often the fastest way to understand how big the world actually is — and how small the one city you always knew really was, in comparison."
+      },
+      {
+        "id": "story-part-6-islamabad-mountains-and-memories-hi",
+        "url": "https://farhanbalouch.com/story/part-6-islamabad-mountains-and-memories",
+        "title": "Islamabad: Pahar aur Yaadein",
+        "kind": "story",
+        "language": "hi",
+        "text": "Islamabad: Pahar aur Yaadein\nFarhan Balouch ki Ahmadpur East se pehli trip — raat bhar ka bus safar, Faisal Mosque, aur ek shehar jo bilkul ek alag duniya jaisa laga.\nJahan pehli baar Ahmadpur East se bahar ki duniya dekhi.\nMeri pehli Islamabad trip Class 8 ke papers ke turant baad hui, jab meri Nani ko wahan rishtedaron ne bulaya aur main bhi sath ho liya. Maine ye shehar pehle kabhi nahi dekha tha, aur Abu — jo aam taur par sakht thay, mujhe zaroorat se zyada tark hi lagte thay — bina zyada sawal kiye kiraya de kar bhej diya.\nYe meri pehli lambi bus journey thi, raat bhar ka safar jismein har seat ke peechay LCD screens lagi thin jo taqreeban sab kharab thin — koi farq nahi pada. Sab log so gaye lekin main ghanton khirki se bahar dekhta raha. Kuch ghanton baad jab aankh khuli to poora manzar badal chuka tha — har taraf pahar, thandi dhundli subah, jabke ghar Ahmadpur East mein garmi chhodi thi.\nHum Faizabad pahunche jahan meri khala ke shohar open-back gaadi mein lene aaye, aur wahan se pura trip naya lagne laga — neighbourhood explore karna, balconies aur galiyan dekhna jo pehle kabhi nahi dekhi thin.\nFaisal Mosque pehli baar dekhi aur har lamha pasand aaya — bheed bhari, itni bari, ghar jaisi kisi cheez se bilkul mukhtalif. Aunty ke phone par ek lambi vlog bhi banayi jo baad mein galti se delete ho gayi, ek chhoti si loss jo aaj bhi yaad karte hue thodi takleef deti hai.\nMain taqreeban do hafte wahan raha aur Ramadan bhi wahin guzara — mausam Ahmadpur East se bilkul alag, thanda, dhundla, pahadi hawa jismein roza bilkul naya sa lagta. Maine taqreeban sab roze rakhe. Ye pehli dafa tha jab mujhe samajh aaya ke duniya us ek shehar se kahin bari hai jise main hamesha se janta tha.\nGhar se thori der ke liye bhi door jana aksar sabse tez tareeqa hai ye samajhne ka ke duniya asal mein kitni bari hai — aur us ek shehar ke muqable mein jise aap hamesha se jante thay, wo kitna chhota tha."
+      },
+      {
+        "id": "story-part-6-islamabad-mountains-and-memories-ur",
+        "url": "https://farhanbalouch.com/story/part-6-islamabad-mountains-and-memories",
+        "title": "اسلام آباد: پہاڑ اور یادیں",
+        "kind": "story",
+        "language": "ur",
+        "text": "اسلام آباد: پہاڑ اور یادیں\nفرحان بلوچ کا احمد پور ایسٹ سے پہلا سفر — رات بھر کا بس سفر، فیصل مسجد، اور ایک شہر جو بالکل ایک الگ دنیا جیسا لگا۔\nجہاں پہلی بار احمد پور ایسٹ سے باہر کی دنیا دیکھی۔\nمیرا پہلا اسلام آباد کا سفر کلاس ایٹ کے پیپرز کے فوراً بعد ہوا، جب میری نانی کو وہاں رشتہ داروں نے بلایا اور میں بھی ساتھ ہو لیا۔ میں نے یہ شہر پہلے کبھی نہیں دیکھا تھا، اور ابو — جو عموماً سخت تھے، مجھے ضرورت سے زیادہ ہی لگتے تھے — بغیر زیادہ سوال کیے کرایہ دے کر بھیج دیا۔\nیہ میرا پہلا لمبا بس سفر تھا، رات بھر کا سفر جس میں ہر سیٹ کے پیچھے ایل سی ڈی سکرینیں لگی تھیں جو تقریباً سب خراب تھیں — کوئی فرق نہیں پڑا۔ سب لوگ سو گئے لیکن میں گھنٹوں کھڑکی سے باہر دیکھتا رہا۔ کچھ گھنٹوں بعد جب آنکھ کھلی تو پورا منظر بدل چکا تھا — ہر طرف پہاڑ، ٹھنڈی دھندلی صبح، جبکہ گھر احمد پور ایسٹ میں گرمی چھوڑی تھی۔\nہم فیض آباد پہنچے جہاں میری خالہ کے شوہر کھلی گاڑی میں لینے آئے، اور وہاں سے پورا سفر نیا لگنے لگا — محلہ دیکھنا، بالکونیاں اور گلیاں جو پہلے کبھی نہیں دیکھی تھیں۔\nفیصل مسجد پہلی بار دیکھی اور ہر لمحہ پسند آیا — بھیڑ بھری، اتنی بڑی، گھر جیسی کسی چیز سے بالکل مختلف۔ خالہ کے فون پر ایک لمبی ویڈیو بھی بنائی جو بعد میں غلطی سے ڈیلیٹ ہو گئی، ایک چھوٹا سا نقصان جو آج بھی یاد کرتے ہوئے تھوڑی تکلیف دیتا ہے۔\nمیں تقریباً دو ہفتے وہاں رہا اور رمضان بھی وہیں گزارا — موسم احمد پور ایسٹ سے بالکل مختلف، ٹھنڈا، دھندلا، پہاڑی ہوا جس میں روزہ بالکل نیا سا لگتا۔ میں نے تقریباً سب روزے رکھے۔ یہ پہلی بار تھا جب مجھے سمجھ آیا کہ دنیا اس ایک شہر سے کہیں بڑی ہے جسے میں ہمیشہ سے جانتا تھا۔\nگھر سے تھوڑی دیر کے لیے بھی دور جانا اکثر سب سے تیز طریقہ ہے یہ سمجھنے کا کہ دنیا اصل میں کتنی بڑی ہے — اور اس ایک شہر کے مقابلے میں جسے آپ ہمیشہ سے جانتے تھے، وہ کتنا چھوٹا تھا۔"
+      },
+      {
+        "id": "story-part-7-ek-aur-rishta-ek-alag-kahani-en",
+        "url": "https://farhanbalouch.com/story/part-7-ek-aur-rishta-ek-alag-kahani",
+        "title": "Ek Aur Rishta, Ek Alag Kahani",
+        "kind": "story",
+        "language": "en",
+        "text": "Ek Aur Rishta, Ek Alag Kahani\nA cousin's quiet closeness, a racing game, and the sudden loss that reminded Farhan Balouch how close life and grief actually sit to each other.\nA cousin's quiet care, and a funeral that changed the mood of everything.\nA cousin close to my age became part of this period of my life. She'd studied at my old school before eventually joining mine for Classes 9 and 10, and she was shy, sometimes nervous around me, often teasing and joking at the same time.\nOur families arranged for her to attend the same tuition as me, and afterward I'd sometimes walk her home, carrying her bag, waiting until she'd gone all the way inside. When she stepped through the door she'd often turn and wave — and I'd wave back. We didn't talk much on those walks, but she'd ask about my health, ask why I'd been absent, small things that showed she was paying attention.\nAt family gatherings it became even more obvious. One day, during a racing game with several cousins around, we ended up sitting close together, and there was an awkward moment when our hands nearly touched — she seemed comfortable with it, and I became genuinely confused about what exactly was happening between us. She eventually told a few cousins she liked me, and soon the younger side of the family knew, even if the adults didn't yet.\nThen tragedy reached our family. A young cousin fell seriously ill and passed away unexpectedly at around ten years old. We went back once when we heard she was unwell, then again when we learned she'd died. I remember carrying her funeral bier on my shoulders, and a couplet settling into my mind that day and never really leaving it since — a stark, mid-childhood reminder of exactly how close life and loss sit to each other. Eventually the mourning eased, ordinary jokes returned, and life carried on — the way it always somehow does.\nGrief has a way of arriving in the middle of ordinary life and reminding you what actually matters — and, strangely, life still finds its way back to jokes and normal days afterward."
+      },
+      {
+        "id": "story-part-7-ek-aur-rishta-ek-alag-kahani-hi",
+        "url": "https://farhanbalouch.com/story/part-7-ek-aur-rishta-ek-alag-kahani",
+        "title": "Ek Aur Rishta, Ek Alag Kahani",
+        "kind": "story",
+        "language": "hi",
+        "text": "Ek Aur Rishta, Ek Alag Kahani\nEk cousin ki khamosh nazdeeki, racing game ka ek lamha, aur achanak wo loss jisne Farhan Balouch ko yaad dilaya ke zindagi aur gham kitne paas paas rehte hain.\nEk cousin ki khamosh care, aur ek janaza jisne sab kuch badal diya.\nMeri umar ki ek cousin is daur ka hissa ban gayi. Wo meri purani school mein padh chuki thi, aur baad mein Class 9-10 ke liye meri school aa gayi. Sharmeeli thi, mere saamne kabhi nervous, lekin sath hi mazaakiya bhi.\nHamare gharwalon ne usay meri hi tuition mein daal diya, aur tuition ke baad main kabhi usay ghar tak chhodta, uska bag utha kar chalta, jab tak wo andar na chali jaye. Andar jate hue wo aksar mudh kar hath hilati — main bhi wapis hilata. Zyada baatein nahi hoti thin lekin wo meri sehat pooch leti, absent hone ki wajah pooch leti — chhoti baatein jo dikha deti thin ke usay farq padta hai.\nFamily functions mein ye aur saaf ho jata. Ek din, cousins ke sath racing game khelte hue hum paas baith gaye, aur ek ajeeb lamha aaya jab hamare haath tang aa gaye — wo comfortable lagi, aur main genuinely confused ho gaya ke ye ho kya raha hai. Usne kuch cousins ko bata diya ke usay main pasand hoon, aur jald hi family ki younger generation ko pata chal gaya, bade abhi bhi anjaan thay.\nPhir hamari family par gham toot pada. Ek chhoti cousin achanak bemar ho gayi aur dus saal ki umar mein guzar gayi. Hum ek baar wapis gaye jab uski tabiyat kharab hui, aur dobara jab intaqal ki khabar aayi. Mujhe yaad hai uska janaza apne kandhon par uthana, aur ek couplet zehan mein baith gaya jo aaj tak nahi gaya — bachpan ke beech mein ek sakht yaad dahani ke zindagi aur maut kitni qareeb hoti hain. Aakhir gham halka hua, mazaak wapis aaye, aur zindagi apne tareeqay se aagay badh gayi.\nGham ka ek ajeeb tareeqa hota hai aam zindagi ke beech mein achanak aa jana aur ye yaad dilana ke asal mein kya matter karta hai — aur ajeeb baat, iske baad bhi zindagi wapis mazaak aur normal dinon tak pahunch hi jati hai."
+      },
+      {
+        "id": "story-part-7-ek-aur-rishta-ek-alag-kahani-ur",
+        "url": "https://farhanbalouch.com/story/part-7-ek-aur-rishta-ek-alag-kahani",
+        "title": "ایک اور رشتہ، ایک الگ کہانی",
+        "kind": "story",
+        "language": "ur",
+        "text": "ایک اور رشتہ، ایک الگ کہانی\nایک کزن کی خاموش قربت، ریسنگ گیم کا ایک لمحہ، اور اچانک وہ نقصان جس نے فرحان بلوچ کو یاد دلایا کہ زندگی اور غم کتنے قریب قریب رہتے ہیں۔\nایک کزن کی خاموش دیکھ بھال، اور ایک جنازہ جس نے سب کچھ بدل دیا۔\nمیری عمر کی ایک کزن اس دور کا حصہ بن گئی۔ وہ میرے پرانے سکول میں پڑھ چکی تھی، اور بعد میں کلاس نائن ٹین کے لیے میرے سکول آ گئی۔ شرمیلی تھی، میرے سامنے کبھی گھبرائی ہوئی، لیکن ساتھ ہی مذاقیہ بھی۔\nہمارے گھر والوں نے اسے میری ہی ٹیوشن میں ڈال دیا، اور ٹیوشن کے بعد میں کبھی اسے گھر تک چھوڑتا، اس کا بیگ اٹھا کر چلتا، جب تک وہ اندر نہ چلی جائے۔ اندر جاتے ہوئے وہ اکثر مڑ کر ہاتھ ہلاتی — میں بھی واپس ہلاتا۔ زیادہ باتیں نہیں ہوتی تھیں لیکن وہ میری صحت پوچھ لیتی، غیر حاضر ہونے کی وجہ پوچھ لیتی — چھوٹی باتیں جو دکھا دیتی تھیں کہ اسے فرق پڑتا ہے۔\nفیملی فنکشنز میں یہ اور صاف ہو جاتا۔ ایک دن، کزنز کے ساتھ ریسنگ گیم کھیلتے ہوئے ہم پاس بیٹھ گئے، اور ایک عجیب لمحہ آیا جب ہمارے ہاتھ قریب آ گئے — وہ آرام دہ لگی، اور میں واقعی الجھ گیا کہ یہ ہو کیا رہا ہے۔ اس نے کچھ کزنز کو بتا دیا کہ اسے میں پسند ہوں، اور جلد ہی فیملی کی نئی نسل کو پتا چل گیا، بڑے ابھی بھی انجان تھے۔\nپھر ہماری فیملی پر غم ٹوٹ پڑا۔ ایک چھوٹی کزن اچانک بیمار ہو گئی اور دس سال کی عمر میں گزر گئی۔ ہم ایک بار واپس گئے جب اس کی طبیعت خراب ہوئی، اور دوبارہ جب انتقال کی خبر آئی۔ مجھے یاد ہے اس کا جنازہ اپنے کندھوں پر اٹھانا، اور ایک شعر ذہن میں بیٹھ گیا جو آج تک نہیں گیا — بچپن کے بیچ میں ایک سخت یاد دہانی کہ زندگی اور موت کتنی قریب ہوتی ہیں۔ آخر غم ہلکا ہوا، مذاق واپس آئے، اور زندگی اپنے طریقے سے آگے بڑھ گئی۔\nغم کا ایک عجیب طریقہ ہوتا ہے عام زندگی کے بیچ میں اچانک آ جانا اور یہ یاد دلانا کہ اصل میں کیا اہم ہے — اور عجیب بات، اس کے بعد بھی زندگی واپس مذاق اور نارمل دنوں تک پہنچ ہی جاتی ہے۔"
+      },
+      {
+        "id": "story-part-8-jab-family-ko-pata-chal-gaya-en",
+        "url": "https://farhanbalouch.com/story/part-8-jab-family-ko-pata-chal-gaya",
+        "title": "Jab Family Ko Pata Chal Gaya",
+        "kind": "story",
+        "language": "en",
+        "text": "Jab Family Ko Pata Chal Gaya\nWhen word about him and his cousin finally reached his mother, Farhan Balouch did the one thing he now regrets — he denied it.\nA denial made out of fear, and the distance it created.\nIt was another cousin — funny, caring, one of my closest people in the whole family — who first found out what was going on between us. From her, the news eventually reached my mother.\nWhen I was asked directly, I denied everything. Out of fear, mostly, though I couldn't have explained exactly what I was afraid of at the time. My mother, half-joking, mentioned yet another cousin as someone she might actually prefer for me, and I stayed quiet through all of it.\nThe next day, my cousin asked me privately whether what she'd heard was true. I avoided answering her directly. She got hurt, and understandably distant, and for a while we barely spoke — before slowly, awkwardly, returning to something like normal. It taught me something that took a while to actually sink in: understanding a feeling and being able to admit it out loud, especially to the people closest to you, are two completely different skills.\nUnderstanding a feeling and being able to admit it out loud are two very different things — and denial, even when it comes from fear rather than dishonesty, still leaves someone else hurt."
+      },
+      {
+        "id": "story-part-8-jab-family-ko-pata-chal-gaya-hi",
+        "url": "https://farhanbalouch.com/story/part-8-jab-family-ko-pata-chal-gaya",
+        "title": "Jab Family Ko Pata Chal Gaya",
+        "kind": "story",
+        "language": "hi",
+        "text": "Jab Family Ko Pata Chal Gaya\nJab cousin wali baat aakhir Ammi tak pahunch gayi — aur Farhan ne wahi kiya jispe aaj bhi afsos hota hai: sab kuch se inkar.\nDar mein diya gaya inkar, aur uske baad ki khamoshi.\nEk aur cousin — mazaakiya, khayal rakhne wali, family mein mere sabse qareebi logon mein se ek — sabse pehle jaan gayi ke hamare darmiyan kya chal raha hai. Usi se ye baat Ammi tak pahunch gayi.\nJab mujhse seedha poocha gaya, maine sab kuch se inkar kar diya. Zyada tar khauf ki wajah se, hala ke us waqt main khud bhi nahi bata sakta tha kis baat se dar raha tha. Ammi ne mazak mazak mein ek aur cousin ka zikr kiya ke shayad wo unhe mere liye zyada pasand hai, aur main khamosh raha.\nAgle din meri cousin ne mujhse alag mein poocha ke jo usne suna tha wo sach hai ya nahi. Maine seedha jawab nahi diya. Wo hurt hui, samajhdari se door bhi ho gayi, aur kuch waqt hum mushkil se baat karte thay — phir dheere dheere, thoda awkward tareeqay se, wapis normal ki taraf aa gaye. Isse ek baat samajh aayi jo waqt le kar hi samajh aati hai: ek feeling ko samajhna aur usay zubaan par la kar kehna, khas kar apne sabse qareebi logon se, do bilkul alag skills hain.\nEk feeling ko samajhna aur usay zubaan par la kar keh dena, do bilkul alag baatein hain — aur inkar, chahe wo be-imaani se nahi balke khauf se hi kyun na ho, phir bhi kisi aur ko hurt kar deta hai."
+      },
+      {
+        "id": "story-part-8-jab-family-ko-pata-chal-gaya-ur",
+        "url": "https://farhanbalouch.com/story/part-8-jab-family-ko-pata-chal-gaya",
+        "title": "جب گھر والوں کو پتا چل گیا",
+        "kind": "story",
+        "language": "ur",
+        "text": "جب گھر والوں کو پتا چل گیا\nجب کزن والی بات آخر امی تک پہنچ گئی — اور فرحان نے وہی کیا جس پر آج بھی افسوس ہوتا ہے: سب کچھ سے انکار۔\nخوف میں دیا گیا انکار، اور اس کے بعد کی خاموشی۔\nایک اور کزن — مذاقیہ، خیال رکھنے والی، فیملی میں میرے سب سے قریبی لوگوں میں سے ایک — سب سے پہلے جان گئی کہ ہمارے درمیان کیا چل رہا ہے۔ اسی سے یہ بات امی تک پہنچ گئی۔\nجب مجھ سے سیدھا پوچھا گیا، میں نے سب کچھ سے انکار کر دیا۔ زیادہ تر خوف کی وجہ سے، حالانکہ اس وقت میں خود بھی نہیں بتا سکتا تھا کس بات سے ڈر رہا تھا۔ امی نے مذاق مذاق میں ایک اور کزن کا ذکر کیا کہ شاید وہ انہیں میرے لیے زیادہ پسند ہے، اور میں خاموش رہا۔\nاگلے دن میری کزن نے مجھ سے الگ میں پوچھا کہ جو اس نے سنا تھا وہ سچ ہے یا نہیں۔ میں نے سیدھا جواب نہیں دیا۔ وہ دکھی ہوئی، سمجھداری سے دور بھی ہو گئی، اور کچھ وقت ہم مشکل سے بات کرتے تھے — پھر آہستہ آہستہ، تھوڑا عجیب طریقے سے، واپس نارمل کی طرف آ گئے۔ اس سے ایک بات سمجھ آئی جو وقت لے کر ہی سمجھ آتی ہے: ایک احساس کو سمجھنا اور اسے زبان پر لا کر کہہ دینا، خاص کر اپنے سب سے قریبی لوگوں سے، دو بالکل الگ صلاحیتیں ہیں۔\nایک احساس کو سمجھنا اور اسے زبان پر لا کر کہہ دینا، دو بالکل الگ باتیں ہیں — اور انکار، چاہے وہ بے ایمانی سے نہیں بلکہ خوف سے ہی کیوں نہ ہو، پھر بھی کسی اور کو تکلیف دے دیتا ہے۔"
+      },
+      {
+        "id": "story-part-9-chhoti-jobs-bade-lessons-en",
+        "url": "https://farhanbalouch.com/story/part-9-chhoti-jobs-bade-lessons",
+        "title": "Chhoti Jobs, Bade Lessons",
+        "kind": "story",
+        "language": "en",
+        "text": "Chhoti Jobs, Bade Lessons\nMedical stores, twenty rupees a day, and the small jobs Farhan Balouch's father kept sending him into during school holidays.\nWhat a medical store, and a father's refusal to let him sit idle, taught him.\nMy father never liked seeing me idle during holidays. Whenever he came home and found me sitting around, he'd try to find me something to do — anything that would either keep me busy or teach me an actual skill. Around Class 4 or 5, that meant a medical store: two or three months, paid around twenty rupees a day at first, later fifty, learning the names of medicines, tablets, syrups, and the general rhythm of how the place worked.\nNot every attempt lasted. After some time at home, my father sent me looking for another place, and I already had some experience by then. One store agreed to teach me but not pay me — I left after two days. Another paid around fifty rupees a day, and I stayed for a while before leaving again, short of a full month.\nMy parents had different reasons for wanting this. My father just wanted me active and learning something real. My mother had a bigger dream tucked inside it — she wanted me in the medical field eventually, maybe a doctor, maybe something built around medicine. At the time, none of it felt like it was building toward anything specific.\nLooking back, though, every small job taught me something that outlasted the job itself. The basic medical knowledge in particular stuck around far longer than I expected — and it would end up mattering a lot more than a few rupees a day ever could.\nNo job is too small to teach you something you'll need later — even a few rupees a day at a medical store can quietly hand you a skill that matters far more, years down the line."
+      },
+      {
+        "id": "story-part-9-chhoti-jobs-bade-lessons-hi",
+        "url": "https://farhanbalouch.com/story/part-9-chhoti-jobs-bade-lessons",
+        "title": "Chhoti Jobs, Bade Lessons",
+        "kind": "story",
+        "language": "hi",
+        "text": "Chhoti Jobs, Bade Lessons\nMedical stores, bees rupay rozana, aur wo chhoti chhoti jobs jinhe Farhan Balouch ke Abu school ki chhuttiyon mein dhoondh kar bhejte thay.\nMedical store aur ek father ka farigh na bethne dena kya sikha gaya.\nAbu ko ye pasand nahi tha ke main chhuttiyon mein khaali baithun. Jab bhi wo ghar aate aur mujhe khaali dekhte, koi na koi kaam dhoondh lete — kuch aisa jo mujhe mashghool rakhe ya koi asli skill sikha de. Class 4 ya 5 ke qareeb, ye ek medical store nikla: do teen mahine, pehle taqreeban bees rupay rozana, baad mein pachas, jahan mujhe medicines, tablets, syrups aur us jagah ke poore mahol ke baare mein pata chala.\nHar koshish kamyaab nahi hui. Kuch waqt ghar rehne ke baad Abu ne mujhe naya jaga dhoondhne ko kaha, aur mere paas ab kuch tajurba tha. Ek dukaan ne sikhane ka wada kiya lekin paisay nahi dene thay — do din mein chhod diya. Dusri ne pachas rupay diye, kuch waqt raha, phir ek mahina poora karne se pehle hi chhod diya.\nMeri Ammi aur Abu ki wajahein alag alag thin. Abu bas chahte thay ke main active rahun aur kuch asli seekhun. Ammi ke zehan mein ek bara khwaab tha — ke main kabhi medical field mein jaun, shayad doctor banun, shayad medicine se juri koi cheez karun. Us waqt koi bhi cheez kisi khaas manzil ki taraf jaati nahi lagti thi.\nPeechay mudh kar dekhun to har chhoti job ne kuch aisa sikha diya jo job khatam hone ke baad bhi saath raha. Basic medical knowledge sabse zyada tiki — aur aage chal kar wo chand rupay rozana se kahin zyada important sabit hui.\nKoi job itni chhoti nahi hoti ke wo baad mein kaam aane wali koi cheez na sikha sake — chand rupay rozana wali medical store ki job bhi khamoshi se aisi skill de sakti hai jo saalon baad kahin zyada important sabit ho."
+      },
+      {
+        "id": "story-part-9-chhoti-jobs-bade-lessons-ur",
+        "url": "https://farhanbalouch.com/story/part-9-chhoti-jobs-bade-lessons",
+        "title": "چھوٹی نوکریاں، بڑے سبق",
+        "kind": "story",
+        "language": "ur",
+        "text": "چھوٹی نوکریاں، بڑے سبق\nمیڈیکل سٹورز، بیس روپے روزانہ، اور وہ چھوٹی چھوٹی نوکریاں جنہیں فرحان بلوچ کے ابو سکول کی چھٹیوں میں ڈھونڈ کر بھیجتے تھے۔\nمیڈیکل سٹور اور ایک باپ کا خالی نہ بیٹھنے دینا کیا سکھا گیا۔\nابو کو یہ پسند نہیں تھا کہ میں چھٹیوں میں خالی بیٹھوں۔ جب بھی وہ گھر آتے اور مجھے خالی دیکھتے، کوئی نہ کوئی کام ڈھونڈ لیتے — کچھ ایسا جو مجھے مصروف رکھے یا کوئی اصل مہارت سکھا دے۔ کلاس فور یا فائیو کے قریب، یہ ایک میڈیکل سٹور نکلا: دو تین مہینے، پہلے تقریباً بیس روپے روزانہ، بعد میں پچاس، جہاں مجھے دوائیوں، گولیوں، شربتوں اور اس جگہ کے پورے ماحول کے بارے میں پتا چلا۔\nہر کوشش کامیاب نہیں ہوئی۔ کچھ وقت گھر رہنے کے بعد ابو نے مجھے نئی جگہ ڈھونڈنے کو کہا، اور اب میرے پاس کچھ تجربہ تھا۔ ایک دکان نے سکھانے کا وعدہ کیا لیکن پیسے نہیں دینے تھے — دو دن میں چھوڑ دیا۔ دوسری نے پچاس روپے دیے، کچھ وقت رہا، پھر ایک مہینہ پورا کرنے سے پہلے ہی چھوڑ دیا۔\nمیری امی اور ابو کی وجوہات الگ الگ تھیں۔ ابو بس چاہتے تھے کہ میں سرگرم رہوں اور کچھ اصل سیکھوں۔ امی کے ذہن میں ایک بڑا خواب تھا — کہ میں کبھی میڈیکل فیلڈ میں جاؤں، شاید ڈاکٹر بنوں، شاید میڈیسن سے جڑی کوئی چیز کروں۔ اس وقت کوئی بھی چیز کسی خاص منزل کی طرف جاتی نہیں لگتی تھی۔\nپیچھے مڑ کر دیکھوں تو ہر چھوٹی نوکری نے کچھ ایسا سکھا دیا جو نوکری ختم ہونے کے بعد بھی ساتھ رہا۔ بنیادی طبی معلومات سب سے زیادہ ٹکیں — اور آگے چل کر وہ چند روپے روزانہ سے کہیں زیادہ اہم ثابت ہوئیں۔\nکوئی نوکری اتنی چھوٹی نہیں ہوتی کہ وہ بعد میں کام آنے والی کوئی چیز نہ سکھا سکے — چند روپے روزانہ والی میڈیکل سٹور کی نوکری بھی خاموشی سے ایسی مہارت دے سکتی ہے جو سالوں بعد کہیں زیادہ اہم ثابت ہو۔"
+      },
+      {
+        "id": "story-part-10-nani-en",
+        "url": "https://farhanbalouch.com/story/part-10-nani",
+        "title": "Nani",
+        "kind": "story",
+        "language": "en",
+        "text": "Nani\nFarhan Balouch on the grandmother who trusted him with her medicines and her injections — and the phone call that changed everything in an instant.\nThe day I lost the person who trusted me with her medicine.\nMy grandmother and I had a close bond, partly built around something small: my early medical-store experience meant I could actually tell her what her medicines were for, and she genuinely liked that I knew. She had diabetes and other age-related health issues, and at some point I learned enough to give her injections myself — she once told me she barely felt it compared to before. For a while, one of my quiet dreams was simple: become medically capable enough, one day, to take care of her myself.\nHer health eventually declined badly. Our family wanted her to stay with us in Ahmadpur East, but circumstances made it difficult, and later we heard her condition had turned serious. We went to see her — she was conscious when we arrived, called me over, hugged me, kissed my forehead. I still remember that exact moment.\nA doctor was called to the house, medicine was given, and for a short while everyone allowed themselves to hope. Then, around 2 PM, her condition got much worse, and an ambulance was called to take her toward Bahawalpur while the rest of us stayed behind, waiting. I was sitting in another room. Around 3:30 PM I got up to go pray for her — and at that exact moment, the phone rang. My aunt picked up. Then she screamed. For a few minutes I simply couldn't process what I'd just heard.\nShe was brought back home, and the funeral, the mourning, the forty days that followed all happened the way they always do — the house filling with people, and then, slowly, painfully, life returning to something like normal. It remains one of the most frightening days of my life, and losing her quietly reshaped a part of what I wanted to do with the rest of mine.\nSome losses don't just hurt in the moment — they quietly reshape what you decide to do with the rest of your life, long after the mourning period itself has ended."
+      },
+      {
+        "id": "story-part-10-nani-hi",
+        "url": "https://farhanbalouch.com/story/part-10-nani",
+        "title": "Nani",
+        "kind": "story",
+        "language": "hi",
+        "text": "Nani\nFarhan Balouch aur unki Nani — jinhone apni medicines aur apne injections tak uspar bharosa kiya — aur wo phone call jisne sab kuch badal diya.\nJis din maine woh insaan khoya jo apni medicine ke liye mujh par bharosa karti thi.\nMeri Nani aur meri dosti ek chhoti si cheez par bani thi: mere medical-store ke tajurbe ki wajah se main unhe bata sakta tha ke unki dawa kis liye hai, aur unhe ye pasand tha ke mujhe pata hai. Unhe diabetes aur umar se juri kuch aur masail thay, aur ek waqt aisa aaya jab main khud unhe injection de sakta tha — unhone ek baar kaha ke unhe pehle se kam dard mehsoos hua. Kuch arse ke liye mera ek khamosh khwaab tha: itna medically capable ban jaun ke unki khud dekhbhal kar sakun.\nUnki sehat aakhir bohot kharab ho gayi. Family chahti thi ke wo Ahmadpur East aa kar hamare sath rahein, lekin halaat ne asaan nahi hone diya, aur baad mein pata chala ke unki halat kaafi serious ho gayi hai. Hum unhe dekhne gaye — pahunchte waqt wo hosh mein thin, mujhe bulaya, gale lagaya, meri peshani par bosa diya. Wo lamha aaj bhi yaad hai.\nGhar par doctor bulaya gaya, dawa di gayi, aur thori der ke liye sab ko umeed banhi rahi. Phir taqreeban 2 baje unki halat aur bigad gayi, aur unhe ambulance mein Bahawalpur ki taraf le jaya gaya jabke baqi sab wahin intezar karte rahe. Main dusre kamray mein baitha tha. Taqreeban 3:30 baje main uth kar unke liye dua karne ja raha tha — aur usi lamhe phone bajaa. Khala ne uthaya. Phir wo cheekh uthin. Kuch minute mujhe samajh hi nahi aaya ke maine abhi kya suna hai.\nUnhe wapis ghar lai gaya, aur janaza, sog, chaleeswa — sab wahi hua jo hamesha hota hai — ghar logon se bhar gaya, aur phir, dheere dheere, dard ke sath, zindagi wapis normal jaisi ho gayi. Ye mere sabse khaufnaak dinon mein se ek raha, aur unhe khona khamoshi se meri baqi zindagi ke faisalon ka rukh badal gaya.\nKuch losses sirf us waqt dard nahi dete — wo khamoshi se ye bhi tay kar dete hain ke aap baqi zindagi mein kya karne wale hain, sog ka waqt guzarne ke bohot baad tak."
+      },
+      {
+        "id": "story-part-10-nani-ur",
+        "url": "https://farhanbalouch.com/story/part-10-nani",
+        "title": "نانی",
+        "kind": "story",
+        "language": "ur",
+        "text": "نانی\nفرحان بلوچ اور ان کی نانی — جنہوں نے اپنی دوائیوں اور اپنے انجیکشنز تک اس پر بھروسہ کیا — اور وہ فون کال جس نے سب کچھ بدل دیا۔\nوہ دن جب میں نے وہ انسان کھو دی جو اپنی دوا کے لیے مجھ پر بھروسا کرتی تھی۔\nمیری نانی اور میری دوستی ایک چھوٹی سی چیز پر بنی تھی: میرے میڈیکل سٹور کے تجربے کی وجہ سے میں انہیں بتا سکتا تھا کہ ان کی دوا کس لیے ہے، اور انہیں یہ پسند تھا کہ مجھے پتا ہے۔ انہیں ذیابیطس اور عمر سے جڑے کچھ اور مسائل تھے، اور ایک وقت ایسا آیا جب میں خود انہیں انجیکشن دے سکتا تھا — انہوں نے ایک بار کہا کہ انہیں پہلے سے کم درد محسوس ہوا۔ کچھ عرصے کے لیے میرا ایک خاموش خواب تھا: اتنا طبی طور پر قابل بن جاؤں کہ ان کی خود دیکھ بھال کر سکوں۔\nان کی صحت آخر بہت خراب ہو گئی۔ فیملی چاہتی تھی کہ وہ احمد پور ایسٹ آ کر ہمارے ساتھ رہیں، لیکن حالات نے آسان نہیں ہونے دیا، اور بعد میں پتا چلا کہ ان کی حالت کافی سنگین ہو گئی ہے۔ ہم انہیں دیکھنے گئے — پہنچتے وقت وہ ہوش میں تھیں، مجھے بلایا، گلے لگایا، میری پیشانی پر بوسہ دیا۔ وہ لمحہ آج بھی یاد ہے۔\nگھر پر ڈاکٹر بلایا گیا، دوا دی گئی، اور تھوڑی دیر کے لیے سب کو امید بندھی رہی۔ پھر تقریباً دو بجے ان کی حالت اور بگڑ گئی، اور انہیں ایمبولینس میں بہاولپور کی طرف لے جایا گیا جبکہ باقی سب وہیں انتظار کرتے رہے۔ میں دوسرے کمرے میں بیٹھا تھا۔ تقریباً ساڑھے تین بجے میں اٹھ کر ان کے لیے دعا کرنے جا رہا تھا — اور اسی لمحے فون بجا۔ خالہ نے اٹھایا۔ پھر وہ چیخ اٹھیں۔ کچھ منٹ مجھے سمجھ ہی نہیں آیا کہ میں نے ابھی کیا سنا ہے۔\nانہیں واپس گھر لایا گیا، اور جنازہ، سوگ، چالیسواں — سب وہی ہوا جو ہمیشہ ہوتا ہے — گھر لوگوں سے بھر گیا، اور پھر، آہستہ آہستہ، درد کے ساتھ، زندگی واپس نارمل جیسی ہو گئی۔ یہ میرے سب سے خوفناک دنوں میں سے ایک تھا، اور انہیں کھونا خاموشی سے میری باقی زندگی کے فیصلوں کا رخ بدل گیا۔\nکچھ نقصان صرف اس وقت درد نہیں دیتے — وہ خاموشی سے یہ بھی طے کر دیتے ہیں کہ آپ باقی زندگی میں کیا کرنے والے ہیں، سوگ کا وقت گزرنے کے بہت بعد تک۔"
+      },
+      {
+        "id": "story-part-11-the-unexpected-message-en",
+        "url": "https://farhanbalouch.com/story/part-11-the-unexpected-message",
+        "title": "The Unexpected Message",
+        "kind": "story",
+        "language": "en",
+        "text": "The Unexpected Message\nA late-night WhatsApp message from an unfamiliar number turned into one of the most confusing chapters of Farhan Balouch's teenage years.\nA late-night text that opened a new, confusing chapter.\nNot long after my grandmother passed, I got a WhatsApp message from a number I didn't recognize — it belonged to a relative's father, since that household didn't have another phone. It started with a simple greeting. Then came two words I wasn't ready for: 'I love you.'\nI asked who it was, not quite believing the answer. It was another cousin, and she eventually sent proof — that she actually had the phone in hand, and that everyone else in the house was asleep. It was close to midnight. I avoided giving a direct answer for a while, then eventually said something close to 'love you too' anyway. She asked me to stay up and talk, and we did, for a short while, before I finally went to sleep.\nA few days later something similar happened again — and this time my emotions genuinely tangled up. I already carried years of memory around the girl from Class 7. I still had an unresolved situation with another cousin sitting right next to it. And now this new cousin had stepped into the picture, on her own terms, without asking permission from any of it.\nNew feelings don't wait politely for old ones to finish — sometimes they just arrive at midnight, uninvited, right when you least expect any room left in your heart for them."
+      },
+      {
+        "id": "story-part-11-the-unexpected-message-hi",
+        "url": "https://farhanbalouch.com/story/part-11-the-unexpected-message",
+        "title": "The Unexpected Message",
+        "kind": "story",
+        "language": "hi",
+        "text": "The Unexpected Message\nAadhi raat ko ek na pehchaanay number se aayi WhatsApp message — jo Farhan Balouch ki teenage ke sabse confusing daur mein se ek ban gayi.\nEk raat ki message jisne ek naya, confusing chapter khol diya.\nNani ke guzarne ke thore hi arse baad, mujhe ek WhatsApp message aayi ek aise number se jise main nahi pehchanta tha — ye ek rishtedar ke Abu ka phone tha, kyunke unke ghar koi aur mobile nahi tha. Shuruat ek simple 'hello' se hui. Phir do lafz aaye jinke liye main tayyar nahi tha: 'I love you.'\nMaine poocha kaun hai, jawab par yaqeen nahi aaya. Ye ek aur cousin thi, aur usne akhir saboot bhi diya — ke phone waqai uske paas hai aur ghar ke baqi log so chuke hain. Raat taqreeban 12 baje ka waqt tha. Main kuch der seedha jawab tal ta raha, phir aakhir 'love you too' jaisa kuch keh diya. Usne kaha ke jaago aur baat karo, aur hum thori der baat karte rahe, phir main so gaya.\nKuch din baad kuch aisa hi dobara hua — aur is baar meri feelings sach mein uljh gayin. Mere paas pehle se Class 7 wali larki ki saalon purani yaadein thin. Ek aur cousin wala silsila bhi abhi adhoora tha. Aur ab ye nayi cousin khud is tasveer mein aa gayi thi, bina kisi se ijazat mange.\nNayi feelings adab se purani feelings ke khatam hone ka intezar nahi karti — kabhi wo bas aadhi raat ko aa jati hain, bina bulaye, aur bilkul us waqt jab aapko lagta hai dil mein unke liye koi jagah bachi hi nahi."
+      },
+      {
+        "id": "story-part-11-the-unexpected-message-ur",
+        "url": "https://farhanbalouch.com/story/part-11-the-unexpected-message",
+        "title": "وہ غیر متوقع پیغام",
+        "kind": "story",
+        "language": "ur",
+        "text": "وہ غیر متوقع پیغام\nآدھی رات کو ایک نہ پہچانے نمبر سے آئی واٹس ایپ میسج — جو فرحان بلوچ کی نوعمری کے سب سے الجھے ہوئے دور میں سے ایک بن گئی۔\nایک رات کا پیغام جس نے ایک نیا، الجھا ہوا باب کھول دیا۔\nنانی کے گزرنے کے تھوڑے ہی عرصے بعد، مجھے ایک واٹس ایپ میسج آیا ایک ایسے نمبر سے جسے میں نہیں پہچانتا تھا — یہ ایک رشتہ دار کے ابو کا فون تھا، کیونکہ ان کے گھر کوئی اور موبائل نہیں تھا۔ شروعات ایک سادہ 'ہیلو' سے ہوئی۔ پھر دو الفاظ آئے جن کے لیے میں تیار نہیں تھا: 'I love you'۔\nمیں نے پوچھا کون ہے، جواب پر یقین نہیں آیا۔ یہ ایک اور کزن تھی، اور اس نے آخر ثبوت بھی دیا — کہ فون واقعی اس کے پاس ہے اور گھر کے باقی لوگ سو چکے ہیں۔ رات تقریباً بارہ بجے کا وقت تھا۔ میں کچھ دیر سیدھا جواب ٹالتا رہا، پھر آخر 'love you too' جیسا کچھ کہہ دیا۔ اس نے کہا کہ جاگو اور بات کرو، اور ہم تھوڑی دیر بات کرتے رہے، پھر میں سو گیا۔\nکچھ دن بعد کچھ ایسا ہی دوبارہ ہوا — اور اس بار میری کیفیات سچ میں الجھ گئیں۔ میرے پاس پہلے سے کلاس سیون والی لڑکی کی سالوں پرانی یادیں تھیں۔ ایک اور کزن والا سلسلہ بھی ابھی ادھورا تھا۔ اور اب یہ نئی کزن خود اس تصویر میں آ گئی تھی، بغیر کسی سے اجازت مانگے۔\nنئے احساسات ادب سے پرانے احساسات کے ختم ہونے کا انتظار نہیں کرتے — کبھی وہ بس آدھی رات کو آ جاتے ہیں، بغیر بلائے، اور بالکل اس وقت جب آپ کو لگتا ہے دل میں ان کے لیے کوئی جگہ بچی ہی نہیں۔"
+      },
+      {
+        "id": "story-part-12-confusion-en",
+        "url": "https://farhanbalouch.com/story/part-12-confusion",
+        "title": "Confusion",
+        "kind": "story",
+        "language": "en",
+        "text": "Confusion\nTwo cousins, one confused teenager, and the honest sentence Farhan Balouch finally said out loud: 'I don't even know who I love.'\nOld memories, a new possibility, and one honest admission.\nThe cousin who'd messaged me was different from the first one — naturally confident, balanced, more direct, neither overly reserved nor overly free. She'd sometimes tease me about the other cousin too, telling me things like 'she still thinks about you' or 'she was just watching you,' and calling me shy whenever I didn't respond.\nEventually I found out she'd been telling the other cousin, and other relatives, details from our private conversations. That genuinely bothered me — I told her that if she kept sharing everything, I'd eventually stop telling her anything personal at all. She apologized, but the damage was already visible: both of them now knew things about each other, and I was stuck somewhere in the middle of it.\nSo I told the first cousin honestly, plainly, because I didn't know what else to say: 'I don't even fully know who I love.' I knew the newer messages had genuinely affected me. I knew my mother had once mentioned her, half-jokingly, as someone she'd actually like for me. I knew she herself said she missed me. And slowly, without quite planning it, she started appearing in my imagination as someone who could actually be part of my future — even while the memory of the girl from Class 7 refused to fully let go.\nSometimes the most honest thing you can say is simply, 'I don't know' — and admitting that out loud, to the people it actually affects, is more respectful than pretending certainty you don't have."
+      },
+      {
+        "id": "story-part-12-confusion-hi",
+        "url": "https://farhanbalouch.com/story/part-12-confusion",
+        "title": "Confusion",
+        "kind": "story",
+        "language": "hi",
+        "text": "Confusion\nDo cousins, ek confused teenager, aur wo imaandar jumla jo Farhan Balouch ne aakhir keh hi diya: 'Mujhe khud nahi pata main kise chahta hoon.'\nPurani yaadein, ek nayi possibility, aur ek honest admission.\nJis cousin ne message kiya tha wo pehli cousin se bilkul alag thi — naturally confident, balanced, seedhi baat karne wali, na zyada reserved na zyada free. Wo kabhi pehli cousin ke baare mein bhi chhed deti, kehti 'wo abhi bhi tumhe yaad karti hai' ya 'wo bas tumhe dekh rahi thi,' aur jab main jawab na deta to shy hone ka taana bhi deti.\nAkhir mujhe pata chala ke wo humari private baaton ki baatein pehli cousin aur dusre rishtedaron ko bhi bata rahi thi. Isse mujhe genuinely bura laga — maine usse keh diya ke agar wo sab kuch share karti rahi to main usse kuch bhi personal batana chhod dunga. Usne maafi maangi, lekin nuqsaan ho chuka tha: ab dono aik dusre ke baare mein jaanti thin, aur main beech mein phansa hua tha.\nIsliye maine pehli cousin se saaf saaf keh diya, kyunke aur kuch kehne ko nahi tha: 'Mujhe khud pura pata nahi ke main kise chahta hoon.' Mujhe pata tha naye messages ne mujhe genuinely mutasir kiya hai. Mujhe pata tha Ammi ne bhi kabhi mazak mein uska zikr mere liye pasandida tor par kiya tha. Mujhe pata tha wo khud kehti thi ke wo mujhe miss karti hai. Aur dheere dheere, bina plan kiye, wo mere tasawwur mein mustaqbil ka hissa banne lagi — jabke Class 7 wali larki ki yaad abhi bhi pura peecha nahi chhod rahi thi.\nKabhi sabse imaandar baat sirf itni hoti hai: 'mujhe nahi pata' — aur ye baat un logon ke saamne khul kar kehna jinhe ye asal mein affect karti hai, uss jhooti yaqeeniyat se kahin zyada izzat wali baat hai jo aapke paas hai hi nahi."
+      },
+      {
+        "id": "story-part-12-confusion-ur",
+        "url": "https://farhanbalouch.com/story/part-12-confusion",
+        "title": "الجھن",
+        "kind": "story",
+        "language": "ur",
+        "text": "الجھن\nدو کزنز، ایک الجھا ہوا نوعمر، اور وہ ایماندار جملہ جو فرحان بلوچ نے آخر کہہ ہی دیا: 'مجھے خود نہیں پتا میں کسے چاہتا ہوں۔'\nپرانی یادیں، ایک نیا امکان، اور ایک ایماندارانہ اعتراف۔\nجس کزن نے میسج کیا تھا وہ پہلی کزن سے بالکل مختلف تھی — قدرتی طور پر پراعتماد، متوازن، سیدھی بات کرنے والی، نہ زیادہ محفوظ نہ زیادہ آزاد۔ وہ کبھی پہلی کزن کے بارے میں بھی چھیڑتی، کہتی 'وہ ابھی بھی تمہیں یاد کرتی ہے' یا 'وہ بس تمہیں دیکھ رہی تھی'، اور جب میں جواب نہ دیتا تو شرمیلے ہونے کا طعنہ بھی دیتی۔\nآخر مجھے پتا چلا کہ وہ ہماری نجی باتوں کی باتیں پہلی کزن اور دوسرے رشتہ داروں کو بھی بتا رہی تھی۔ اس سے مجھے واقعی برا لگا — میں نے اس سے کہہ دیا کہ اگر وہ سب کچھ شیئر کرتی رہی تو میں اسے کچھ بھی ذاتی بتانا چھوڑ دوں گا۔ اس نے معافی مانگی، لیکن نقصان ہو چکا تھا: اب دونوں ایک دوسرے کے بارے میں جانتی تھیں، اور میں بیچ میں پھنسا ہوا تھا۔\nاس لیے میں نے پہلی کزن سے صاف صاف کہہ دیا، کیونکہ اور کچھ کہنے کو نہیں تھا: 'مجھے خود پورا پتا نہیں کہ میں کسے چاہتا ہوں۔' مجھے پتا تھا نئے پیغامات نے مجھے واقعی متاثر کیا ہے۔ مجھے پتا تھا امی نے بھی کبھی مذاق میں اس کا ذکر میرے لیے پسندیدہ طور پر کیا تھا۔ مجھے پتا تھا وہ خود کہتی تھی کہ وہ مجھے مس کرتی ہے۔ اور آہستہ آہستہ، بغیر پلان کیے، وہ میرے تصور میں مستقبل کا حصہ بننے لگی — جبکہ کلاس سیون والی لڑکی کی یاد ابھی بھی پورا پیچھا نہیں چھوڑ رہی تھی۔\nکبھی سب سے ایماندار بات صرف اتنی ہوتی ہے: 'مجھے نہیں پتا' — اور یہ بات ان لوگوں کے سامنے کھل کر کہنا جنہیں یہ اصل میں متاثر کرتی ہے، اس جھوٹی یقینیت سے کہیں زیادہ عزت والی بات ہے جو آپ کے پاس ہے ہی نہیں۔"
+      },
+      {
+        "id": "story-part-13-manzil-se-kuch-kilometer-pehle-en",
+        "url": "https://farhanbalouch.com/story/part-13-manzil-se-kuch-kilometer-pehle",
+        "title": "Manzil Se Kuch Kilometer Pehle",
+        "kind": "story",
+        "language": "en",
+        "text": "Manzil Se Kuch Kilometer Pehle\nA bike ride, a phone call, and a sudden U-turn that Farhan Balouch now thinks of as less about the road and more about what he actually wanted.\nA U-turn on a bike ride that turned out to be a U-turn in the heart too.\nOne evening, on the way back from a family event, my mother mentioned we might stay the night at some relatives' — close to a place I'd been quietly hoping to be near. I got on the bike with her, genuinely excited, already picturing how the rest of the evening might go.\nThen a phone call came: another relative had passed away, and we needed to turn back immediately. I tried, briefly, to argue for staying anyway — it didn't work — and we U-turned onto the exact road we'd just come from, kilometers away from where I'd wanted to be, the destination still visible but suddenly out of reach.\nThat night something shifted in me, quietly and without warning. I realized I wasn't just missing a person from a distance anymore — I was starting to imagine an actual, real future with her. The U-turn on that bike wasn't really about the road at all. It was about how deep the feeling had grown without me fully noticing.\nSometimes life turns you around just kilometers from where you wanted to be — and that unfinished distance ends up teaching you more about your own feelings than actually arriving would have."
+      },
+      {
+        "id": "story-part-13-manzil-se-kuch-kilometer-pehle-hi",
+        "url": "https://farhanbalouch.com/story/part-13-manzil-se-kuch-kilometer-pehle",
+        "title": "Manzil Se Kuch Kilometer Pehle",
+        "kind": "story",
+        "language": "hi",
+        "text": "Manzil Se Kuch Kilometer Pehle\nEk bike ride, ek phone call, aur ek achanak U-turn jise Farhan Balouch ab road se zyada apni chahat ke baare mein samajhte hain.\nBike ka U-turn jo dil ka bhi U-turn nikla.\nEk shaam, family ki kisi tqreeb se wapis aate hue, Ammi ne kaha ke shayad hum rishtedaron ke ghar raat ruken — ek aisi jagah ke qareeb jiske paas hone ki main khamoshi se umeed rakhta tha. Main khushi khushi bike par Ammi ke saath baith gaya, dimagh mein pehle se shaam ka poora manzar bana raha tha.\nPhir ek phone call aayi: ek aur rishtedar ka intiqal ho gaya tha, aur hamein foran wapis jana tha. Maine thori koshish ki ke raat wahin ruk jayein — kaam nahi aayi — aur hum usi road par U-turn le kar wapis mud gaye jispe se aaye thay, us jagah se kai kilometer door jahan main hona chahta tha, manzil ab bhi nazar aa rahi thi lekin achanak na-mumkin lag rahi thi.\nUs raat mujh mein kuch khamoshi se badal gaya. Mujhe ehsaas hua ke main ab sirf door se kisi ko miss nahi kar raha — main uske sath ek asli mustaqbil ka tasawwur karne laga tha. Bike ka wo U-turn asal mein road ke baare mein nahi tha. Wo is baare mein tha ke ye feeling meri jaane bina kitni gehri ho chuki thi.\nKabhi zindagi aapko usi jagah se kilometer door mod deti hai jahan aap hona chahte thay — aur wo adhoori doori aapko apni feelings ke baare mein wahan pahunchne se bhi zyada sikha jati hai."
+      },
+      {
+        "id": "story-part-13-manzil-se-kuch-kilometer-pehle-ur",
+        "url": "https://farhanbalouch.com/story/part-13-manzil-se-kuch-kilometer-pehle",
+        "title": "منزل سے کچھ کلومیٹر پہلے",
+        "kind": "story",
+        "language": "ur",
+        "text": "منزل سے کچھ کلومیٹر پہلے\nایک بائیک رائیڈ، ایک فون کال، اور ایک اچانک یو ٹرن جسے فرحان بلوچ اب سڑک سے زیادہ اپنی چاہت کے بارے میں سمجھتے ہیں۔\nبائیک کا یو ٹرن جو دل کا بھی یو ٹرن نکلا۔\nایک شام، فیملی کی کسی تقریب سے واپس آتے ہوئے، امی نے کہا کہ شاید ہم رشتہ داروں کے گھر رات رکیں — ایک ایسی جگہ کے قریب جس کے پاس ہونے کی میں خاموشی سے امید رکھتا تھا۔ میں خوشی خوشی بائیک پر امی کے ساتھ بیٹھ گیا، ذہن میں پہلے سے شام کا پورا منظر بنا رہا تھا۔\nپھر ایک فون کال آئی: ایک اور رشتہ دار کا انتقال ہو گیا تھا، اور ہمیں فوراً واپس جانا تھا۔ میں نے تھوڑی کوشش کی کہ رات وہیں رک جائیں — کام نہیں آئی — اور ہم اسی سڑک پر یو ٹرن لے کر واپس مڑ گئے جس سے آئے تھے، اس جگہ سے کئی کلومیٹر دور جہاں میں ہونا چاہتا تھا، منزل اب بھی نظر آ رہی تھی لیکن اچانک ناممکن لگ رہی تھی۔\nاس رات مجھ میں کچھ خاموشی سے بدل گیا۔ مجھے احساس ہوا کہ میں اب صرف دور سے کسی کو یاد نہیں کر رہا — میں اس کے ساتھ ایک اصل مستقبل کا تصور کرنے لگا تھا۔ بائیک کا وہ یو ٹرن اصل میں سڑک کے بارے میں نہیں تھا۔ وہ اس بارے میں تھا کہ یہ احساس میرے جانے بغیر کتنا گہرا ہو چکا تھا۔\nکبھی زندگی آپ کو اسی جگہ سے کلومیٹر دور موڑ دیتی ہے جہاں آپ ہونا چاہتے تھے — اور وہ ادھوری دوری آپ کو اپنے احساسات کے بارے میں وہاں پہنچنے سے بھی زیادہ سکھا جاتی ہے۔"
+      },
+      {
+        "id": "story-part-14-the-boy-who-keeps-looking-forward-en",
+        "url": "https://farhanbalouch.com/story/part-14-the-boy-who-keeps-looking-forward",
+        "title": "The Boy Who Keeps Looking Forward",
+        "kind": "story",
+        "language": "en",
+        "text": "The Boy Who Keeps Looking Forward\nLooking back at his own life so far, Farhan Balouch notices it isn't one straight road — it's hundreds of small ones crossing each other.\nChickens, positions, medicine, and finally, technology — one throughline the whole way.\nLooking at my journey so far, I keep noticing the same strange thread running through all of it. The child who raised chickens and cried when one didn't make it. The student who failed an admission test over the table of 6, then went on to earn second position more than once anyway. The teenager who waited outside a house for a few seconds of someone walking past. The boy who wrote a love letter and never found the courage to hand it over.\nThere's also the boy who worked in medical stores because his father refused to let him sit idle, and who slowly, almost by accident, became genuinely drawn to medicine because of it. The grandson who wanted to get medically capable enough to take care of his own grandmother. The teenager who lost a young cousin, and later lost that same grandmother, and kept going anyway because life doesn't really give you the option to stop.\nAnd then, eventually, that same restlessness pointed somewhere completely new: technology, websites, AI, SEO, online business. At every single stage, the same thing kept repeating underneath everything else — I wanted to build something. Sometimes I knew exactly what. Sometimes I had no idea. Sometimes I succeeded, sometimes I failed badly, and sometimes a loss knocked me down hard enough that it took a while to stand back up. But the journey itself never actually stopped, and I don't think it's going to.\nInterests change completely over the years — chickens, medicine, technology — but the underlying drive to build something, to make sense of loss by creating instead of stopping, rarely does."
+      },
+      {
+        "id": "story-part-14-the-boy-who-keeps-looking-forward-hi",
+        "url": "https://farhanbalouch.com/story/part-14-the-boy-who-keeps-looking-forward",
+        "title": "The Boy Who Keeps Looking Forward",
+        "kind": "story",
+        "language": "hi",
+        "text": "The Boy Who Keeps Looking Forward\nApni zindagi ko peechay mudh kar dekhte hue, Farhan Balouch ko lagta hai ye ek seedhi road nahi — sainkron chhoti raahein hain jo aapas mein guzarti hain.\nChickens se position tak, medicine se technology tak — ek hi dhaaga.\nApna safar peechay mudh kar dekhun to ek ajeeb dhaaga har jagah nazar aata hai. Wo bacha jo chickens palta tha aur jab koi nahi bachta to rota tha. Wo student jo table of 6 ki wajah se admission test mein fail hua, phir bhi baad mein baar baar second position hasil ki. Wo teenager jo kisi ke chand seconds guzarte dekhne ke liye ghar ke bahar khara rehta tha. Wo larka jisne love letter likha aur kabhi dene ki himmat nahi kar saka.\nWo larka bhi hai jo medical stores mein kaam karta tha kyunke Abu usay khaali nahi bethne dete thay, aur jo dheere dheere, taqreeban anjaane mein, medicine ki taraf mutawajjeh ho gaya. Wo pota jo apni Nani ki khud dekhbhal karna chahta tha. Wo teenager jisne ek chhoti cousin khoi, phir wahi Nani bhi khoi, aur phir bhi aagay badhta raha kyunke zindagi rukne ka option deti hi nahi.\nAur phir, aakhir kaar, wahi restlessness ek bilkul nayi jagah ki taraf mudi: technology, websites, AI, SEO, online business. Har stage par yahi baat dohrayi — main kuch banana chahta tha. Kabhi bilkul pata hota tha kya, kabhi kuch pata nahi hota. Kabhi kamyaabi mili, kabhi buri tarah nakami, aur kabhi koi nuqsaan itna gehra hota ke sambhalne mein waqt lagta. Lekin safar kabhi ruka nahi, aur mera khayal hai ruke ga bhi nahi.\nInterests saalon mein bilkul badal jate hain — chickens, medicine, technology — lekin kuch banane ki wo asal khwahish, jo nuqsaan ka jawab rukne ki bajaye kuch banane se deti hai, shayad hi kabhi badalti hai."
+      },
+      {
+        "id": "story-part-14-the-boy-who-keeps-looking-forward-ur",
+        "url": "https://farhanbalouch.com/story/part-14-the-boy-who-keeps-looking-forward",
+        "title": "وہ لڑکا جو ہمیشہ آگے دیکھتا رہا",
+        "kind": "story",
+        "language": "ur",
+        "text": "وہ لڑکا جو ہمیشہ آگے دیکھتا رہا\nاپنی زندگی کو پیچھے مڑ کر دیکھتے ہوئے، فرحان بلوچ کو لگتا ہے یہ ایک سیدھی سڑک نہیں — سینکڑوں چھوٹے راستے ہیں جو آپس میں گزرتے ہیں۔\nمرغیوں سے پوزیشن تک، طب سے ٹیکنالوجی تک — ایک ہی دھاگا۔\nاپنا سفر پیچھے مڑ کر دیکھوں تو ایک عجیب دھاگا ہر جگہ نظر آتا ہے۔ وہ بچہ جو مرغیاں پالتا تھا اور جب کوئی نہ بچتا تو روتا تھا۔ وہ طالب علم جو چھ کے پہاڑے کی وجہ سے داخلہ ٹیسٹ میں فیل ہوا، پھر بھی بعد میں بار بار دوسری پوزیشن حاصل کی۔ وہ نوعمر جو کسی کے چند سیکنڈ گزرتے دیکھنے کے لیے گھر کے باہر کھڑا رہتا تھا۔ وہ لڑکا جس نے محبت کا خط لکھا اور کبھی دینے کی ہمت نہیں کر سکا۔\nوہ لڑکا بھی ہے جو میڈیکل سٹورز میں کام کرتا تھا کیونکہ ابو اسے خالی نہیں بیٹھنے دیتے تھے، اور جو آہستہ آہستہ، تقریباً انجانے میں، طب کی طرف متوجہ ہو گیا۔ وہ نواسہ جو اپنی نانی کی خود دیکھ بھال کرنا چاہتا تھا۔ وہ نوعمر جس نے ایک چھوٹی کزن کھوئی، پھر وہی نانی بھی کھوئی، اور پھر بھی آگے بڑھتا رہا کیونکہ زندگی رکنے کا آپشن دیتی ہی نہیں۔\nاور پھر، آخرکار، وہی بے چینی ایک بالکل نئی جگہ کی طرف مڑی: ٹیکنالوجی، ویب سائٹس، AI، SEO، آن لائن بزنس۔ ہر مرحلے پر یہی بات دہرائی — میں کچھ بنانا چاہتا تھا۔ کبھی بالکل پتا ہوتا تھا کیا، کبھی کچھ پتا نہیں ہوتا۔ کبھی کامیابی ملی، کبھی بری طرح ناکامی، اور کبھی کوئی نقصان اتنا گہرا ہوتا کہ سنبھلنے میں وقت لگتا۔ لیکن سفر کبھی رکا نہیں، اور میرا خیال ہے رکے گا بھی نہیں۔\nدلچسپیاں سالوں میں بالکل بدل جاتی ہیں — مرغیاں، طب، ٹیکنالوجی — لیکن کچھ بنانے کی وہ اصل خواہش، جو نقصان کا جواب رکنے کی بجائے کچھ بنانے سے دیتی ہے، شاید ہی کبھی بدلتی ہے۔"
+      },
+      {
+        "id": "story-part-15-abhi-kahani-baqi-hai-en",
+        "url": "https://farhanbalouch.com/story/part-15-abhi-kahani-baqi-hai",
+        "title": "Abhi Kahani Baqi Hai",
+        "kind": "story",
+        "language": "en",
+        "text": "Abhi Kahani Baqi Hai\nFarhan Balouch today: eighteen years old, in his final year of FSc in Ahmadpur East, and still figuring out where the next chapter goes.\nThe final chapter hasn't been written yet — and that's the whole point.\nI'm still in Ahmadpur East — the same city where I was born, went to school, made my first friends, felt my first love, lost people I cared about deeply, and built most of my childhood memories. But I'm not the same boy who first walked into that admission test and didn't know the table of 6.\nAs of writing this, I'm eighteen years old and in the second year of FSc — 12th grade, my final year of intermediate studies, roughly a decade after that first day at Faran Public High School. My interests have grown far past chickens and school playgrounds. I'm drawn to technology, artificial intelligence, websites, digital business, entrepreneurship, and everything the internet makes newly possible for someone starting from a small city like mine.\nI want to build things, keep learning, become financially independent, and create something that carries my own name on it. I don't know exactly where the next chapter goes — maybe medicine, maybe technology, maybe business, maybe something I haven't discovered yet. But one thing has stayed constant since childhood: I've always wanted to do something bigger than simply exist. This isn't the story of a finished man. It's the story of a boy from Ahmadpur East who is still becoming one — and this really is only the beginning.\nThe most honest thing you can say about your own story is that it isn't finished yet — and that not knowing the next chapter is not a failure, it's just where the story honestly is right now."
+      },
+      {
+        "id": "story-part-15-abhi-kahani-baqi-hai-hi",
+        "url": "https://farhanbalouch.com/story/part-15-abhi-kahani-baqi-hai",
+        "title": "Abhi Kahani Baqi Hai",
+        "kind": "story",
+        "language": "hi",
+        "text": "Abhi Kahani Baqi Hai\nFarhan Balouch aaj: atharah saal ke, Ahmadpur East mein FSc ke aakhri saal mein, aur ab bhi ye soch rahe hain ke agla chapter kahan jayega.\nAakhri chapter abhi likha hi nahi gaya — aur yehi sabse zaroori baat hai.\nMain abhi Ahmadpur East mein hun — wahi shehar jahan paida hua, school gaya, pehle dost banaye, pehla pyar mehsoos kiya, apne pyaron ko khoya, aur apni zyada tar bachpan ki yaadein banaayin. Lekin main ab wo larka nahi raha jo admission test mein table of 6 nahi bata saka tha.\nYe likhte waqt, main atharah saal ka hun aur FSc ke dusray saal — 12th grade, apni intermediate padhai ke aakhri saal mein — jo Faran Public High School ke us pehle din se taqreeban das saal baad hai. Mere interests chickens aur school ke playground se bohot aagay nikal gaye hain. Ab main technology, AI, websites, digital business aur entrepreneurship ki taraf attract hota hun — aur har us cheez ki taraf jo internet ek chhotay shehar se shuru karne wale ke liye mumkin bana deta hai.\nMain kuch banana chahta hun, seekhta rehna chahta hun, financially independent hona chahta hun aur ek aisi cheez banana chahta hun jo mera apna naam carry kare. Mujhe exactly nahi pata ke agla chapter kahan le jayega — shayad medicine, shayad technology, shayad business, shayad kuch aur jo abhi discover nahi hua. Lekin ek cheez bachpan se consistent rahi hai: main hamesha simply exist karne se bara kuch karna chahta tha. Ye ek finished insaan ki kahani nahi hai — ye us larke ki kahani hai jo Ahmadpur East se hai aur abhi bhi ban raha hai. Aur ye sach mein sirf shuruat hai.\nApni kahani ke baare mein sabse imaandar baat yehi hai ke wo abhi khatam nahi hui — aur agla chapter na pata hona koi nakami nahi, bas kahani abhi imaandari se yahin par hai."
+      },
+      {
+        "id": "story-part-15-abhi-kahani-baqi-hai-ur",
+        "url": "https://farhanbalouch.com/story/part-15-abhi-kahani-baqi-hai",
+        "title": "ابھی کہانی باقی ہے",
+        "kind": "story",
+        "language": "ur",
+        "text": "ابھی کہانی باقی ہے\nفرحان بلوچ آج: اٹھارہ سال کے، احمد پور ایسٹ میں ایف ایس سی کے آخری سال میں، اور اب بھی یہ سوچ رہے ہیں کہ اگلا باب کہاں جائے گا۔\nآخری باب ابھی لکھا ہی نہیں گیا — اور یہی سب سے اہم بات ہے۔\nمیں ابھی احمد پور ایسٹ میں ہوں — وہی شہر جہاں پیدا ہوا، سکول گیا، پہلے دوست بنائے، پہلی محبت محسوس کی، اپنے پیاروں کو کھویا، اور اپنی زیادہ تر بچپن کی یادیں بنائیں۔ مگر اب میں وہ لڑکا نہیں رہا جو داخلہ ٹیسٹ میں چھ کا پہاڑا نہیں بتا سکا تھا۔\nیہ لکھتے وقت، میں اٹھارہ سال کا ہوں اور ایف ایس سی کے دوسرے سال — بارہویں جماعت، اپنی انٹرمیڈیٹ پڑھائی کے آخری سال میں — جو فاران پبلک ہائی سکول کے اس پہلے دن سے تقریباً دس سال بعد ہے۔ میری دلچسپیاں مرغیوں اور سکول کے کھیل کے میدان سے کہیں آگے نکل چکی ہیں۔ اب میں ٹیکنالوجی، AI، ویب سائٹس، ڈیجیٹل بزنس اور انٹرپرینیورشپ کی طرف راغب ہوں — اور ہر اس چیز کی طرف جو انٹرنیٹ ایک چھوٹے شہر سے شروع کرنے والے کے لیے ممکن بنا دیتا ہے۔\nمیں کچھ بنانا چاہتا ہوں، سیکھتا رہنا چاہتا ہوں، مالی طور پر خودمختار ہونا چاہتا ہوں اور ایسی چیز بنانا چاہتا ہوں جو میرا اپنا نام لے کر چلے۔ مجھے بالکل نہیں پتا کہ اگلا باب کہاں لے جائے گا — شاید طب، شاید ٹیکنالوجی، شاید کاروبار، شاید کچھ اور جو ابھی دریافت نہیں ہوا۔ مگر بچپن سے ایک بات مستقل رہی ہے: میں ہمیشہ محض زندہ رہنے سے بڑھ کر کچھ کرنا چاہتا تھا۔ یہ ایک مکمل انسان کی کہانی نہیں ہے — یہ اس لڑکے کی کہانی ہے جو احمد پور ایسٹ سے ہے اور ابھی بھی بن رہا ہے۔ اور یہ سچ میں صرف شروعات ہے۔\nاپنی کہانی کے بارے میں سب سے ایماندار بات یہی ہے کہ وہ ابھی ختم نہیں ہوئی — اور اگلا باب نہ پتا ہونا کوئی ناکامی نہیں، بس کہانی ابھی ایمانداری سے یہیں پر ہے۔"
+      },
+      {
+        "id": "story-part-16-my-ai-journey-en",
+        "url": "https://farhanbalouch.com/story/part-16-my-ai-journey",
+        "title": "My AI Journey",
+        "kind": "story",
+        "language": "en",
+        "text": "My AI Journey\nFarhan Balouch on how a habit of asking AI simple questions grew into a genuine interest in building AI agents, tools, and products.\nFrom asking a chatbot simple questions to building with AI every day.\nMy AI journey started with a simple confusion. Whenever I couldn't find an answer, heard a myth, or couldn't wrap my head around a concept, I'd go straight to an AI chatbot. Slowly I realized AI wasn't just a tool for getting answers — it was a genuinely powerful assistant for learning, creativity, and problem-solving.\nI didn't just use AI, I tried to understand it. I explored different models, compared their answers, and learned an important lesson early: never follow AI blindly, always verify. If something feels off, I check it against other sources or models before trusting it.\nFrom there, my journey moved into actually building with AI — websites, chatbots, understanding APIs, experimenting with AI tools. That's where my interest shifted toward becoming an AI builder and entrepreneur: thinking about how AI could power products that solve real problems for real people.\nWhat excites me most today is AI agents and SaaS products — intelligent systems that save people time, automate their work, and act like a genuine digital assistant. I know my technical skills, especially coding, still have a long way to go. But I believe that in the age of AI, the speed and direction of learning matter more than ever — and I intend to keep learning, keep building, and turn these ideas into real products.\nCuriosity that starts with just asking questions can, with enough consistency, grow into the skill of building the answers yourself — the trick is never stopping at the first easy answer you're given."
+      },
+      {
+        "id": "story-part-16-my-ai-journey-hi",
+        "url": "https://farhanbalouch.com/story/part-16-my-ai-journey",
+        "title": "Meri AI Journey",
+        "kind": "story",
+        "language": "hi",
+        "text": "Meri AI Journey\nFarhan ki AI journey — simple sawalon se shuru hokar AI agents aur products banane tak ka safar.\nJab ek chatbot se sawal poochna dheere dheere har roz kuch banane mein badal gaya.\nMeri AI journey ek simple confusion se shuru hui. Jab bhi mujhe kisi cheez ka jawab nahi milta tha, koi myth sunta tha, ya koi concept samajh nahi aata tha, main AI chatbot ke paas chala jata tha. Dheere dheere mujhe ehsaas hua ke AI sirf questions ke answers lene ka tool nahi hai, balki ek powerful assistant hai jo learning, creativity aur problem solving mein help karta hai.\nMaine AI ko sirf use nahi kiya, balki samajhne ki koshish ki. Different AI models explore kiye, unke answers compare kiye aur seekha ke AI ko blindly follow nahi karna chahiye balki uski information verify bhi karni chahiye.\nPhir meri journey ek naye stage par gayi jahan maine AI se cheezein banana shuru ki — websites, chatbots, APIs samajhna, AI tools ke sath experiments. Mera interest dheere dheere AI builder aur entrepreneur wali direction mein chala gaya.\nMujhe sabse zyada interest AI agents aur SaaS products mein hai — aise intelligent systems jo logon ka time bachayein, unke kaam automate karein aur unke liye ek digital assistant ki tarah kaam karein. Mujhe pata hai ke meri technical skills, especially coding, abhi improve honi hain — lekin AI ke zamane mein seekhne ki speed aur sahi direction bohat important hai, aur main consistency ke sath yehi karta rahunga.\nCuriosity jo sirf sawal poochne se shuru hoti hai, kaafi consistency ke sath, khud jawab banane ki skill mein badal sakti hai — asal trick ye hai ke pehle mile hue asaan jawab par kabhi na ruken."
+      },
+      {
+        "id": "story-part-16-my-ai-journey-ur",
+        "url": "https://farhanbalouch.com/story/part-16-my-ai-journey",
+        "title": "میرا AI سفر",
+        "kind": "story",
+        "language": "ur",
+        "text": "میرا AI سفر\nفرحان کا AI سفر — سادہ سوالات سے شروع ہو کر AI ایجنٹس اور پراڈکٹس بنانے تک کا سفر۔\nجب ایک چیٹ بوٹ سے سوال پوچھنا آہستہ آہستہ روز کچھ نہ کچھ بنانے میں بدل گیا۔\nمیرا AI سفر ایک سادہ سی الجھن سے شروع ہوا۔ جب بھی مجھے کسی چیز کا جواب نہیں ملتا تھا، کوئی افسانہ سنتا تھا، یا کوئی تصور سمجھ نہیں آتا تھا، میں سیدھا AI چیٹ بوٹ کے پاس چلا جاتا تھا۔ آہستہ آہستہ مجھے احساس ہوا کہ AI صرف سوالوں کے جواب لینے کا آلہ نہیں، بلکہ سیکھنے، تخلیقی صلاحیت اور مسائل حل کرنے میں مدد دینے والا ایک طاقتور معاون ہے۔\nمیں نے AI کو صرف استعمال نہیں کیا، بلکہ اسے سمجھنے کی کوشش بھی کی۔ مختلف AI ماڈلز کو دیکھا، ان کے جوابات کا موازنہ کیا، اور یہ سیکھا کہ AI کی آنکھیں بند کر کے پیروی نہیں کرنی چاہیے بلکہ اس کی معلومات کی تصدیق بھی کرنی چاہیے۔\nپھر میرا سفر ایک نئے مرحلے میں داخل ہوا جہاں میں نے AI سے چیزیں بنانا شروع کیں — ویب سائٹس، چیٹ بوٹس، APIs کو سمجھنا، AI ٹولز کے ساتھ تجربات۔ میری دلچسپی آہستہ آہستہ AI بنانے والے اور کاروباری شخص کی سمت میں چلی گئی۔\nمجھے سب سے زیادہ دلچسپی AI ایجنٹس اور SaaS پراڈکٹس میں ہے — ایسے ذہین نظام جو لوگوں کا وقت بچائیں، ان کا کام خودکار کریں اور ان کے لیے ایک ڈیجیٹل معاون کی طرح کام کریں۔ مجھے پتا ہے کہ میری تکنیکی مہارتیں، خاص طور پر کوڈنگ، ابھی بہتر ہونی ہیں — مگر AI کے دور میں سیکھنے کی رفتار اور صحیح سمت سب سے زیادہ اہم ہے، اور میں مستقل مزاجی سے یہی کرتا رہوں گا۔\nتجسس جو صرف سوال پوچھنے سے شروع ہوتا ہے، کافی مستقل مزاجی کے ساتھ، خود جواب بنانے کی صلاحیت میں بدل سکتا ہے — اصل ترکیب یہ ہے کہ پہلے ملے ہوئے آسان جواب پر کبھی نہ رکیں۔"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Nexus AI",
+        "url": "https://nexusai.farhanbalouch.com"
+      },
+      {
+        "name": "Rawi",
+        "url": "https://rawi.farhanbalouch.com"
+      },
+      {
+        "name": "Farhan Deals",
+        "url": "https://farhandeals.store"
+      },
+      {
+        "name": "Hack AI",
+        "url": "https://hackarai.streamlit.app"
+      },
+      {
+        "name": "Movie Hub",
+        "url": "https://moviehub.farhanbalouch.com"
+      }
+    ]
+  }
 }
