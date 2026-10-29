@@ -1,45 +1,31 @@
-name: Auto Sync Website Knowledge
-
+name: Auto Sync Public Project Knowledge
 on:
   schedule:
     - cron: '0 */3 * * *'
   workflow_dispatch:
-
 permissions:
   contents: write
-
 concurrency:
   group: sync-knowledge
   cancel-in-progress: false
-
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '20'
-
-      - name: Install browser (site is JavaScript-rendered)
-        run: |
-          npm install --no-save playwright
-          npx playwright install --with-deps chromium
-
-      - name: Crawl website and replace knowledge
+          node-version: '22'
+      - name: Sync allowlisted public sources
         run: node sync.js
-
-      - name: Commit and Push Changes
+      - name: Commit public snapshots
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action Bot"
-          git add data/knowledge.js
-          if git diff --cached --quiet; then
-            echo "No knowledge changes."
-          else
-            git commit -m "Auto-update website knowledge"
+          git config user.email "Muhammadfarhan138223@gmail.com"
+          git config user.name "Farhan Studio"
+          git add data/project-knowledge.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh public project knowledge snapshots"
+            git pull --rebase origin main
             git push
           fi

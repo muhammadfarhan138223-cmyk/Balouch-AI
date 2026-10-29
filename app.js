@@ -700,7 +700,7 @@ async function sendToAI() {
 
     addLocalMessage(
       "assistant",
-      data.reply
+      data.reply + (data.sources?.length ? "\n\nSources:\n" + data.sources.slice(0,4).map(s => s.title + ": " + s.url).join("\n") : "")
     );
 
   } catch (error) {
