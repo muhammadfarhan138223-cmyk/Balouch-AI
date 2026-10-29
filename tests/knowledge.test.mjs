@@ -17,3 +17,8 @@ test('quick answers reject invented text or invented source IDs',()=>{
  const result=verifiedQuote(JSON.stringify({sourceId:'movie',quote:entries[0].text}),entries);
  assert.equal(result.reply,entries[0].text);assert.equal(result.sources[0].url,entries[0].url);
 });
+
+test('a joined MovieHub name retrieves its published portfolio description',()=>{
+ const result=retrieve({entries:[{id:'movie',title:'Movie Hub',url:'https://moviehub.farhanbalouch.com',kind:'project',language:'en',text:'Streaming\nWatch movies\nMovie Hub is a movie streaming and downloading website.'},{id:'location',title:'MovieHub',url:'https://farhanbalouch.com/#movie-hub',kind:'section',language:'en',text:'Exact page location.'}]},'What is MovieHub?');
+ assert.equal(result[0].kind,'project');
+});

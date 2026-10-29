@@ -272,7 +272,15 @@ export default async function handler(req, res) {
       return res.status(result.status >= 400 ? result.status : 502).json({ error: "The AI service is busy. Please try again shortly." });
     }
 
-    const verified = quick ? verifiedQuote(result.reply,context) : null;
+    let verified = quick ? verifiedQuote(result.reply,context) : null;
+    // A short definition can safely use the exact published portfolio description.
+    // Limit this fallback to a named project's definition, never arbitrary questions.
+    if (quick && !verified && /^(?:what is|what's|tell me about|about)\s+/i.test(message)) {
+      const compact=message.toLowerCase().replace(/[^a-z0-9]/g,'');
+      const project=context.find(e=>e.kind==='project'&&compact.includes(e.title.toLowerCase().replace(/[^a-z0-9]/g,'')));
+      const quote=project?.text.split('\n').filter(Boolean)[2];
+      if(quote && quote.length<=460)verified={reply:quote,sources:sourcesFor([project]),verifiedExcerpt:true};
+    }
     return res.status(200).json({
       reply: quick ? (verified?.reply || "I could not find a verified short answer. Try one of these source pages, or ask Rawi for more detail.") : (knowledge.isStale ? "Live refresh is unavailable; this answer uses a dated saved website index.\n\n" : "") + result.reply,
       sources: verified?.sources || sourcesFor(context.slice(0,4)),
